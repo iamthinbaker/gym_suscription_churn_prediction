@@ -1,0 +1,31 @@
+﻿id,nombre,apellidos,centro_id,fecha_alta,antiguedad_anos,especialidad,ratio_clientes,horas_disponibles_semana,valoracion,cambio_reciente
+1,Isidro,Sanchez Lobo,4,2020-09-18,5.8,Cardio,34,20,4.7,False
+2,Nydia,Agudo Cuervo,4,2016-10-17,9.7,Cardio,22,35,4.0,False
+3,José,Rocamora Nieto,5,2017-10-26,8.7,Musculación,31,20,4.2,False
+4,Leopoldo,Cortés Garrido,3,2017-12-28,8.5,Cardio,19,35,2.9,True
+5,María Carmen,Navarro Calatayud,3,2023-02-05,3.4,Boxing,34,25,3.8,True
+6,Cirino,Pinto Caballero,3,2022-01-05,4.5,Boxing,29,25,2.9,False
+7,Plinio,Núñez Lamas,5,2021-01-18,5.5,Musculación,29,30,3.7,True
+8,Noemí,Aroca Segovia,3,2019-01-26,7.5,Yoga,11,25,4.7,False
+9,Brunilda,Casanovas Pinedo,4,2015-12-17,10.6,Cardio,34,40,4.4,True
+10,Cayetano,Marcos Pardo,5,2020-04-30,6.2,CrossFit,18,40,4.7,False
+11,Crescencia,Fernandez Baños,5,2017-05-17,9.1,Yoga,32,30,3.5,False
+12,Artemio,Goñi Mancebo,4,2019-03-10,7.3,Boxing,24,20,3.1,True
+13,Cebrián,Guerrero Cabrero,5,2015-03-28,11.3,Boxing,17,40,3.1,True
+14,Ricardo,Lobo Santana,1,2022-01-28,4.4,Yoga,12,20,4.6,True
+15,Fabiola,Patiño Cánovas,3,2017-09-01,8.9,Nutrición,16,40,2.8,False
+16,Raimundo,Padilla Gallego,5,2021-05-27,5.1,Nutrición,17,35,4.5,False
+17,Herminia,Lasa Bellido,4,2016-02-02,10.4,Natación,23,35,3.7,False
+18,Emelina,Donoso Hierro,1,2022-07-21,4.0,Musculación,22,30,4.5,True
+19,Fernando,Sevilla Pino,2,2017-02-23,9.4,Boxing,24,25,3.6,False
+20,Julián,Gimenez Morata,1,2017-10-20,8.7,Nutrición,35,40,2.7,False
+21,Pía,Barba Grande,1,2021-01-23,5.5,Cardio,39,25,2.9,False
+22,Paca,Antón Moles,4,2017-05-25,9.1,Musculación,15,35,2.5,False
+23,Salvador,Leal Batalla,4,2023-10-17,2.7,Pilates,23,40,4.2,False
+24,Héctor,Miranda Garcia,3,2017-02-16,9.4,Yoga,40,20,3.9,False
+25,Gabriela,Valera Priego,3,2023-05-22,3.1,Musculación,11,40,3.7,False
+26,Soledad,Segarra Clavero,2,2020-12-15,5.6,Musculación,40,40,2.7,False
+27,Juan Manuel,Chaparro Huerta,1,2021-09-03,4.8,Yoga,22,20,4.9,False
+28,Marcela,Jódar Romero,5,2021-06-29,5.0,Musculación,29,20,3.5,False
+29,Tomasa,Pujol Paredes,3,2020-11-11,5.7,Pilates,16,30,3.1,False
+30,Isidoro,Chacón Vergara,3,2022-07-14,4.0,Nutrición,20,20,2.5,False

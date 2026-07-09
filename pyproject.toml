@@ -1,0 +1,45 @@
+[project]
+name = "gym-backoffice-churn-prediction"
+version = "0.1.0"
+description = "Modelo de Churn para un gimnasio sobre Odoo 19"
+requires-python = ">=3.12"
+
+# Dependencias de runtime (modelo ML dentro de Odoo)
+dependencies = [
+    "scikit-learn",
+    "pandas",
+    "numpy<2.5",
+    "joblib",
+    "scipy",
+    "shap",
+    "xgboost",
+    "lightgbm",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "debugpy",
+    "ipykernel",
+    "matplotlib",
+    "seaborn",
+    "jinja2",
+]
+# Dependencias adicionales para los scripts de generación y población de datos
+scripts = [
+    "faker[es_ES]",
+    "psycopg2-binary",
+]
+
+[tool.ruff]
+line-length = 80
+
+[tool.ruff.format]
+skip-magic-trailing-comma = false
+
+[tool.setuptools]
+packages = []
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

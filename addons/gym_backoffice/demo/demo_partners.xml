@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- === SOCIOS FIELES (visitas frecuentes, bajo riesgo) === -->
+
+        <record id="demo_member_lucia" model="res.partner">
+            <field name="name">Lucía Fernández García</field>
+            <field name="email">lucia.fernandez@email.es</field>
+            <field name="phone">+34 612 345 001</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="membership_type">premium</field>
+            <field name="membership_start">2023-01-15</field>
+            <field name="membership_end">2026-01-15</field>
+            <field name="member_status">active</field>
+        </record>
+
+        <record id="demo_member_carlos" model="res.partner">
+            <field name="name">Carlos Rodríguez Martínez</field>
+            <field name="email">carlos.rodriguez@email.es</field>
+            <field name="phone">+34 612 345 002</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="membership_type">vip</field>
+            <field name="membership_start">2022-06-01</field>
+            <field name="membership_end">2026-06-01</field>
+            <field name="member_status">active</field>
+        </record>
+
+        <record id="demo_member_ana" model="res.partner">
+            <field name="name">Ana María López Sánchez</field>
+            <field name="email">ana.lopez@email.es</field>
+            <field name="phone">+34 612 345 003</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_norte"/>
+            <field name="membership_type">premium</field>
+            <field name="membership_start">2023-03-10</field>
+            <field name="membership_end">2026-03-10</field>
+            <field name="member_status">active</field>
+        </record>
+
+        <record id="demo_member_miguel" model="res.partner">
+            <field name="name">Miguel Ángel Torres Ruiz</field>
+            <field name="email">miguel.torres@email.es</field>
+            <field name="phone">+34 612 345 004</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="membership_type">vip</field>
+            <field name="membership_start">2021-09-20</field>
+            <field name="membership_end">2026-09-20</field>
+            <field name="member_status">active</field>
+        </record>
+
+        <record id="demo_member_sara" model="res.partner">
+            <field name="name">Sara González Pérez</field>
+            <field name="email">sara.gonzalez@email.es</field>
+            <field name="phone">+34 612 345 005</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_norte"/>
+            <field name="membership_type">premium</field>
+            <field name="membership_start">2023-07-05</field>
+            <field name="membership_end">2026-07-05</field>
+            <field name="member_status">active</field>
+        </record>
+
+        <!-- === SOCIOS EN RIESGO (visitas decrecientes) === -->
+
+        <record id="demo_member_david" model="res.partner">
+            <field name="name">David Moreno Jiménez</field>
+            <field name="email">david.moreno@email.es</field>
+            <field name="phone">+34 612 345 006</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="membership_type">basic</field>
+            <field name="membership_start">2024-01-10</field>
+            <field name="membership_end">2026-01-10</field>
+            <field name="member_status">active</field>
+        </record>
+
+        <record id="demo_member_elena" model="res.partner">
+            <field name="name">Elena Díaz Romero</field>
+            <field name="email">elena.diaz@email.es</field>
+            <field name="phone">+34 612 345 007</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_norte"/>
+            <field name="membership_type">basic</field>
+            <field name="membership_start">2024-02-20</field>
+            <field name="membership_end">2026-02-20</field>
+            <field name="member_status">active</field>
+        </record>
+
+        <record id="demo_member_javier" model="res.partner">
+            <field name="name">Javier Alonso Navarro</field>
+            <field name="email">javier.alonso@email.es</field>
+            <field name="phone">+34 612 345 008</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="membership_type">premium</field>
+            <field name="membership_start">2023-11-15</field>
+            <field name="membership_end">2026-11-15</field>
+            <field name="member_status">active</field>
+        </record>
+
+        <record id="demo_member_patricia" model="res.partner">
+            <field name="name">Patricia Vega Castro</field>
+            <field name="email">patricia.vega@email.es</field>
+            <field name="phone">+34 612 345 009</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_norte"/>
+            <field name="membership_type">basic</field>
+            <field name="membership_start">2024-04-01</field>
+            <field name="membership_end">2026-04-01</field>
+            <field name="member_status">active</field>
+        </record>
+
+        <record id="demo_member_roberto" model="res.partner">
+            <field name="name">Roberto Serrano Gil</field>
+            <field name="email">roberto.serrano@email.es</field>
+            <field name="phone">+34 612 345 010</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="membership_type">basic</field>
+            <field name="membership_start">2024-03-15</field>
+            <field name="membership_end">2026-03-15</field>
+            <field name="member_status">active</field>
+        </record>
+
+        <!-- === SOCIOS INACTIVOS (sin visitar >30 días) === -->
+
+        <record id="demo_member_isabel" model="res.partner">
+            <field name="name">Isabel Muñoz Herrera</field>
+            <field name="email">isabel.munoz@email.es</field>
+            <field name="phone">+34 612 345 011</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="membership_type">basic</field>
+            <field name="membership_start">2023-09-01</field>
+            <field name="membership_end">2026-09-01</field>
+            <field name="member_status">inactive</field>
+        </record>
+
+        <record id="demo_member_fernando" model="res.partner">
+            <field name="name">Fernando Ortega Blanco</field>
+            <field name="email">fernando.ortega@email.es</field>
+            <field name="phone">+34 612 345 012</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_norte"/>
+            <field name="membership_type">basic</field>
+            <field name="membership_start">2023-05-20</field>
+            <field name="membership_end">2026-05-20</field>
+            <field name="member_status">inactive</field>
+        </record>
+
+        <record id="demo_member_cristina" model="res.partner">
+            <field name="name">Cristina Molina Fuentes</field>
+            <field name="email">cristina.molina@email.es</field>
+            <field name="phone">+34 612 345 013</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="membership_type">premium</field>
+            <field name="membership_start">2022-12-01</field>
+            <field name="membership_end">2026-12-01</field>
+            <field name="member_status">inactive</field>
+        </record>
+
+        <!-- === SOCIOS NUEVOS (alta reciente) === -->
+
+        <record id="demo_member_alejandro" model="res.partner">
+            <field name="name">Alejandro Ramos Delgado</field>
+            <field name="email">alejandro.ramos@email.es</field>
+            <field name="phone">+34 612 345 014</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_norte"/>
+            <field name="membership_type">basic</field>
+            <field name="membership_start">2026-06-10</field>
+            <field name="membership_end">2027-06-10</field>
+            <field name="member_status">new</field>
+        </record>
+
+        <record id="demo_member_natalia" model="res.partner">
+            <field name="name">Natalia Ibáñez Soler</field>
+            <field name="email">natalia.ibanez@email.es</field>
+            <field name="phone">+34 612 345 015</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="membership_type">premium</field>
+            <field name="membership_start">2026-06-15</field>
+            <field name="membership_end">2027-06-15</field>
+            <field name="member_status">new</field>
+        </record>
+
+    </data>
+</odoo>

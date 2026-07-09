@@ -1,0 +1,426 @@
+﻿cliente_id,nombre,apellidos,segmento,plan_contratado,precio_mensual,antiguedad_meses,engagement_score,visitas_ultimos_30_dias,churn_proba,nivel_riesgo
+528,Jacinta,Adadia Bernad,Estándar,Básico,28.98,6,11,0,0.7911679560362471,Alto
+542,Macaria,Vera Vera,Estándar,Estándar,40.0,8,11,0,0.7890677936778328,Alto
+560,Elena,Casanova Pedro,Básico,Básico,26.87,6,17,0,0.744911949981587,Alto
+519,Verónica,Olmedo Amor,Básico,Premium,68.18,10,9,0,0.7418777793696856,Alto
+570,Jacinto,Rojas Diaz,VIP,Estándar,44.11,9,39,1,0.7417611017941307,Alto
+551,Severo,Sobrino Tejero,Estándar,Estándar,43.92,10,5,1,0.7215056227538006,Alto
+504,Isidora,López Sanchez,Básico,VIP,100.29,8,10,1,0.7055054764499061,Alto
+559,Felipa,Asenjo Mármol,Básico,Estándar,49.24,9,16,1,0.7000229625420864,Alto
+549,Bonifacio,Arregui Ortuño,VIP,Solo Clases,35.71,10,25,0,0.6998856032939316,Alto
+521,José,Pereira Gutiérrez,Básico,Estándar,43.9,9,26,0,0.6989910104554206,Alto
+505,Cruz,Haro Mendoza,Estándar,Solo Clases,31.41,8,19,0,0.6909039350023659,Alto
+553,Ana Belén,Seco Arco,Estándar,Estándar,39.32,10,38,0,0.6801162857239382,Alto
+465,Teresa,Molina Corbacho,Básico,Estándar,47.31,13,27,2,0.672946293854696,Alto
+562,Victorino,Pomares Nicolau,Básico,Estándar,49.01,10,27,0,0.6722569003571199,Alto
+538,Inés,Abellán Osorio,VIP,Premium,68.23,10,17,1,0.6661292104857113,Alto
+524,Íngrid,Cabeza Naranjo,Básico,Básico,27.35,8,5,0,0.6645617829901211,Alto
+539,Dalila,Riera Exposito,Premium,Básico,33.75,7,19,0,0.6608356781060717,Alto
+516,Javiera,Vilanova Colom,Básico,Básico,29.92,9,12,0,0.6463433857103229,Alto
+511,Tristán,Ibáñez Azorin,Premium,Solo Clases,37.53,11,5,0,0.6442197881131237,Alto
+550,Leandro,Nevado Díez,Estándar,Estándar,39.37,11,22,1,0.6271253498391967,Alto
+555,Rosa María,Flores Arnaiz,Estándar,Estándar,39.39,6,20,0,0.6238020907665226,Alto
+536,Maximiano,Villalba Herranz,Premium,Estándar,40.77,10,15,1,0.6208766291752985,Alto
+540,Nazaret,Boada Zabaleta,Básico,Premium,70.62,7,12,0,0.6206753556874072,Alto
+526,Alejo,Madrid Sureda,Básico,Básico,26.47,7,12,0,0.6113200951360791,Alto
+507,Gerónimo,Saez Serrano,Premium,Básico,28.48,8,20,1,0.6009598532621031,Alto
+509,José,Álamo Riquelme,Premium,Básico,25.75,8,5,0,0.5823484755991213,Medio
+518,Zaida,Girona Sanmartín,Estándar,Básico,27.29,9,25,0,0.5787644446335023,Medio
+513,Manola,Calderon Villalobos,Premium,Solo Clases,33.55,6,27,0,0.5675355366094035,Medio
+401,Gloria,Ricart Bustamante,Premium,Básico,31.16,11,45,7,0.5624340717165963,Medio
+68,Fausto,Belmonte Agustí,Básico,Básico,28.45,1,12,2,0.5565274171537729,Medio
+335,Nidia,Cerro Caballero,Premium,Solo Clases,31.81,16,50,5,0.5543522547895584,Medio
+248,Andrea,Barreda Daza,Básico,Básico,30.88,2,34,2,0.5515365202174763,Medio
+342,Juan Manuel,Valls Llamas,Estándar,Básico,29.39,15,39,9,0.5405790880613157,Medio
+181,Fabricio,Perez Puente,Básico,Premium,74.66,12,32,1,0.537946124711481,Medio
+338,Marina,Patiño Catalá,Básico,Premium,66.75,23,29,4,0.5254192367642062,Medio
+119,Graciana,Marqués Castejón,Estándar,Básico,26.29,17,55,2,0.5121893889411293,Medio
+461,Conrado,Durán Coronado,Estándar,Básico,28.86,25,54,0,0.5101449717498368,Medio
+190,Maximino,Segura Coronado,Básico,Premium,74.35,25,28,13,0.5095229329070134,Medio
+223,Melchor,Tudela Calderon,Básico,Premium,68.1,3,29,2,0.5069660126618557,Medio
+424,Raúl,Garrido Peñalver,Premium,VIP,106.99,24,50,5,0.5051388933199599,Medio
+346,Josefina,Benet Chico,Básico,VIP,96.41,16,32,8,0.5031116422662635,Medio
+381,Macario,Morante Alcázar,Estándar,Básico,33.05,6,34,7,0.4835867883804284,Medio
+145,Raquel,Vázquez Tormo,Estándar,Premium,67.88,32,48,7,0.47624897453284093,Medio
+43,Celia,Falcón Sanabria,Básico,Premium,55.42,10,39,5,0.46981473168052884,Medio
+394,María Fernanda,Colomer Bastida,Premium,Básico,32.96,15,62,0,0.4677917452212643,Medio
+453,Luciana,Bermúdez Priego,Premium,Estándar,43.47,5,42,0,0.46399190675053603,Medio
+462,Ricardo,Benet Elorza,Premium,Básico,32.28,23,43,2,0.4629272689639017,Medio
+452,Daniela,Ruano Pérez,Básico,Básico,34.08,9,29,8,0.45541708847343526,Medio
+173,Consuelo,Bayona Arjona,Estándar,Básico,28.7,15,52,1,0.4550501542434712,Medio
+118,Fabián,Real Morera,Estándar,Básico,29.88,8,36,8,0.45445592724502526,Medio
+63,Marina,Ariño Bilbao,VIP,VIP,110.55,3,73,1,0.45399122098783684,Medio
+255,Marciano,Ibáñez Amigó,Estándar,Estándar,46.7,52,48,7,0.4526826928328564,Medio
+97,Rosendo,Requena Hurtado,Básico,Premium,73.94,27,46,4,0.45226417438085825,Medio
+234,Jafet,Salas Martinez,Estándar,Básico,32.22,15,65,0,0.4486463683187938,Medio
+233,Renata,Yáñez Pintor,Premium,Solo Clases,31.72,2,42,4,0.447719580680575,Medio
+197,Evangelina,Andrade Urrutia,Básico,Estándar,45.99,4,35,0,0.4457339983308556,Medio
+16,Laura,Aliaga Caparrós,VIP,Estándar,47.06,16,59,0,0.44436521206086704,Medio
+334,Mercedes,Falcón Iglesia,Premium,Premium,57.41,36,50,11,0.44319379916219476,Medio
+389,Jesusa,Anguita Barrera,Estándar,Básico,33.32,45,61,1,0.4397884655345882,Medio
+343,Severo,Córdoba Jimenez,VIP,Estándar,48.5,11,40,1,0.4385586474768064,Medio
+269,Sara,Abella Sevilla,VIP,Estándar,45.04,7,79,3,0.4384524628521098,Medio
+259,Lorenza,Salamanca Lobo,Premium,VIP,90.01,3,80,4,0.4360850685890702,Medio
+83,Amada,Acevedo Múgica,Básico,Premium,70.49,3,62,4,0.43257309444956876,Medio
+323,Angelina,Sala Ojeda,Premium,Básico,26.86,49,25,16,0.4270673945460511,Medio
+241,Jafet,Soriano Manuel,Básico,Básico,27.16,7,42,6,0.4261318995617801,Medio
+2,Teodora,Canals Coronado,VIP,Premium,64.83,4,78,0,0.424831293588899,Medio
+140,Natividad,Molins Salas,Básico,VIP,109.05,16,61,8,0.42136777362867256,Medio
+392,Pelayo,Salcedo Beltrán,Básico,Premium,55.56,3,30,8,0.42037628734999954,Medio
+52,Celestino,Pinilla Abril,Estándar,Solo Clases,33.22,12,68,0,0.4175107448035814,Medio
+352,Sandra,Pera Campoy,Básico,Básico,33.76,42,30,2,0.4149892881093555,Medio
+194,Etelvina,Higueras Bolaños,Estándar,Solo Clases,36.06,4,16,3,0.4145183914246401,Medio
+425,Hugo,Santiago Nogueira,VIP,Estándar,45.05,23,41,1,0.40707408174413046,Medio
+178,Josefa,Jaén Peinado,VIP,Estándar,47.93,18,57,15,0.4069404181288375,Medio
+278,Arturo,Gomila Carballo,Premium,Estándar,51.25,1,46,7,0.40635390995309933,Medio
+347,Priscila,Gonzalez Puerta,Premium,Premium,62.81,1,38,6,0.406290499528302,Medio
+317,Che,Díez Bermúdez,Estándar,Premium,72.19,13,30,4,0.4061178233874008,Medio
+133,Hipólito,Ferreras Plana,Básico,Premium,68.36,6,49,7,0.4028951381801075,Medio
+116,Mateo,Mir Casanovas,Premium,Estándar,41.69,9,54,3,0.40263921478061127,Medio
+46,Trinidad,Benet Salazar,Premium,Básico,31.05,8,56,6,0.40176345925135304,Medio
+367,Tania,Pareja Cabezas,Estándar,Acceso Total,80.17,4,32,6,0.3988127828525269,Medio
+445,Agustina,Segura Bermejo,Básico,Básico,30.4,3,44,2,0.39806790011520554,Medio
+340,Piedad,Ribes Echevarría,Básico,Básico,25.7,5,45,0,0.3975237041397902,Medio
+322,Xiomara,Maestre Cruz,Premium,Estándar,39.61,33,53,2,0.39613831413689354,Medio
+164,Martina,Amores Blanes,Premium,VIP,105.84,1,55,7,0.39530078309126454,Medio
+264,Fidel,Requena Valbuena,Estándar,Básico,30.15,17,48,6,0.3948077161282101,Medio
+396,Francisca,Mariño Santiago,Premium,VIP,113.41,4,82,3,0.3944325227481904,Medio
+309,Maximiano,Madrigal Gordillo,Básico,Básico,30.6,1,56,0,0.3930894387201638,Medio
+77,Bautista,Campo Cortés,Básico,Premium,74.6,6,39,8,0.392271958525809,Medio
+406,Inocencio,Bárcena Peralta,Básico,Básico,33.68,28,66,18,0.39204308428528384,Medio
+62,Graciana,Carretero Hoz,Estándar,Estándar,39.54,12,60,5,0.3916368009306973,Medio
+125,Isaura,Salamanca García,Básico,Acceso Total,88.06,23,57,3,0.39069429003162953,Medio
+161,Evangelina,Quiroga Dalmau,Básico,Acceso Total,91.29,5,48,4,0.39020636318885715,Medio
+315,Ildefonso,Coello Hidalgo,Premium,Premium,67.49,1,63,0,0.39004478739659476,Medio
+422,Marcia,Pérez Baños,Premium,Acceso Total,72.79,14,86,0,0.38945652717969514,Medio
+276,Pedro,Cuadrado Mercader,Estándar,Básico,29.45,4,52,3,0.38892839692968173,Medio
+434,Bartolomé,Luque Torrecilla,Premium,Estándar,42.65,8,47,2,0.3888971797290268,Medio
+262,Guadalupe,Mínguez Montesinos,Premium,Solo Clases,37.73,47,46,5,0.3860184312486059,Medio
+430,Elías,Salazar Rodrigo,Premium,Premium,66.07,35,47,9,0.38570875060888915,Medio
+102,Dani,Alvarez Ferrando,Estándar,Básico,26.02,51,44,5,0.38555589148451175,Medio
+364,María Manuela,Raya Losa,Estándar,Estándar,43.46,1,36,7,0.3838161420080162,Medio
+500,María,Peñas Correa,Premium,Básico,31.7,2,29,7,0.381944362965452,Medio
+441,Chucho,Castelló Pinto,Básico,Básico,26.1,8,42,10,0.3804311503389385,Medio
+243,Patricio,Luna Santiago,Estándar,Básico,31.01,3,47,9,0.37577797044206895,Medio
+230,Carlos,Company Mateu,Básico,Acceso Total,75.71,3,48,12,0.37423764922968394,Medio
+232,León,Rico Gonzalez,Estándar,VIP,105.96,18,31,6,0.3735339565971668,Medio
+5,Graciano,Solé Ángel,Básico,VIP,100.39,4,35,3,0.37293949389558945,Medio
+426,Camila,Pelayo Mesa,Básico,Estándar,49.29,10,55,3,0.37263759676763203,Medio
+215,Benito,Esteve Feliu,Estándar,Solo Clases,31.64,9,54,13,0.37253833638366557,Medio
+306,Teodosio,Moya Pinto,Básico,Básico,27.45,14,67,6,0.37168029890119914,Medio
+291,Lupita,Tomé Ochoa,Estándar,Acceso Total,72.18,12,63,0,0.37166809908735937,Medio
+22,Narciso,Talavera Dalmau,Premium,Básico,31.41,42,59,11,0.37133050009987406,Medio
+137,Carmen,Villaverde Sobrino,Estándar,Básico,32.81,44,68,6,0.3702301856556526,Medio
+344,Yago,Tirado Marquez,Estándar,Básico,25.77,9,53,1,0.3682958349518144,Medio
+325,Onofre,Ibáñez Saura,Básico,Estándar,44.58,14,41,3,0.36607941429665886,Medio
+482,Gala,Rebollo Neira,Estándar,Estándar,39.55,2,58,1,0.36305108021907784,Medio
+187,Anastasia,Velasco Nogueira,Premium,Básico,27.43,7,50,9,0.36034305832418473,Medio
+106,Norberto,Muñoz Amorós,Estándar,Básico,33.0,7,66,4,0.3592952313436237,Medio
+115,Ildefonso,Becerra Murillo,Básico,VIP,113.47,27,42,8,0.3570427356314399,Medio
+18,Dimas,Barco Hernando,Estándar,Estándar,40.3,7,61,15,0.3536041213645414,Medio
+26,Ximena,Villar Sanmiguel,Básico,Estándar,51.04,17,69,15,0.353462011712914,Medio
+293,Úrsula,Montserrat Fabregat,Estándar,Estándar,40.18,19,64,0,0.35307340799648224,Medio
+151,Ovidio,Corominas Gargallo,Premium,Estándar,43.41,8,69,8,0.3529918688253311,Medio
+257,Roberto,Leon Arjona,Básico,Básico,31.23,13,73,5,0.35258328700599934,Medio
+305,Mateo,Puga Bernat,Premium,VIP,108.23,16,65,10,0.35219428867649727,Medio
+373,Begoña,Fuertes Bayona,Premium,Estándar,49.37,16,69,11,0.3521063386210787,Medio
+165,Modesto,Romero Cerdá,Estándar,Premium,59.64,1,51,2,0.3516512134017238,Medio
+370,Claudio,Carvajal Sanz,Premium,Solo Clases,38.65,8,72,10,0.3513065109669241,Medio
+226,Francisco,Espinosa Aznar,VIP,Solo Clases,37.69,44,70,5,0.3507778509691951,Medio
+238,Dulce,Bertrán Crespo,Premium,Estándar,44.1,32,80,12,0.3502099527310042,Medio
+75,Adelia,Marí Calleja,VIP,Estándar,38.4,25,77,9,0.34967986553150715,Medio
+139,Jessica,Cañellas Sobrino,Premium,Premium,73.68,9,55,1,0.34920325566990734,Medio
+377,Emiliano,Coca Castillo,Estándar,Solo Clases,38.32,4,55,1,0.3489758224658904,Medio
+27,Azeneth,Huguet Gomila,Estándar,Estándar,49.77,6,53,11,0.3482802074572015,Medio
+485,León,Pomares Luz,Premium,Estándar,38.71,1,73,10,0.34703113521422857,Medio
+108,Luis Ángel,Lara Arenas,VIP,Estándar,48.22,28,63,15,0.3439448120227332,Medio
+286,Emiliano,Ribera Nieto,Básico,VIP,104.33,36,69,6,0.3401485308127061,Medio
+127,Narciso,Blazquez Luz,Premium,Básico,29.94,29,91,3,0.3372664393084787,Medio
+407,Santiago,Castillo Barreda,VIP,Básico,33.61,16,86,18,0.3353989185328974,Medio
+393,Vinicio,Berrocal Montserrat,Estándar,Estándar,40.91,48,69,14,0.33520224763692136,Medio
+490,Manuelita,Peñas Moya,Estándar,Estándar,39.76,10,65,15,0.33190897529013663,Medio
+296,Ester,Suárez Piquer,Premium,VIP,97.52,7,72,4,0.3316999411990974,Medio
+460,Aurelio,Coll Jaén,Básico,VIP,103.82,9,54,8,0.33139305363491195,Medio
+386,Manu,Canales Sans,Premium,Básico,33.58,5,69,15,0.33032427070590065,Medio
+28,Amílcar,Neira Almazán,Básico,VIP,98.15,6,84,2,0.3288033290981872,Medio
+299,Manolo,Mármol Cabrera,Básico,VIP,91.17,2,43,13,0.32849593704407587,Medio
+371,Artemio,Garay Almazán,Básico,Básico,31.21,5,54,11,0.3282659747751547,Medio
+366,Isidora,Sales Guzman,Premium,Premium,58.87,6,77,0,0.3258079961719277,Medio
+348,Teo,Paz Bosch,Premium,VIP,105.9,1,73,12,0.3258061851254691,Medio
+489,Manuel,Blazquez Menendez,Estándar,Solo Clases,30.06,33,75,13,0.32473958964012317,Medio
+341,Chus,Catalán Paz,VIP,Solo Clases,32.25,54,60,15,0.3241177461750608,Medio
+183,Manu,Herrero Cal,Estándar,VIP,106.18,10,72,9,0.3222840540734884,Medio
+227,Edmundo,Tejedor Carbonell,VIP,Básico,26.71,21,64,9,0.31993595832385385,Medio
+451,Arsenio,Rueda Camacho,Estándar,Premium,56.06,4,73,3,0.3195462588778527,Medio
+163,María Ángeles,Amores Prada,Premium,Premium,60.58,4,63,14,0.31900885170007826,Medio
+1,Jose Manuel,Bou Arévalo,Básico,Solo Clases,30.08,1,60,10,0.318923793170316,Medio
+237,Rico,Galiano Galván,Estándar,Estándar,45.5,5,83,13,0.31788263598722283,Medio
+152,Ana Belén,Ribera Ramón,Básico,VIP,95.51,15,88,1,0.31774821825082733,Medio
+274,Ernesto,Ríos Tormo,Estándar,Estándar,42.18,1,43,5,0.31738812442707454,Medio
+30,Adelaida,Belda Barral,Básico,VIP,90.24,1,58,2,0.3173350209387116,Medio
+150,Bárbara,Guardia Piñol,Estándar,VIP,94.38,30,60,0,0.31717576173415896,Medio
+201,Enrique,Llorente Agustín,Estándar,Solo Clases,31.68,6,49,13,0.31644587948718855,Medio
+294,Octavia,Haro Piñol,VIP,Estándar,45.55,6,88,4,0.31635006582108155,Medio
+443,Lino,Pablo Bello,Premium,Acceso Total,76.64,1,60,4,0.3157726189689996,Medio
+222,Manola,Manzano Cases,Básico,Solo Clases,39.41,4,53,2,0.3128322083531836,Medio
+297,Gabriela,Cornejo Valbuena,Estándar,Premium,62.81,9,58,7,0.3122683836050791,Medio
+218,Aureliano,Ferrera Marti,Premium,Estándar,43.49,51,57,6,0.30975544304823754,Medio
+211,Petrona,Muro Ortiz,Premium,Solo Clases,31.6,1,55,7,0.30964492914046093,Medio
+59,Ágata,Criado Barberá,Estándar,Premium,71.95,14,62,3,0.3090955497262062,Medio
+349,Rosa,Prat Alcalá,Estándar,Básico,33.17,50,63,10,0.30836282471437354,Medio
+74,Isabel,Mate Ángel,Premium,VIP,110.05,32,60,10,0.30696589344300707,Medio
+437,Adelaida,Fuente Mata,VIP,Estándar,42.65,16,86,4,0.30579539312952214,Medio
+86,Mar,Agustí Caparrós,Premium,Básico,26.63,6,59,13,0.3040354443707246,Medio
+221,Eli,Arroyo Ballester,Estándar,Básico,29.13,9,80,10,0.30341070103540146,Medio
+191,Isaac,Echeverría Vélez,Premium,VIP,114.12,16,51,7,0.3028793176910044,Medio
+265,Ernesto,Pérez Arco,Premium,Premium,57.41,14,60,9,0.3021484933250147,Medio
+55,Casemiro,Falcó Martin,Básico,VIP,90.08,2,47,8,0.30208294156781945,Medio
+10,Palmira,Lago Valle,Estándar,Estándar,40.69,11,55,1,0.30053320942067435,Medio
+478,Ligia,Duque Ariza,Premium,Básico,27.73,49,63,17,0.2971708119031443,Bajo
+78,Elena,Luján Galvez,Estándar,VIP,88.53,5,46,7,0.2971419756790869,Bajo
+15,Luz,Abascal Morante,Estándar,Básico,30.75,32,90,21,0.2962213012038022,Bajo
+213,Encarnación,Iglesias Gual,Básico,Estándar,50.87,4,76,15,0.295789159738782,Bajo
+421,Abraham,Escudero Clemente,Premium,Solo Clases,33.1,8,52,8,0.2956706209202282,Bajo
+380,Adrián,Palma Gárate,Básico,Básico,30.94,50,59,9,0.2950210916031219,Bajo
+51,Clotilde,Quero Barral,Estándar,Básico,27.88,7,68,7,0.29481841459554997,Bajo
+313,Alonso,Morata Barba,Estándar,Premium,69.64,3,60,3,0.29389522139703506,Bajo
+186,Juan Pablo,Romero Pellicer,Premium,Solo Clases,34.26,1,69,9,0.2930360231223315,Bajo
+411,María Carmen,Miguel Ortiz,Estándar,Estándar,46.47,9,88,7,0.29282622963814264,Bajo
+198,Susanita,Morcillo Espada,Básico,Básico,29.16,1,87,9,0.29253851455864166,Bajo
+409,Hernán,Otero Rocha,Básico,Premium,59.03,7,53,5,0.2918317167452917,Bajo
+327,Fátima,Tomas Campillo,Premium,Acceso Total,70.32,2,100,12,0.29158880194459713,Bajo
+171,Silvia,Bilbao Sosa,Estándar,Estándar,51.49,34,79,13,0.2896829269494618,Bajo
+355,Miriam,Barroso Simó,Premium,Básico,26.08,24,74,9,0.28949182511813176,Bajo
+33,José Ángel,Gárate Lopez,Premium,Premium,61.42,6,75,9,0.2894761568200331,Bajo
+131,Albano,Arteaga Hierro,Básico,Estándar,49.55,14,85,11,0.2892337579762482,Bajo
+12,Zaira,Camino Martín,Básico,Acceso Total,89.33,8,77,2,0.28887100070453614,Bajo
+200,Sabas,Jordán Niño,Básico,Estándar,47.79,28,83,10,0.2885213870614313,Bajo
+388,Prudencio,Vázquez Mata,Básico,Estándar,50.03,1,56,1,0.288321840662305,Bajo
+229,Jose Luis,Benavent Baeza,Estándar,Básico,26.23,1,88,6,0.2882421774763243,Bajo
+48,Modesta,Alcolea Bueno,Estándar,Premium,71.04,21,58,5,0.28774066937423487,Bajo
+479,Duilio,Río Saavedra,Estándar,VIP,110.57,11,71,9,0.28653399607495306,Bajo
+268,Rolando,Quintero Vilar,Básico,VIP,98.25,1,50,7,0.2862605297595475,Bajo
+91,Ximena,Pallarès Gallo,Premium,Premium,58.2,12,69,10,0.28576049407057263,Bajo
+37,Claudio,Busquets Caballero,VIP,VIP,87.99,1,60,2,0.2835175735239997,Bajo
+58,Amador,Tapia Valverde,Premium,Solo Clases,34.1,1,61,16,0.2831608918811102,Bajo
+463,Rolando,Uribe Simó,Estándar,Estándar,50.36,19,55,7,0.2827430175929733,Bajo
+254,Victor,Rosales Mora,Premium,Estándar,49.26,60,97,10,0.28221575616821626,Bajo
+126,Lina,Sáenz Doménech,Premium,Estándar,39.61,1,66,1,0.28183339172656213,Bajo
+292,Flavio,Pi Sarabia,Estándar,Solo Clases,33.61,13,77,10,0.28066624554251024,Bajo
+105,Felicia,Vergara Pulido,Premium,Premium,67.84,3,64,6,0.27920536289500264,Bajo
+4,María,Bartolomé Plaza,Premium,Premium,66.13,3,69,1,0.278676516726814,Bajo
+159,Constanza,Llamas Ruano,Premium,Premium,62.98,2,86,3,0.2781538026726716,Bajo
+414,Soraya,Campoy Ordóñez,Premium,Acceso Total,82.96,13,70,8,0.2777043174600625,Bajo
+472,Angélica,Bosch Vendrell,Estándar,Estándar,41.65,31,70,7,0.2768109429797172,Bajo
+280,Josep,Manzanares Verdú,VIP,Básico,27.02,22,100,10,0.27608613597332265,Bajo
+250,Isabel,Casanova Solís,VIP,Estándar,49.9,26,52,5,0.2758974491588962,Bajo
+172,Agapito,Azorin Olmo,Básico,Acceso Total,76.74,46,61,7,0.27514212868674487,Bajo
+136,Reyes,Rodríguez Gilabert,Básico,Estándar,45.98,41,54,13,0.27474606528024564,Bajo
+385,Jacobo,Paredes Vilanova,Estándar,Estándar,50.12,10,80,14,0.27466157451897516,Bajo
+160,Jose Carlos,Andres Porcel,Premium,Básico,33.09,1,59,10,0.27458228736136464,Bajo
+73,Gil,López Cruz,Estándar,Básico,34.3,47,66,4,0.2737456706584176,Bajo
+169,Eugenia,Nebot Pinilla,Premium,VIP,110.43,6,97,6,0.2736508953130194,Bajo
+398,Régulo,Carbó Garrido,Básico,VIP,94.69,1,52,9,0.2732436334631543,Bajo
+279,Jerónimo,Carpio Correa,Estándar,VIP,97.29,6,60,3,0.27322264610952834,Bajo
+378,Luz,Iglesia Díaz,Básico,Premium,69.2,55,70,7,0.27259122985387685,Bajo
+207,Eugenio,Giralt Quiroga,Premium,Estándar,38.61,10,79,7,0.2717255642692393,Bajo
+357,Azahar,Chaves Arrieta,Básico,Estándar,48.18,29,70,13,0.2711206832999482,Bajo
+417,Roxana,Romeu Amo,Premium,Estándar,41.97,31,87,1,0.27109715964949327,Bajo
+271,Juan Antonio,Pardo Valentín,Estándar,Premium,58.22,3,58,5,0.27008501410264535,Bajo
+359,Azahar,Cabanillas Guitart,Premium,Solo Clases,33.21,32,80,9,0.2689532408166825,Bajo
+311,Augusto,Cabrera Salcedo,Estándar,Premium,66.45,7,64,3,0.26819776810894064,Bajo
+202,Lorena,Feijoo Boada,Básico,Premium,62.09,1,54,10,0.26753694872846434,Bajo
+316,Juan Manuel,Requena Escolano,Estándar,Estándar,39.12,47,66,10,0.26694926450371625,Bajo
+488,Fabián,Pou Castelló,Estándar,Premium,73.17,3,77,7,0.2664661049775313,Bajo
+345,Piedad,Nevado Cardona,Premium,Solo Clases,36.29,2,72,9,0.2663628694197781,Bajo
+39,Héctor,Reig Solera,Básico,Básico,31.36,2,77,9,0.2661873430903035,Bajo
+179,Celso,Carbó Céspedes,Estándar,Básico,30.66,18,63,15,0.2655800253779664,Bajo
+333,Marcio,Ortuño Gilabert,Estándar,Básico,26.71,10,87,5,0.26546545422568635,Bajo
+457,Luisa,Viana Ferrera,VIP,Premium,64.82,10,72,2,0.2650228044460987,Bajo
+300,Trinidad,Sacristán Cabo,Estándar,Estándar,40.87,27,59,9,0.264731617459506,Bajo
+184,Obdulia,Mata Carrillo,Estándar,Premium,69.26,8,72,1,0.2632398856710195,Bajo
+205,Mireia,Tudela Samper,Básico,Básico,28.85,14,100,15,0.26184359965283494,Bajo
+459,Pascuala,Coloma Guzman,Premium,Solo Clases,33.91,8,100,18,0.26148462337461564,Bajo
+493,Fidela,Alfaro Pareja,Premium,Acceso Total,69.51,12,82,2,0.26086190191281367,Bajo
+109,Asunción,Rovira Ojeda,Premium,Solo Clases,31.24,7,63,9,0.26066566581346723,Bajo
+174,Priscila,Anguita Huertas,Premium,Premium,71.37,6,64,8,0.25937852542370887,Bajo
+256,Apolonia,Granados Almansa,Estándar,Premium,64.0,4,67,6,0.2582232129452441,Bajo
+124,Roberta,Montserrat Sola,Premium,Solo Clases,32.38,60,95,5,0.2567169350375882,Bajo
+31,Crescencia,Bauzà Angulo,VIP,Básico,26.59,6,78,2,0.25649850213944053,Bajo
+464,René,Sanchez Moraleda,Básico,Premium,64.05,13,74,8,0.25647079861562555,Bajo
+474,Jafet,Fabra Montoya,Estándar,Básico,27.35,3,68,8,0.2564166240929171,Bajo
+224,Trini,Alberola Luís,Premium,Acceso Total,70.17,9,76,16,0.2563908455871289,Bajo
+153,Eusebia,Solano Ricart,Estándar,Estándar,48.43,17,77,17,0.2550048678794065,Bajo
+354,Aitana,Mosquera Giralt,Básico,Acceso Total,86.28,30,82,13,0.2543151777841235,Bajo
+132,Jordán,Beltran Sarabia,Básico,VIP,88.52,10,73,12,0.25372354110425094,Bajo
+362,Lázaro,Cortes Ribera,VIP,VIP,87.74,26,61,9,0.25351639581027047,Bajo
+476,Bárbara,Barrio Sanjuan,Estándar,Estándar,40.47,1,71,5,0.2530448808026453,Bajo
+438,Curro,Cervantes Jaume,Premium,Estándar,46.93,1,60,2,0.25286030957900324,Bajo
+275,Azucena,Andres Heras,Básico,Premium,59.03,15,57,8,0.2523431033013211,Bajo
+21,Ricardo,Casas Castellanos,Premium,Estándar,51.13,5,61,8,0.2515796438530368,Bajo
+236,Lucas,Barrena Cabezas,VIP,Básico,34.19,6,75,20,0.2500249490996794,Bajo
+60,Liliana,Bernat Estevez,Básico,Premium,61.31,1,55,13,0.24992029131214108,Bajo
+120,Celia,Rivero Pinilla,Estándar,Acceso Total,82.37,2,59,6,0.2487658816655428,Bajo
+111,María Dolores,Vidal Carlos,Estándar,Estándar,46.72,50,100,7,0.2483716747498278,Bajo
+54,Eloísa,Rocha Torrecilla,Estándar,Solo Clases,33.7,17,73,10,0.24637626558517375,Bajo
+404,Carmelo,Sánchez Bautista,Estándar,Acceso Total,91.28,4,65,9,0.24618900194874016,Bajo
+283,Domingo,Saura Coca,Premium,VIP,108.05,4,73,3,0.24532147922838732,Bajo
+304,José,Landa Nevado,Estándar,Premium,67.96,25,72,10,0.24486889060325306,Bajo
+383,Begoña,Robledo Zorrilla,Estándar,Premium,61.35,6,71,11,0.24478504965815412,Bajo
+365,Alcides,Pellicer Gaya,Estándar,Premium,71.18,4,80,6,0.2445625131522732,Bajo
+324,Lázaro,Martínez Rodrigo,Premium,VIP,103.54,7,79,11,0.24432735837709388,Bajo
+149,Feliciano,Berrocal Chacón,Básico,Acceso Total,70.42,15,87,16,0.2439636762498399,Bajo
+350,Eligio,Casals Sanz,Premium,Premium,61.91,4,72,7,0.24356069608065262,Bajo
+467,Isaura,Mateo Llobet,Básico,Solo Clases,37.54,1,59,13,0.2425503679567609,Bajo
+128,José Ángel,Naranjo Bueno,Premium,Premium,60.42,2,70,11,0.24119310031162997,Bajo
+412,Baldomero,Vera Garcia,Premium,Estándar,45.84,8,62,13,0.2408238561238534,Bajo
+487,Apolinar,Cid Olmo,Premium,Básico,34.34,2,67,16,0.2394061927506456,Bajo
+209,Natanael,Peinado Sáenz,Estándar,Premium,59.5,21,75,9,0.2393934889824882,Bajo
+408,Maristela,Murcia Carvajal,Básico,VIP,101.64,1,57,8,0.23908501404281546,Bajo
+361,Jenny,Peláez Rius,Premium,Premium,73.31,15,81,4,0.2388104747784965,Bajo
+251,Omar,Mateu Quevedo,VIP,Estándar,50.1,24,80,8,0.23859584013335947,Bajo
+375,Ruth,Guijarro Moya,Premium,Premium,58.39,7,70,9,0.23802382126625607,Bajo
+419,Cipriano,Llano Mendizábal,Básico,Premium,67.58,3,37,6,0.23749270904717437,Bajo
+36,Domingo,Suárez Ramírez,Premium,VIP,109.09,31,66,12,0.23703480982612876,Bajo
+94,Ángela,Guzmán Cámara,Estándar,VIP,88.0,11,69,17,0.23347957468651512,Bajo
+92,Nilda,Iborra Calderon,Estándar,VIP,86.4,3,80,5,0.23344848876643742,Bajo
+454,Trinidad,Menéndez Nicolás,Estándar,VIP,100.3,24,71,6,0.23344528979116294,Bajo
+499,Nadia,Navarro Castro,Estándar,Estándar,41.91,23,79,15,0.23289123851547458,Bajo
+67,Benigna,Marín Sebastián,Estándar,Estándar,41.62,50,77,10,0.23187304993424324,Bajo
+395,Bernardino,Llopis Morcillo,Estándar,Estándar,40.81,14,74,8,0.23162021877060288,Bajo
+253,Isidoro,Bernat Ariño,VIP,Básico,29.21,3,93,2,0.2302041254735251,Bajo
+442,Luisina,Grau Vall,VIP,Premium,73.57,11,88,13,0.22994775993875777,Bajo
+110,Pánfilo,Mir Rubio,Premium,Solo Clases,30.97,22,72,9,0.22856317556608163,Bajo
+113,Amada,Rubio Abellán,Premium,Acceso Total,82.63,8,96,10,0.22653348860182304,Bajo
+336,Yaiza,Ariza Mendizábal,VIP,VIP,108.77,9,91,8,0.22467969276520916,Bajo
+231,Anselma,Hurtado Carrasco,Premium,VIP,94.17,2,74,3,0.22462157813220027,Bajo
+302,Palmira,Cobos Redondo,Estándar,Premium,70.14,46,78,14,0.22442966798351985,Bajo
+405,Artemio,Blázquez Buendía,Estándar,Premium,63.37,51,80,11,0.22424968336671022,Bajo
+141,Mariano,Vargas Roldan,Estándar,Básico,33.51,1,57,9,0.22337443061209455,Bajo
+101,Felicia,Mayoral Goñi,Estándar,Estándar,50.7,2,69,14,0.22283458260930109,Bajo
+446,Tere,Millán Román,Básico,Básico,32.6,2,71,7,0.22226399860140147,Bajo
+23,Eligio,Álamo Rocha,Premium,Estándar,43.97,1,72,2,0.222218101157803,Bajo
+85,Candelaria,Sala Roma,Premium,Estándar,49.45,53,100,6,0.22047852630557613,Bajo
+103,Heraclio,Moya Lopez,Premium,Solo Clases,38.37,31,89,22,0.22030790864821964,Bajo
+497,Antonio,Marqués Cadenas,Premium,Solo Clases,39.81,23,55,6,0.2191078713110457,Bajo
+180,Fabricio,Campoy Amigó,Premium,Premium,63.78,1,80,7,0.21879522633244197,Bajo
+14,Calista,Pereira Cuéllar,Estándar,Premium,61.53,6,80,1,0.218542417512416,Bajo
+458,Víctor,Olmedo Ortega,Básico,Solo Clases,39.0,32,86,12,0.21845640501414415,Bajo
+468,Manolo,Barbero Ortiz,Premium,Solo Clases,37.72,1,75,15,0.2182219150232775,Bajo
+374,Severino,Galan Garzón,Básico,Estándar,47.08,14,59,14,0.21816955242707337,Bajo
+80,Noelia,Laguna Vega,Premium,VIP,90.58,12,94,5,0.21762414475830447,Bajo
+88,Silvestre,Peiró Colomer,Estándar,Estándar,49.31,14,60,8,0.21663354694820836,Bajo
+93,Felicidad,Ramos Cortes,Estándar,VIP,91.9,1,70,4,0.21606457084056938,Bajo
+267,Dolores,Morales Carmona,Estándar,Premium,67.24,22,66,11,0.21543136983157946,Bajo
+24,Cloe,Font Mesa,Estándar,Estándar,50.66,1,73,8,0.21519857414955681,Bajo
+486,Dolores,Conesa Mínguez,Estándar,Estándar,41.79,1,84,15,0.21455665221129594,Bajo
+84,Rogelio,Castrillo Juárez,Estándar,Estándar,45.57,6,87,21,0.2144488502974551,Bajo
+65,Dorita,Fuente Miralles,Estándar,Estándar,39.35,2,74,13,0.2128141764407425,Bajo
+402,Faustino,Roldán Milla,Estándar,VIP,88.65,16,81,8,0.21255386486608344,Bajo
+6,Dionisia,Alberdi Carbó,Básico,Solo Clases,34.66,11,71,19,0.21193470978670093,Bajo
+249,Ruy,Meléndez Malo,Básico,VIP,111.45,3,82,8,0.21190744948157555,Bajo
+363,Morena,Cabeza Tovar,Premium,Básico,27.59,1,94,10,0.21118390801011522,Bajo
+397,Ligia,Ros Cabezas,VIP,Premium,56.41,31,74,4,0.20986535754427596,Bajo
+432,Elías,Garriga Vila,VIP,Acceso Total,84.94,7,76,8,0.20978909136882648,Bajo
+192,Máximo,León Tomás,Básico,Solo Clases,37.87,4,66,10,0.2095993747469457,Bajo
+240,Camila,Acedo Real,Premium,Estándar,38.85,1,79,3,0.20920523797967497,Bajo
+87,Angelita,Company Araujo,Estándar,VIP,98.08,2,69,4,0.20866707687349093,Bajo
+429,Cayetano,Ayala Bilbao,Estándar,VIP,108.26,1,75,11,0.20831961688475534,Bajo
+369,Ana,Puig Llorente,Estándar,Estándar,40.8,21,63,11,0.2073333636513515,Bajo
+76,Valeria,Cañizares Lamas,VIP,Solo Clases,31.71,5,84,2,0.20529263581482873,Bajo
+135,Brunilda,Adán Campillo,Premium,VIP,95.41,1,77,6,0.20212224669608567,Bajo
+444,Heliodoro,Arnal Rubio,Premium,Básico,28.58,8,81,10,0.2020749594660343,Bajo
+358,Alejo,Mayo Ugarte,Estándar,Estándar,46.11,5,77,7,0.20128307886128996,Bajo
+167,Amador,Juan Pinilla,Estándar,Básico,29.84,1,96,8,0.20125342718312325,Bajo
+8,Aurelia,Marin Royo,Básico,Básico,32.85,1,88,2,0.2004444489234054,Bajo
+25,Gloria,Perea Ríos,Premium,Básico,26.73,1,70,15,0.200321731228629,Bajo
+379,Bartolomé,Amigó Catalá,Básico,Premium,70.28,11,72,10,0.2000993211057693,Bajo
+420,Águeda,Nicolás Orozco,Básico,Estándar,44.75,4,94,6,0.1993998798400832,Bajo
+50,Griselda,Torralba Teruel,VIP,Estándar,42.37,30,92,13,0.19896689580298918,Bajo
+196,Remigio,Sobrino Pinilla,VIP,Premium,57.57,3,73,11,0.1988459030270646,Bajo
+29,Marita,Grau Giménez,Premium,Premium,66.75,8,81,13,0.19834069843251,Bajo
+69,Jesusa,Cabo Beltrán,Básico,Premium,65.32,7,100,13,0.19710189164875141,Bajo
+20,Patricia,Torre Bayón,Premium,Premium,71.71,18,73,6,0.19579555778148394,Bajo
+281,Patricio,Llano Ribes,Premium,Premium,58.04,49,100,20,0.19553823565412545,Bajo
+225,Joel,Tejero Saez,Básico,Premium,66.22,9,68,7,0.19547706048564148,Bajo
+41,Américo,Quevedo Nicolau,Premium,Premium,74.04,10,96,19,0.1952434362207556,Bajo
+66,Dimas,Lara Priego,Estándar,Estándar,42.05,1,67,9,0.1941853455769006,Bajo
+330,Aitor,Priego Llobet,Estándar,Estándar,46.14,13,68,12,0.19397326358343228,Bajo
+154,Ana,Gabaldón Rivera,Premium,Estándar,40.8,19,78,8,0.19350751227806612,Bajo
+32,Tito,Murillo Belda,Premium,Estándar,44.84,16,69,13,0.19304005886228823,Bajo
+19,Valeria,Bermúdez Boada,VIP,Acceso Total,72.35,8,81,14,0.19251987058033104,Bajo
+142,Severo,Salmerón Cuenca,Estándar,Solo Clases,39.88,5,90,14,0.19229246964981822,Bajo
+157,Emma,Porta Rius,Estándar,Acceso Total,82.34,22,78,15,0.191440460565409,Bajo
+418,María Fernanda,Lastra Andres,Estándar,Premium,70.41,1,58,26,0.19101758541718078,Bajo
+81,Laura,Iglesias Azcona,Estándar,Estándar,48.66,29,100,7,0.190162644665517,Bajo
+138,Amarilis,Ibañez Carrión,Básico,VIP,85.76,5,57,13,0.18798136409086283,Bajo
+481,Germán,Peralta Luna,Premium,Estándar,43.39,17,69,10,0.1876007371786609,Bajo
+79,Plinio,Novoa Frutos,Premium,Estándar,45.19,2,62,8,0.1871524437420026,Bajo
+491,Ruth,Castell Zurita,Premium,VIP,111.08,1,69,11,0.18691708357589934,Bajo
+284,Fátima,Farré Verdejo,Premium,Premium,55.93,6,92,15,0.18682562301030983,Bajo
+144,Dora,Huertas Lluch,Estándar,Premium,58.37,42,80,16,0.1868203015868817,Bajo
+72,Vera,Bayona Hidalgo,Básico,Estándar,49.04,37,78,15,0.1868171255916467,Bajo
+492,Arturo,Roda Verdugo,Estándar,VIP,93.18,1,70,9,0.18637225649929118,Bajo
+104,Teresa,Baños Lorenzo,Estándar,Estándar,51.45,7,85,13,0.18570620753516998,Bajo
+203,Dalila,Ramos Torres,Estándar,Premium,64.05,8,87,15,0.1838269204715639,Bajo
+270,Hilario,Ballester Expósito,Premium,Premium,61.44,4,100,6,0.18374618275164592,Bajo
+285,Piedad,Cerezo Baños,Básico,Premium,67.89,3,66,19,0.18327089768161012,Bajo
+448,Ema,Cardona Quirós,Premium,Estándar,39.8,33,96,9,0.18279643698247383,Bajo
+61,Anastasia,Bayo Gutierrez,Premium,Estándar,47.1,5,83,13,0.1815563539437032,Bajo
+9,Camila,Santiago Acero,Premium,Solo Clases,40.18,6,62,8,0.18062192028677426,Bajo
+219,Corona,Paniagua Escobar,VIP,VIP,105.05,1,88,11,0.18054645664711505,Bajo
+45,Eligia,Sevillano Iborra,Premium,Premium,59.33,27,64,12,0.17950363243762157,Bajo
+217,Porfirio,Zamorano Luna,Premium,VIP,112.59,5,96,14,0.17868369360243833,Bajo
+17,Áurea,Parejo Meléndez,Estándar,VIP,102.22,2,84,6,0.17655882746790844,Bajo
+415,Telmo,Pedrero Cardona,Premium,VIP,112.0,4,89,7,0.17456694526092975,Bajo
+40,Toni,Balaguer Cabello,Estándar,VIP,109.29,8,100,15,0.1745298301469077,Bajo
+289,Paola,Martín Tovar,VIP,Premium,73.17,2,54,14,0.1742495468528164,Bajo
+166,Teresita,Serrano Espada,Estándar,Premium,61.03,21,99,7,0.1734936004401151,Bajo
+185,Rómulo,Armengol Olivera,Estándar,Premium,69.43,6,56,7,0.17307343066630687,Bajo
+319,Leonor,Clemente Guerra,Estándar,Premium,61.24,5,100,18,0.17305189831462528,Bajo
+339,Apolonia,Marquez Morillo,Básico,Estándar,40.83,25,89,7,0.1719649241939459,Bajo
+239,Dafne,Durán Benavides,Básico,Premium,58.72,1,93,5,0.17167429956816121,Bajo
+480,Juan Francisco,Yáñez Cuenca,Estándar,Premium,73.7,8,79,12,0.17128244036616713,Bajo
+456,Antonio,Vicens Carbonell,Estándar,VIP,90.99,6,100,9,0.1709549333794883,Bajo
+301,Lucila,Saura Alcántara,Básico,Solo Clases,37.97,1,74,15,0.17056887813672664,Bajo
+427,Poncio,Morata Blazquez,Premium,Acceso Total,71.45,14,84,15,0.17032440750174832,Bajo
+57,Raúl,Mir Barceló,Básico,VIP,88.36,6,90,12,0.17023920568204676,Bajo
+247,Yéssica,Larrañaga Cisneros,Básico,Premium,71.58,8,61,17,0.16992805672309552,Bajo
+483,Norberto,Badía Nadal,VIP,Estándar,51.35,8,64,4,0.1692791524837761,Bajo
+148,Desiderio,Llabrés Narváez,Estándar,Premium,70.94,14,87,13,0.16763595887383176,Bajo
+298,Alejandro,Cases Vallés,Premium,Premium,68.21,3,100,15,0.1663506483828907,Bajo
+266,Jenny,Borja Miranda,Premium,Estándar,40.73,2,88,6,0.1659001058285088,Bajo
+475,María Del Carmen,Tamarit Vallejo,Estándar,Premium,64.17,15,100,18,0.1655269626858954,Bajo
+410,Teófila,Aznar Maestre,VIP,VIP,102.16,22,81,16,0.16354843200571498,Bajo
+328,Diego,Pizarro Palomar,VIP,Premium,64.46,12,80,6,0.16330410803731643,Bajo
+34,Nayara,Torralba Gargallo,Premium,Premium,57.01,1,85,6,0.16234454459414213,Bajo
+82,Arturo,Roda Lloret,Estándar,Acceso Total,76.21,5,83,6,0.16226688043427276,Bajo
+47,Roxana,Cabañas Ayuso,Estándar,VIP,90.23,4,68,8,0.16207375358947046,Bajo
+246,Baudelio,Gomila Company,Estándar,Acceso Total,91.68,9,81,3,0.16036422640637135,Bajo
+400,Hilario,Nicolau Santana,Estándar,VIP,99.71,31,78,13,0.16033872553635542,Bajo
+295,Demetrio,Reig Arranz,VIP,Premium,67.46,46,75,10,0.1593684479669624,Bajo
+155,Guiomar,Aller Pintor,Premium,Premium,66.17,26,82,11,0.15849409429151826,Bajo
+440,Adelaida,Valencia Ros,Estándar,Acceso Total,85.2,1,85,21,0.15715509094390637,Bajo
+495,Evita,Torre Fernandez,Premium,Premium,64.94,1,89,13,0.15704104186257115,Bajo
+182,Otilia,Fiol Benitez,VIP,Estándar,47.02,6,70,11,0.15346613669575168,Bajo
+235,Tito,Romeu Mayoral,Estándar,Estándar,42.47,17,92,11,0.1529788174777521,Bajo
+314,Eugenio,Palmer Perera,Estándar,Estándar,50.83,5,80,16,0.15119989022773753,Bajo
+310,Piedad,Botella Roura,Básico,Premium,68.51,23,86,15,0.15015739581665827,Bajo
+56,Concha,Barragán Barrera,VIP,Premium,72.73,2,100,8,0.14967789453410477,Bajo
+176,Dimas,Cases Sáenz,Premium,VIP,108.52,2,93,15,0.1483222221948456,Bajo
+193,Josefa,Ruano Ledesma,Premium,VIP,97.4,16,96,16,0.14587518971799443,Bajo
+288,Samanta,Acedo Luna,Básico,Estándar,41.62,1,83,11,0.14118775931665742,Bajo
+376,Remedios,Coloma Acedo,Estándar,Premium,61.95,1,100,11,0.13989292114754526,Bajo
+312,Celso,Marí Andres,VIP,Premium,63.26,1,70,7,0.1397386921514921,Bajo
+53,Gema,Lara Sanz,Premium,VIP,111.15,13,69,10,0.1390518651433864,Bajo
+382,Carmelita,Lara Badía,Estándar,Premium,64.61,19,98,7,0.13590096197273016,Bajo
+228,Segismundo,Bas Pérez,VIP,Estándar,46.7,12,94,10,0.13531635343598297,Bajo
+390,Julia,Querol Roldan,Premium,VIP,85.41,1,76,11,0.1349156957103579,Bajo
+177,Nayara,Carbó Gibert,VIP,VIP,88.14,18,100,11,0.13179827988955778,Bajo
+436,Constanza,Prats Ballesteros,Estándar,Premium,67.5,8,82,15,0.12709168095151308,Bajo
+204,Manu,Hernandez Tamayo,Estándar,Premium,72.39,8,100,12,0.12442274511001183,Bajo
+42,Rosalía,Canales Ibarra,Básico,VIP,94.69,1,78,15,0.12194100514518777,Bajo
+416,Rafaela,Lopez Gonzalo,Básico,Acceso Total,78.78,1,100,7,0.11912328874420211,Bajo
+195,Eligia,Sanmartín Hervás,Premium,Premium,55.82,7,72,10,0.11575936042490305,Bajo
+98,Débora,Cuervo Campoy,Básico,Premium,65.41,24,76,9,0.10461648752826673,Bajo
+450,Salvador,Seguí Paredes,Estándar,Premium,67.78,5,80,13,0.10386778937349994,Bajo

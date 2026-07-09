@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Extend partner form: add Membership tab + smart buttons -->
+    <record id="res_partner_view_form_gym" model="ir.ui.view">
+        <field name="name">res.partner.view.form.gym</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+
+            <!-- Smart buttons -->
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="%(gym_access_action)d"
+                        type="action"
+                        class="oe_stat_button"
+                        icon="fa-sign-in"
+                        invisible="not is_gym_member"
+                        context="{'search_default_partner_id': id}">
+                    <field name="access_log_count" widget="statinfo" string="Accesos"/>
+                </button>
+                <button name="%(gym_engagement_action)d"
+                        type="action"
+                        class="oe_stat_button"
+                        icon="fa-heartbeat"
+                        invisible="not is_gym_member"
+                        context="{'search_default_partner_id': id}">
+                    <field name="engagement_count" widget="statinfo" string="Actividades"/>
+                </button>
+                <button name="%(gym_customer_health_action)d"
+                        type="action"
+                        class="oe_stat_button"
+                        icon="fa-bar-chart"
+                        invisible="not is_gym_member"
+                        context="{'search_default_partner_id': id}">
+                    <field name="health_score_count" widget="statinfo" string="Health Scores"/>
+                </button>
+            </xpath>
+
+            <!-- Membership tab -->
+            <xpath expr="//notebook" position="inside">
+                <page string="Membresía" name="gym_membership"
+                      invisible="not is_gym_member">
+                    <group>
+                        <group string="Datos de membresía">
+                            <field name="is_gym_member"/>
+                            <field name="gym_center_id"/>
+                            <field name="membership_type"/>
+                            <field name="member_status"
+                                   decoration-success="member_status == 'active'"
+                                   decoration-warning="member_status == 'inactive'"
+                                   decoration-danger="member_status == 'churned'"
+                                   decoration-info="member_status == 'new'"
+                                   widget="badge"/>
+                        </group>
+                        <group string="Vigencia">
+                            <field name="membership_start"/>
+                            <field name="membership_end"/>
+                        </group>
+                    </group>
+                    <group string="Indicadores de actividad">
+                        <group>
+                            <field name="visits_last_30_days"/>
+                            <field name="days_since_last_visit"/>
+                        </group>
+                        <group>
+                            <field name="churn_risk"
+                                   decoration-success="churn_risk == 'low'"
+                                   decoration-warning="churn_risk == 'medium'"
+                                   decoration-danger="churn_risk == 'high'"
+                                   widget="badge"/>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+
+<!-- Members list action -->
+    <record id="gym_member_action" model="ir.actions.act_window">
+        <field name="name">Socios</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">list,form,kanban</field>
+        <field name="domain">[('is_gym_member', '=', True)]</field>
+        <field name="context">{'default_is_gym_member': True}</field>
+    </record>
+
+    <!-- Member kanban view -->
+    <record id="res_partner_view_kanban_gym" model="ir.ui.view">
+        <field name="name">res.partner.view.kanban.gym</field>
+        <field name="model">res.partner</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <field name="name"/>
+                <field name="membership_type"/>
+                <field name="member_status"/>
+                <field name="churn_risk"/>
+                <field name="visits_last_30_days"/>
+                <field name="gym_center_id"/>
+                <templates>
+                    <t t-name="card">
+                        <div class="oe_kanban_global_click">
+                            <div class="o_kanban_record_top">
+                                <div class="o_kanban_record_headings">
+                                    <strong class="o_kanban_record_title">
+                                        <field name="name"/>
+                                    </strong>
+                                    <span class="o_kanban_record_subtitle">
+                                        <field name="gym_center_id"/>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="o_kanban_record_body">
+                                <field name="membership_type" widget="badge"/>
+                                <field name="churn_risk" widget="badge"
+                                       decoration-success="churn_risk == 'low'"
+                                       decoration-warning="churn_risk == 'medium'"
+                                       decoration-danger="churn_risk == 'high'"/>
+                                <div class="mt-2">
+                                    <span class="text-muted">Visitas (30d): </span>
+                                    <strong><field name="visits_last_30_days"/></strong>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <!-- Member search view -->
+    <record id="res_partner_view_search_gym" model="ir.ui.view">
+        <field name="name">res.partner.view.search.gym</field>
+        <field name="model">res.partner</field>
+        <field name="arch" type="xml">
+            <search string="Socios">
+                <field name="name"/>
+                <field name="gym_center_id"/>
+                <field name="membership_type"/>
+                <filter name="active_members" string="Activos"
+                        domain="[('member_status', '=', 'active')]"/>
+                <filter name="inactive" string="Inactivos"
+                        domain="[('member_status', '=', 'inactive')]"/>
+                <filter name="high_risk" string="Alto riesgo de abandono"
+                        domain="[('churn_risk', '=', 'high')]"/>
+                <separator/>
+                <filter name="gym_center_id" string="Centro" context="{'group_by': 'gym_center_id'}"/>
+                <filter name="membership_type" string="Tipo" context="{'group_by': 'membership_type'}"/>
+                <filter name="member_status" string="Estado" context="{'group_by': 'member_status'}"/>
+            </search>
+        </field>
+    </record>
+
+</odoo>

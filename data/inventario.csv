@@ -1,0 +1,6 @@
+﻿centro_id,num_cintas,num_bicicletas,num_maquinas_fuerza,material_funcional_disponible,nuevas_adquisiciones_ultimo_anio,equipamiento_retirado_ultimo_anio
+1,10,27,58,Parcial,3,0
+2,12,44,42,Limitado,0,1
+3,34,21,48,Limitado,1,12
+4,24,32,56,Completo,15,13
+5,32,26,80,Limitado,10,10

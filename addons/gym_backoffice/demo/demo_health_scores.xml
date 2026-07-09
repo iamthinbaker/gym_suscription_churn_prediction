@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- === SOCIOS FIELES === -->
+
+        <record id="health_lucia" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_lucia"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">10</field>
+            <field name="visits_last_60_days">12</field>
+            <field name="visits_last_90_days">12</field>
+            <field name="days_since_last_visit">2</field>
+            <field name="avg_weekly_visits">2.5</field>
+            <field name="engagement_score">83.3</field>
+            <field name="churn_risk">low</field>
+            <field name="segment">loyal</field>
+        </record>
+
+        <record id="health_carlos" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_carlos"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">14</field>
+            <field name="visits_last_60_days">14</field>
+            <field name="visits_last_90_days">14</field>
+            <field name="days_since_last_visit">1</field>
+            <field name="avg_weekly_visits">3.5</field>
+            <field name="engagement_score">100.0</field>
+            <field name="churn_risk">low</field>
+            <field name="segment">loyal</field>
+        </record>
+
+        <record id="health_ana" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_ana"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">10</field>
+            <field name="visits_last_60_days">10</field>
+            <field name="visits_last_90_days">10</field>
+            <field name="days_since_last_visit">2</field>
+            <field name="avg_weekly_visits">2.5</field>
+            <field name="engagement_score">83.3</field>
+            <field name="churn_risk">low</field>
+            <field name="segment">loyal</field>
+        </record>
+
+        <record id="health_miguel" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_miguel"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">12</field>
+            <field name="visits_last_60_days">12</field>
+            <field name="visits_last_90_days">12</field>
+            <field name="days_since_last_visit">1</field>
+            <field name="avg_weekly_visits">3.0</field>
+            <field name="engagement_score">100.0</field>
+            <field name="churn_risk">low</field>
+            <field name="segment">loyal</field>
+        </record>
+
+        <record id="health_sara" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_sara"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">10</field>
+            <field name="visits_last_60_days">10</field>
+            <field name="visits_last_90_days">10</field>
+            <field name="days_since_last_visit">2</field>
+            <field name="avg_weekly_visits">2.5</field>
+            <field name="engagement_score">83.3</field>
+            <field name="churn_risk">low</field>
+            <field name="segment">loyal</field>
+        </record>
+
+        <!-- === SOCIOS EN RIESGO === -->
+
+        <record id="health_david" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_david"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">2</field>
+            <field name="visits_last_60_days">4</field>
+            <field name="visits_last_90_days">5</field>
+            <field name="days_since_last_visit">9</field>
+            <field name="avg_weekly_visits">0.5</field>
+            <field name="engagement_score">16.7</field>
+            <field name="churn_risk">medium</field>
+            <field name="segment">at_risk</field>
+        </record>
+
+        <record id="health_elena" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_elena"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">3</field>
+            <field name="visits_last_60_days">4</field>
+            <field name="visits_last_90_days">4</field>
+            <field name="days_since_last_visit">4</field>
+            <field name="avg_weekly_visits">0.75</field>
+            <field name="engagement_score">25.0</field>
+            <field name="churn_risk">medium</field>
+            <field name="segment">at_risk</field>
+        </record>
+
+        <record id="health_javier" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_javier"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">2</field>
+            <field name="visits_last_60_days">4</field>
+            <field name="visits_last_90_days">5</field>
+            <field name="days_since_last_visit">7</field>
+            <field name="avg_weekly_visits">0.5</field>
+            <field name="engagement_score">16.7</field>
+            <field name="churn_risk">medium</field>
+            <field name="segment">at_risk</field>
+        </record>
+
+        <record id="health_patricia" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_patricia"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">2</field>
+            <field name="visits_last_60_days">3</field>
+            <field name="visits_last_90_days">3</field>
+            <field name="days_since_last_visit">11</field>
+            <field name="avg_weekly_visits">0.5</field>
+            <field name="engagement_score">16.7</field>
+            <field name="churn_risk">medium</field>
+            <field name="segment">at_risk</field>
+        </record>
+
+        <record id="health_roberto" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_roberto"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">2</field>
+            <field name="visits_last_60_days">4</field>
+            <field name="visits_last_90_days">4</field>
+            <field name="days_since_last_visit">13</field>
+            <field name="avg_weekly_visits">0.5</field>
+            <field name="engagement_score">16.7</field>
+            <field name="churn_risk">medium</field>
+            <field name="segment">at_risk</field>
+        </record>
+
+        <!-- === SOCIOS INACTIVOS === -->
+
+        <record id="health_isabel" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_isabel"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">0</field>
+            <field name="visits_last_60_days">2</field>
+            <field name="visits_last_90_days">3</field>
+            <field name="days_since_last_visit">47</field>
+            <field name="avg_weekly_visits">0.0</field>
+            <field name="engagement_score">0.0</field>
+            <field name="churn_risk">high</field>
+            <field name="segment">inactive</field>
+        </record>
+
+        <record id="health_fernando" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_fernando"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">0</field>
+            <field name="visits_last_60_days">1</field>
+            <field name="visits_last_90_days">2</field>
+            <field name="days_since_last_visit">55</field>
+            <field name="avg_weekly_visits">0.0</field>
+            <field name="engagement_score">0.0</field>
+            <field name="churn_risk">high</field>
+            <field name="segment">inactive</field>
+        </record>
+
+        <record id="health_cristina" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_cristina"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">0</field>
+            <field name="visits_last_60_days">2</field>
+            <field name="visits_last_90_days">3</field>
+            <field name="days_since_last_visit">40</field>
+            <field name="avg_weekly_visits">0.0</field>
+            <field name="engagement_score">0.0</field>
+            <field name="churn_risk">high</field>
+            <field name="segment">inactive</field>
+        </record>
+
+        <!-- === SOCIOS NUEVOS === -->
+
+        <record id="health_alejandro" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_alejandro"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">3</field>
+            <field name="visits_last_60_days">3</field>
+            <field name="visits_last_90_days">3</field>
+            <field name="days_since_last_visit">2</field>
+            <field name="avg_weekly_visits">0.75</field>
+            <field name="engagement_score">25.0</field>
+            <field name="churn_risk">low</field>
+            <field name="segment">new</field>
+        </record>
+
+        <record id="health_natalia" model="gym.customer.health">
+            <field name="partner_id" ref="demo_member_natalia"/>
+            <field name="date">2026-06-29</field>
+            <field name="visits_last_30_days">2</field>
+            <field name="visits_last_60_days">2</field>
+            <field name="visits_last_90_days">2</field>
+            <field name="days_since_last_visit">3</field>
+            <field name="avg_weekly_visits">0.5</field>
+            <field name="engagement_score">16.7</field>
+            <field name="churn_risk">low</field>
+            <field name="segment">new</field>
+        </record>
+
+    </data>
+</odoo>

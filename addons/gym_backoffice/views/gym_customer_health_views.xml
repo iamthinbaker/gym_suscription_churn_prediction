@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- LIST -->
+    <record id="gym_customer_health_view_list" model="ir.ui.view">
+        <field name="name">gym.customer.health.view.list</field>
+        <field name="model">gym.customer.health</field>
+        <field name="arch" type="xml">
+            <list string="Health Scores"
+                  decoration-success="churn_risk == 'low'"
+                  decoration-warning="churn_risk == 'medium'"
+                  decoration-danger="churn_risk == 'high'">
+                <header>
+                    <button name="action_run_scoring_now" type="object"
+                            string="Puntuar riesgo de churn ahora"
+                            class="btn-primary"/>
+                </header>
+                <field name="partner_id"/>
+                <field name="date"/>
+                <field name="visits_last_30_days"/>
+                <field name="days_since_last_visit"/>
+                <field name="avg_weekly_visits" digits="[5,1]"/>
+                <field name="engagement_score" digits="[5,1]"/>
+                <field name="churn_probability" widget="percentage" optional="show"/>
+                <field name="churn_risk"
+                       decoration-success="churn_risk == 'low'"
+                       decoration-warning="churn_risk == 'medium'"
+                       decoration-danger="churn_risk == 'high'"
+                       widget="badge"/>
+                <field name="segment" widget="badge"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- FORM -->
+    <record id="gym_customer_health_view_form" model="ir.ui.view">
+        <field name="name">gym.customer.health.view.form</field>
+        <field name="model">gym.customer.health</field>
+        <field name="arch" type="xml">
+            <form string="Health Score">
+                <header>
+                    <button name="action_compute_score"
+                            type="object"
+                            string="Calcular Score"
+                            class="btn-primary"
+                            icon="fa-calculator"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="partner_id" placeholder="Socio"/>
+                        </h1>
+                        <h2>
+                            <field name="date"/>
+                        </h2>
+                    </div>
+                    <group>
+                        <group string="Visitas">
+                            <field name="visits_last_30_days"/>
+                            <field name="visits_last_60_days"/>
+                            <field name="visits_last_90_days"/>
+                            <field name="days_since_last_visit"/>
+                            <field name="avg_weekly_visits"/>
+                        </group>
+                        <group string="Puntuación">
+                            <field name="engagement_score" widget="percentpie"/>
+                            <field name="churn_probability" widget="percentage"/>
+                            <field name="churn_risk"
+                                   decoration-success="churn_risk == 'low'"
+                                   decoration-warning="churn_risk == 'medium'"
+                                   decoration-danger="churn_risk == 'high'"
+                                   widget="badge"/>
+                            <field name="segment" widget="badge"/>
+                        </group>
+                    </group>
+                    <group string="Notas">
+                        <field name="notes" nolabel="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- KANBAN — la vista estrella del vídeo -->
+    <record id="gym_customer_health_view_kanban" model="ir.ui.view">
+        <field name="name">gym.customer.health.view.kanban</field>
+        <field name="model">gym.customer.health</field>
+        <field name="arch" type="xml">
+            <kanban default_group_by="segment" class="o_kanban_small_column">
+                <header>
+                    <button name="action_run_scoring_now" type="object"
+                            string="Puntuar riesgo de churn ahora"
+                            class="btn-primary"/>
+                </header>
+                <field name="partner_id"/>
+                <field name="segment"/>
+                <field name="churn_risk"/>
+                <field name="churn_probability"/>
+                <field name="engagement_score"/>
+                <field name="visits_last_30_days"/>
+                <field name="days_since_last_visit"/>
+                <templates>
+                    <t t-name="card">
+                        <div class="oe_kanban_global_click">
+                            <div class="o_kanban_record_top">
+                                <div class="o_kanban_record_headings">
+                                    <strong class="o_kanban_record_title">
+                                        <field name="partner_id"/>
+                                    </strong>
+                                </div>
+                                <field name="churn_risk" widget="badge"
+                                       decoration-success="churn_risk == 'low'"
+                                       decoration-warning="churn_risk == 'medium'"
+                                       decoration-danger="churn_risk == 'high'"/>
+                            </div>
+                            <div class="o_kanban_record_body">
+                                <div>
+                                    <span class="text-muted">Visitas (30d): </span>
+                                    <strong><field name="visits_last_30_days"/></strong>
+                                </div>
+                                <div>
+                                    <span class="text-muted">Días sin visitar: </span>
+                                    <strong><field name="days_since_last_visit"/></strong>
+                                </div>
+                                <div>
+                                    <span class="text-muted">Engagement: </span>
+                                    <strong><field name="engagement_score"/>%</strong>
+                                </div>
+                                <div>
+                                    <span class="text-muted">P(churn) ML: </span>
+                                    <strong><field name="churn_probability" widget="percentage"/></strong>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <!-- SEARCH -->
+    <record id="gym_customer_health_view_search" model="ir.ui.view">
+        <field name="name">gym.customer.health.view.search</field>
+        <field name="model">gym.customer.health</field>
+        <field name="arch" type="xml">
+            <search string="Health Scores">
+                <field name="partner_id"/>
+                <filter name="high_risk" string="Alto riesgo"
+                        domain="[('churn_risk', '=', 'high')]"/>
+                <filter name="medium_risk" string="Riesgo medio"
+                        domain="[('churn_risk', '=', 'medium')]"/>
+                <filter name="low_risk" string="Bajo riesgo"
+                        domain="[('churn_risk', '=', 'low')]"/>
+                <separator/>
+                <filter name="loyal" string="Fieles"
+                        domain="[('segment', '=', 'loyal')]"/>
+                <filter name="at_risk" string="En riesgo"
+                        domain="[('segment', '=', 'at_risk')]"/>
+                <filter name="inactive" string="Inactivos"
+                        domain="[('segment', '=', 'inactive')]"/>
+                <separator/>
+                <filter name="segment" string="Segmento" context="{'group_by': 'segment'}"/>
+                <filter name="churn_risk" string="Riesgo" context="{'group_by': 'churn_risk'}"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="gym_customer_health_action" model="ir.actions.act_window">
+        <field name="name">Health Scores</field>
+        <field name="res_model">gym.customer.health</field>
+        <field name="view_mode">kanban,list,form</field>
+    </record>
+
+</odoo>

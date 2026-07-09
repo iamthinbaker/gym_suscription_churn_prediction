@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gym_center_user,gym.center user,model_gym_center,base.group_user,1,1,1,1
+access_gym_access_user,gym.access user,model_gym_access,base.group_user,1,1,1,1
+access_gym_engagement_user,gym.engagement user,model_gym_engagement,base.group_user,1,1,1,1
+access_gym_customer_health_user,gym.customer.health user,model_gym_customer_health,base.group_user,1,1,1,1
+access_gym_churn_trainer_user,gym.churn.trainer user,model_gym_churn_trainer,base.group_user,1,1,1,1
+access_gym_churn_model_user,gym.churn.model user,model_gym_churn_model,base.group_user,1,1,1,1

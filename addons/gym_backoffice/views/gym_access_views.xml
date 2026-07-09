@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- LIST -->
+    <record id="gym_access_view_list" model="ir.ui.view">
+        <field name="name">gym.access.view.list</field>
+        <field name="model">gym.access</field>
+        <field name="arch" type="xml">
+            <list string="Registros de Acceso"
+                  decoration-info="activity_type == 'class'"
+                  decoration-muted="activity_type == 'cardio'">
+                <field name="check_in"/>
+                <field name="partner_id"/>
+                <field name="gym_center_id"/>
+                <field name="activity_type"/>
+                <field name="check_out"/>
+                <field name="duration" widget="float_time" string="Duración"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- FORM -->
+    <record id="gym_access_view_form" model="ir.ui.view">
+        <field name="name">gym.access.view.form</field>
+        <field name="model">gym.access</field>
+        <field name="arch" type="xml">
+            <form string="Registro de Acceso">
+                <sheet>
+                    <group>
+                        <group string="Socio">
+                            <field name="partner_id"/>
+                            <field name="gym_center_id"/>
+                            <field name="activity_type"/>
+                        </group>
+                        <group string="Horario">
+                            <field name="check_in"/>
+                            <field name="check_out"/>
+                            <field name="duration" widget="float_time"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- SEARCH -->
+    <record id="gym_access_view_search" model="ir.ui.view">
+        <field name="name">gym.access.view.search</field>
+        <field name="model">gym.access</field>
+        <field name="arch" type="xml">
+            <search string="Accesos">
+                <field name="partner_id"/>
+                <field name="gym_center_id"/>
+                <field name="activity_type"/>
+                <filter name="today" string="Hoy"
+                        domain="[('check_in', '&gt;=', context_today().strftime('%Y-%m-%d'))]"/>
+                <filter name="this_week" string="Esta semana"
+                        domain="[('check_in', '&gt;=', (context_today() - datetime.timedelta(days=7)).strftime('%Y-%m-%d'))]"/>
+                <filter name="this_month" string="Este mes"
+                        domain="[('check_in', '&gt;=', context_today().strftime('%Y-%m-01'))]"/>
+                <separator/>
+                <filter name="gym_center_id" string="Centro" context="{'group_by': 'gym_center_id'}"/>
+                <filter name="activity_type" string="Actividad" context="{'group_by': 'activity_type'}"/>
+                <filter name="partner_id" string="Socio" context="{'group_by': 'partner_id'}"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="gym_access_action" model="ir.actions.act_window">
+        <field name="name">Control de Accesos</field>
+        <field name="res_model">gym.access</field>
+        <field name="view_mode">list,form</field>
+        <field name="context">{'search_default_this_month': 1}</field>
+    </record>
+
+</odoo>

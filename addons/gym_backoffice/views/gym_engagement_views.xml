@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- LIST -->
+    <record id="gym_engagement_view_list" model="ir.ui.view">
+        <field name="name">gym.engagement.view.list</field>
+        <field name="model">gym.engagement</field>
+        <field name="arch" type="xml">
+            <list string="Actividades">
+                <field name="date"/>
+                <field name="partner_id"/>
+                <field name="gym_center_id"/>
+                <field name="activity_type"/>
+                <field name="rating"/>
+                <field name="notes"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- FORM -->
+    <record id="gym_engagement_view_form" model="ir.ui.view">
+        <field name="name">gym.engagement.view.form</field>
+        <field name="model">gym.engagement</field>
+        <field name="arch" type="xml">
+            <form string="Actividad">
+                <sheet>
+                    <group>
+                        <group string="Participante">
+                            <field name="partner_id"/>
+                            <field name="gym_center_id"/>
+                        </group>
+                        <group string="Actividad">
+                            <field name="date"/>
+                            <field name="activity_type"/>
+                            <field name="rating"/>
+                        </group>
+                    </group>
+                    <group string="Notas">
+                        <field name="notes" nolabel="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- GRAPH -->
+    <record id="gym_engagement_view_graph" model="ir.ui.view">
+        <field name="name">gym.engagement.view.graph</field>
+        <field name="model">gym.engagement</field>
+        <field name="arch" type="xml">
+            <graph string="Actividades" type="bar">
+                <field name="activity_type"/>
+                <field name="partner_id" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+    <!-- SEARCH -->
+    <record id="gym_engagement_view_search" model="ir.ui.view">
+        <field name="name">gym.engagement.view.search</field>
+        <field name="model">gym.engagement</field>
+        <field name="arch" type="xml">
+            <search string="Actividades">
+                <field name="partner_id"/>
+                <field name="activity_type"/>
+                <filter name="this_month" string="Este mes"
+                        domain="[('date', '&gt;=', context_today().strftime('%Y-%m-01'))]"/>
+                <separator/>
+                <filter name="activity_type" string="Tipo" context="{'group_by': 'activity_type'}"/>
+                <filter name="partner_id" string="Socio" context="{'group_by': 'partner_id'}"/>
+                <filter name="date" string="Mes" context="{'group_by': 'date:month'}"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="gym_engagement_action" model="ir.actions.act_window">
+        <field name="name">Actividades</field>
+        <field name="res_model">gym.engagement</field>
+        <field name="view_mode">list,graph,form</field>
+    </record>
+
+</odoo>

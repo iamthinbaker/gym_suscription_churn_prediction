@@ -1,0 +1,54 @@
+services:
+  web:
+    build: .
+    depends_on:
+      mydb:
+        condition: service_healthy
+    ports:
+      - "8069:8069"
+      - "5678:5678"
+    environment:
+      - HOST=mydb
+      - USER=odoo
+      - PASSWORD=myodoo
+    volumes:
+      - .:/workspace
+      - ./addons:/mnt/extra-addons
+      - ./odoo.conf:/etc/odoo/odoo.conf
+    entrypoint: ["/bin/bash", "-c"]
+    command: [
+      "exec > >(tee -a /workspace/.devcontainer/startup.log) 2>&1 &&
+       echo \"=== startup $(date -Iseconds) ===\" &&
+       python3 $(which odoo) --stop-after-init --with-demo -i gym_backoffice &&
+       python3 -m debugpy --listen 0.0.0.0:5678 $(which odoo) --workers=0 &
+       echo 'Waiting for Odoo health...' &&
+       until python3 -c \"import xmlrpc.client; s=xmlrpc.client.ServerProxy('http://localhost:8069/xmlrpc/2/common'); uid=s.authenticate('mydb','admin','admin',{}); exit(0 if uid else 1)\" 2>/dev/null; do sleep 5; done &&
+       echo 'Odoo ready, running populate...' &&
+       python3 /workspace/scripts/populate_odoo.py &&
+       echo 'Populate complete!' &&
+       wait"
+    ]
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8069/web/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 15
+      start_period: 60s
+
+  mydb:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=myodoo
+      - POSTGRES_USER=odoo
+    volumes:
+      - mydb_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U odoo"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  mydb_data:
+

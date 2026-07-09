@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- LIST -->
+    <record id="gym_center_view_list" model="ir.ui.view">
+        <field name="name">gym.center.view.list</field>
+        <field name="model">gym.center</field>
+        <field name="arch" type="xml">
+            <list string="Centros Deportivos">
+                <field name="name"/>
+                <field name="city"/>
+                <field name="phone"/>
+                <field name="email"/>
+                <field name="capacity"/>
+                <field name="member_count" string="Socios"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- FORM -->
+    <record id="gym_center_view_form" model="ir.ui.view">
+        <field name="name">gym.center.view.form</field>
+        <field name="model">gym.center</field>
+        <field name="arch" type="xml">
+            <form string="Centro Deportivo">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="%(gym_member_action)d"
+                                type="action"
+                                class="oe_stat_button"
+                                icon="fa-users"
+                                context="{'search_default_gym_center_id': id}">
+                            <field name="member_count" widget="statinfo" string="Socios"/>
+                        </button>
+                        <button name="%(gym_access_action)d"
+                                type="action"
+                                class="oe_stat_button"
+                                icon="fa-sign-in"
+                                context="{'search_default_gym_center_id': id}">
+                            <field name="access_log_count" widget="statinfo" string="Accesos"/>
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Nombre del centro"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group string="Contacto">
+                            <field name="street"/>
+                            <field name="city"/>
+                            <field name="phone"/>
+                            <field name="email"/>
+                        </group>
+                        <group string="Configuración">
+                            <field name="capacity"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Socios" name="members">
+                            <field name="member_ids" readonly="1">
+                                <list>
+                                    <field name="name"/>
+                                    <field name="membership_type"/>
+                                    <field name="member_status"/>
+                                    <field name="membership_start"/>
+                                    <field name="visits_last_30_days"/>
+                                    <field name="churn_risk"
+                                           decoration-success="churn_risk == 'low'"
+                                           decoration-warning="churn_risk == 'medium'"
+                                           decoration-danger="churn_risk == 'high'"
+                                           widget="badge"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- SEARCH -->
+    <record id="gym_center_view_search" model="ir.ui.view">
+        <field name="name">gym.center.view.search</field>
+        <field name="model">gym.center</field>
+        <field name="arch" type="xml">
+            <search string="Centros Deportivos">
+                <field name="name"/>
+                <field name="city"/>
+                <filter name="active" string="Activos" domain="[('active', '=', True)]"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="gym_center_action" model="ir.actions.act_window">
+        <field name="name">Centros Deportivos</field>
+        <field name="res_model">gym.center</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

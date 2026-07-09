@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="partner_category_new" model="res.partner.category">
+            <field name="name">Nuevo Socio</field>
+            <field name="color">11</field>
+        </record>
+
+        <record id="partner_category_loyal" model="res.partner.category">
+            <field name="name">Socio Fiel</field>
+            <field name="color">10</field>
+        </record>
+
+        <record id="partner_category_at_risk" model="res.partner.category">
+            <field name="name">En Riesgo</field>
+            <field name="color">2</field>
+        </record>
+
+        <record id="partner_category_inactive" model="res.partner.category">
+            <field name="name">Inactivo</field>
+            <field name="color">8</field>
+        </record>
+
+        <record id="partner_category_churned" model="res.partner.category">
+            <field name="name">Dado de Baja</field>
+            <field name="color">1</field>
+        </record>
+
+    </data>
+</odoo>

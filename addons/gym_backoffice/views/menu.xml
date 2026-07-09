@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Root menu -->
+    <menuitem id="gym_menu_root"
+              name="Gimnasio"
+              sequence="50"
+              web_icon="gym-backoffice,static/description/icon.png"/>
+
+    <!-- Level 1 -->
+    <menuitem id="gym_menu_members"
+              name="Socios"
+              parent="gym_menu_root"
+              sequence="10"/>
+
+    <menuitem id="gym_menu_operations"
+              name="Operaciones"
+              parent="gym_menu_root"
+              sequence="20"/>
+
+    <menuitem id="gym_menu_analysis"
+              name="Análisis"
+              parent="gym_menu_root"
+              sequence="30"/>
+
+    <menuitem id="gym_menu_config"
+              name="Configuración"
+              parent="gym_menu_root"
+              sequence="40"/>
+
+    <!-- Socios -->
+    <menuitem id="gym_menu_member_list"
+              name="Todos los socios"
+              parent="gym_menu_members"
+              action="gym_member_action"
+              sequence="10"/>
+
+    <!-- Operaciones -->
+    <menuitem id="gym_menu_access"
+              name="Control de Accesos"
+              parent="gym_menu_operations"
+              action="gym_access_action"
+              sequence="10"/>
+
+    <menuitem id="gym_menu_engagement"
+              name="Actividades"
+              parent="gym_menu_operations"
+              action="gym_engagement_action"
+              sequence="20"/>
+
+    <!-- Análisis -->
+    <menuitem id="gym_menu_health"
+              name="Health Scores"
+              parent="gym_menu_analysis"
+              action="gym_customer_health_action"
+              sequence="10"/>
+
+    <menuitem id="gym_menu_churn_trainer"
+              name="Entrenar modelo de churn"
+              parent="gym_menu_analysis"
+              action="gym_churn_trainer_action"
+              sequence="20"/>
+
+    <menuitem id="gym_menu_churn_model_history"
+              name="Histórico de modelos"
+              parent="gym_menu_analysis"
+              action="gym_churn_model_action"
+              sequence="30"/>
+
+    <!-- Configuración -->
+    <menuitem id="gym_menu_centers"
+              name="Centros Deportivos"
+              parent="gym_menu_config"
+              action="gym_center_action"
+              sequence="10"/>
+
+</odoo>
