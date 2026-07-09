@@ -30,6 +30,12 @@
                         <field name="model_filename" invisible="1"/>
                         <field name="model_file" filename="model_filename"/>
                     </group>
+                    <field name="feature_importance_ids">
+                        <list string="Importancia de features" create="false" delete="false">
+                            <field name="name"/>
+                            <field name="importance_pct" string="Importancia" widget="progressbar"/>
+                        </list>
+                    </field>
                 </sheet>
             </form>
         </field>

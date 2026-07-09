@@ -13,6 +13,7 @@ explícitamente: importarlos exigiría instalar crm/helpdesk/sale/hr o crear
 modelos nuevos, lo cual no corresponde a este script.
 """
 import csv
+import os
 import time
 import xmlrpc.client
 from datetime import datetime, timedelta
@@ -20,7 +21,12 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / "odoo_synthetic_data"
 
-URL = "http://localhost:8069"
+# Por defecto "localhost": funciona cuando este script corre dentro del mismo
+# contenedor que Odoo (ver docker-compose.yml de la raíz). Si se ejecuta desde
+# un contenedor separado (ver .devcontainer/docker-compose.yml, servicio
+# "populate"), hay que apuntar al hostname del servicio de Odoo vía ODOO_HOST.
+ODOO_HOST = os.environ.get("ODOO_HOST", "localhost")
+URL = f"http://{ODOO_HOST}:8069"
 DB = "mydb"
 USERNAME = "admin"
 PASSWORD = "admin"

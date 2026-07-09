@@ -196,6 +196,16 @@
     opacity: .95;
 }
 
+.o_gym_banner_for_you {
+    background: linear-gradient(135deg, #592bb2, #431f87);
+}
+
+.o_gym_badge_for_you {
+    background: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    margin-bottom: 8px;
+}
+
 .o_gym_alert {
     border-radius: 12px;
     padding: 12px 14px;

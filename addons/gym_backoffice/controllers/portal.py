@@ -6,6 +6,13 @@ from odoo.http import request
 
 class GymPortal(CustomerPortal):
 
+    def _get_gym_promotions_for_partner(self, partner):
+        is_at_risk = request.env["gym.customer.health"].is_at_risk_for_promo(
+            partner
+        )
+        domain = [] if is_at_risk else [("at_risk_only", "=", False)]
+        return request.env["gym.promotion"].search(domain, order="date_start desc")
+
     @http.route("/my/gym", type="http", auth="user", website=True)
     def gym_dashboard(self, **kw):
         partner = request.env.user.partner_id
@@ -18,9 +25,7 @@ class GymPortal(CustomerPortal):
             "class_count": request.env["gym.class"].search_count(
                 [("date_start", ">=", fields.Datetime.now())]
             ),
-            "promotions": request.env["gym.promotion"].search(
-                [], order="date_start desc"
-            ),
+            "promotions": self._get_gym_promotions_for_partner(partner),
         }
         return request.render("gym_backoffice.portal_my_gym", values)
 
@@ -96,11 +101,8 @@ class GymPortal(CustomerPortal):
     @http.route("/my/gym/promotions", type="http", auth="user", website=True)
     def gym_promotions(self, **kw):
         partner = request.env.user.partner_id
-        promotions = request.env["gym.promotion"].search(
-            [], order="date_start desc"
-        )
         values = {
             "partner": partner,
-            "promotions": promotions,
+            "promotions": self._get_gym_promotions_for_partner(partner),
         }
         return request.render("gym_backoffice.portal_gym_promotions", values)

@@ -45,6 +45,7 @@ class ChurnModel:
 
         self.model: Pipeline | None = None
         self.feature_columns_: list[str] | None = None
+        self.transformed_feature_names_: list[str] | None = None
 
     @staticmethod
     def _bool_to_int(x):
@@ -99,6 +100,14 @@ class ChurnModel:
     def fit(self, X: pd.DataFrame, y: pd.Series) -> "ChurnModel":
         """Entrena el modelo. ``X`` debe venir ya con las features finales."""
         self.feature_columns_ = list(X.columns)
+        # Orden en el que el ColumnTransformer concatena las columnas
+        # transformadas (num, cat, bin) — necesario para poder mapear
+        # ``clf.feature_importances_`` de vuelta a nombres de columna.
+        self.transformed_feature_names_ = (
+            list(X.select_dtypes(include="number").columns)
+            + list(X.select_dtypes(include="object").columns)
+            + list(X.select_dtypes(include="bool").columns)
+        )
 
         self.model = Pipeline(
             [
@@ -133,12 +142,38 @@ class ChurnModel:
         return np.asarray(self.model.predict(X.reindex(columns=self.feature_columns_)))
 
     def predict_proba(self, X: pd.DataFrame) -> np.ndarray:
-        """Probabilidades por clase, shape (n_samples, 2), igual que sklearn."""
+        """Probabilidades por clase, shape (n_samples, 2), igual que sklearn.
+
+        Si los datos de entrenamiento sólo contenían una clase (p.ej. ningún
+        socio dado de baja todavía en el histórico), el clasificador interno
+        sólo conoce esa clase y ``predict_proba`` devolvería una única
+        columna. Normalizamos siempre a 2 columnas (0 = activo, 1 = baja)
+        para que el resto del código pueda seguir indexando ``[:, 1]``.
+        """
         self._check_fitted()
         assert self.model is not None
-        return np.asarray(
+        raw_proba = np.asarray(
             self.model.predict_proba(X.reindex(columns=self.feature_columns_))
         )
+        classes = self.model.named_steps["clf"].classes_
+
+        proba = np.zeros((raw_proba.shape[0], 2))
+        for col_idx, cls in enumerate(classes):
+            proba[:, int(cls)] = raw_proba[:, col_idx]
+        return proba
+
+    def get_feature_importances(self) -> list[tuple[str, float]]:
+        """Pares ``(feature, importancia)`` según el ``RandomForestClassifier``
+        entrenado, ordenados de mayor a menor importancia."""
+        self._check_fitted()
+        assert self.model is not None
+        assert self.transformed_feature_names_ is not None
+        importances = self.model.named_steps["clf"].feature_importances_
+        pairs: list[tuple[str, float]] = list(
+            zip(self.transformed_feature_names_, (float(v) for v in importances))
+        )
+        pairs.sort(key=lambda pair: pair[1], reverse=True)
+        return pairs
 
     def save_model(self, path: str) -> None:
         """Serializa el modelo entrenado (pipeline + metadatos) a disco."""
@@ -147,6 +182,7 @@ class ChurnModel:
             {
                 "model": self.model,
                 "feature_columns": self.feature_columns_,
+                "transformed_feature_names": self.transformed_feature_names_,
                 "random_state": self.random_state,
             },
             path,
@@ -159,4 +195,5 @@ class ChurnModel:
         instance = cls(random_state=payload["random_state"])
         instance.model = payload["model"]
         instance.feature_columns_ = payload["feature_columns"]
+        instance.transformed_feature_names_ = payload["transformed_feature_names"]
         return instance

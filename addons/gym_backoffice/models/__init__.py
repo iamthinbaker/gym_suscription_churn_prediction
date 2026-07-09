@@ -3,6 +3,7 @@ from . import gym_access
 from . import gym_engagement
 from . import gym_customer_health
 from . import gym_churn_model
+from . import gym_churn_feature_importance
 from . import gym_class
 from . import gym_class_booking
 from . import gym_promotion

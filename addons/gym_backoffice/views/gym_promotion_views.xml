@@ -9,6 +9,7 @@
             <list string="Promociones">
                 <field name="name"/>
                 <field name="gym_center_id"/>
+                <field name="at_risk_only"/>
                 <field name="date_start"/>
                 <field name="date_end"/>
                 <field name="active"/>
@@ -35,6 +36,9 @@
                             <field name="date_end"/>
                             <field name="active"/>
                         </group>
+                        <group string="Segmentación">
+                            <field name="at_risk_only"/>
+                        </group>
                     </group>
                     <group string="Descripción">
                         <field name="description" nolabel="1"/>
@@ -53,6 +57,7 @@
                 <field name="name"/>
                 <field name="gym_center_id"/>
                 <filter name="active" string="Activas" domain="[('active', '=', True)]"/>
+                <filter name="at_risk_only" string="Solo en riesgo" domain="[('at_risk_only', '=', True)]"/>
                 <separator/>
                 <filter name="gym_center_id" string="Centro" context="{'group_by': 'gym_center_id'}"/>
             </search>

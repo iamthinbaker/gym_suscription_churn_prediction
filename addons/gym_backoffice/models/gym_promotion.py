@@ -17,3 +17,11 @@ class GymPromotion(models.Model):
     date_start = fields.Date(string="Fecha de inicio")
     date_end = fields.Date(string="Fecha de fin")
     active = fields.Boolean(default=True)
+
+    at_risk_only = fields.Boolean(
+        string="Solo socios en riesgo de baja",
+        help="Si se marca, esta promoción solo se muestra en la app a los "
+             "socios a los que el modelo de churn les predice una "
+             "probabilidad de baja alta. Déjalo desmarcado para que la "
+             "vean todos los socios.",
+    )

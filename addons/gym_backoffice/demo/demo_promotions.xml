@@ -5,24 +5,38 @@
         <record id="demo_promotion_verano" model="gym.promotion">
             <field name="name">Campaña de verano: -20% en matrícula</field>
             <field name="description">Válida para nuevas altas en cualquier centro durante este mes.</field>
-            <field name="date_start" eval="(datetime.now() - timedelta(days=5)).strftime('%Y-%m-%d')"/>
-            <field name="date_end" eval="(datetime.now() + timedelta(days=25)).strftime('%Y-%m-%d')"/>
+            <field name="date_start"
+                eval="(datetime.now() - timedelta(days=5)).strftime('%Y-%m-%d')" />
+            <field name="date_end" eval="(datetime.now() + timedelta(days=25)).strftime('%Y-%m-%d')" />
         </record>
 
         <record id="demo_promotion_centro" model="gym.promotion">
             <field name="name">Trae a un amigo (Madrid Centro)</field>
             <field name="description">Un mes gratis de premium al invitar a un nuevo socio.</field>
-            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
-            <field name="date_start" eval="(datetime.now() - timedelta(days=2)).strftime('%Y-%m-%d')"/>
-            <field name="date_end" eval="(datetime.now() + timedelta(days=30)).strftime('%Y-%m-%d')"/>
+            <field name="gym_center_id" ref="gym_center_madrid_centro" />
+            <field name="date_start"
+                eval="(datetime.now() - timedelta(days=2)).strftime('%Y-%m-%d')" />
+            <field name="date_end" eval="(datetime.now() + timedelta(days=30)).strftime('%Y-%m-%d')" />
         </record>
 
         <record id="demo_promotion_norte" model="gym.promotion">
             <field name="name">Clases de prueba gratis (Madrid Norte)</field>
             <field name="description">Primera clase grupal gratuita para socios nuevos.</field>
-            <field name="gym_center_id" ref="gym_center_madrid_norte"/>
-            <field name="date_start" eval="(datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')"/>
-            <field name="date_end" eval="(datetime.now() + timedelta(days=20)).strftime('%Y-%m-%d')"/>
+            <field name="gym_center_id" ref="gym_center_madrid_norte" />
+            <field name="date_start"
+                eval="(datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')" />
+            <field name="date_end" eval="(datetime.now() + timedelta(days=20)).strftime('%Y-%m-%d')" />
+        </record>
+
+        <record id="demo_promotion_retencion" model="gym.promotion">
+            <field name="name">No dejes de venir!</field>
+            <field name="description">Parece que estás viniendo menos. Pero no lo dejes! Si
+                últimamente tienes menos tiempo (o ganas), ¿por qué no cambias tu suscripción a solo
+                los fines de semana por la mitad de precio?</field>
+            <field name="at_risk_only" eval="True" />
+            <field name="date_start"
+                eval="(datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')" />
+            <field name="date_end" eval="(datetime.now() + timedelta(days=15)).strftime('%Y-%m-%d')" />
         </record>
 
     </data>

@@ -13,6 +13,9 @@ class GymChurnModel(models.Model):
     churn_rate = fields.Float(string="Tasa de churn", digits=(5, 3))
     model_file = fields.Binary(string="Modelo entrenado (.joblib)", required=True, attachment=True)
     model_filename = fields.Char(default="churn_model.joblib")
+    feature_importance_ids = fields.One2many(
+        "gym.churn.feature.importance", "churn_model_id", string="Importancia de features"
+    )
 
     def get_latest(self):
         """Devuelve el registro del modelo entrenado más reciente (o un

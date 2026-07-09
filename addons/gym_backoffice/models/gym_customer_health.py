@@ -67,6 +67,24 @@ class GymCustomerHealth(models.Model):
         for rec in self:
             rec.display_name = f"{rec.partner_id.name} — {rec.date}"
 
+    def get_latest_for_partner(self, partner):
+        """Último Health Score calculado para ``partner`` (o un recordset
+        vacío si todavía no se le ha calculado ninguno)."""
+        return self.sudo().search(
+            [("partner_id", "=", partner.id)], order="date desc", limit=1
+        )
+
+    def is_at_risk_for_promo(self, partner, threshold=0.5):
+        """True si el modelo de churn (ML) le predice a ``partner`` una
+        probabilidad de baja igual o superior a ``threshold``. Se usa para
+        decidir si se le muestran promociones dirigidas a socios en
+        riesgo (ver ``gym.promotion.at_risk_only``). Usa sudo() para poder
+        consultar el Health Score aunque el socio del portal no tenga
+        acceso directo a ``gym.customer.health``; no se expone el registro,
+        solo el booleano resultante."""
+        latest = self.get_latest_for_partner(partner)
+        return bool(latest) and latest.churn_probability >= threshold
+
     def action_compute_score(self):
         today = date.today()
         for rec in self:

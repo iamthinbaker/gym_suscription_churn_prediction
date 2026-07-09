@@ -4,18 +4,6 @@
 
         <!-- === SOCIOS FIELES (visitas frecuentes, bajo riesgo) === -->
 
-        <record id="demo_member_lucia" model="res.partner">
-            <field name="name">Lucía Fernández García</field>
-            <field name="email">lucia.fernandez@email.es</field>
-            <field name="phone">+34 612 345 001</field>
-            <field name="is_gym_member">True</field>
-            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
-            <field name="membership_type">premium</field>
-            <field name="membership_start">2023-01-15</field>
-            <field name="membership_end">2026-01-15</field>
-            <field name="member_status">active</field>
-        </record>
-
         <record id="demo_member_carlos" model="res.partner">
             <field name="name">Carlos Rodríguez Martínez</field>
             <field name="email">carlos.rodriguez@email.es</field>
@@ -65,6 +53,18 @@
         </record>
 
         <!-- === SOCIOS EN RIESGO (visitas decrecientes) === -->
+
+        <record id="demo_member_lucia" model="res.partner">
+            <field name="name">Lucía Fernández García</field>
+            <field name="email">lucia.fernandez@email.es</field>
+            <field name="phone">+34 612 345 001</field>
+            <field name="is_gym_member">True</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="membership_type">premium</field>
+            <field name="membership_start">2023-01-15</field>
+            <field name="membership_end">2026-01-15</field>
+            <field name="member_status">active</field>
+        </record>
 
         <record id="demo_member_david" model="res.partner">
             <field name="name">David Moreno Jiménez</field>

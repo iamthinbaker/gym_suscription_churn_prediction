@@ -14,6 +14,7 @@ services:
       - HOST=mydb
       - USER=odoo
       - PASSWORD=myodoo
+      - ODOO_HOST=web
     volumes:
       - ./scripts:/workspace/scripts
       - ./data:/workspace/data

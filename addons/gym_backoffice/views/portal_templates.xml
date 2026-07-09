@@ -78,7 +78,8 @@
 
                 <h2 class="mb-3">Promociones</h2>
                 <div t-if="not promotions" class="o_gym_empty">No hay promociones activas.</div>
-                <div t-foreach="promotions" t-as="promo" class="o_gym_banner">
+                <div t-foreach="promotions" t-as="promo" t-attf-class="o_gym_banner #{'o_gym_banner_for_you' if promo.at_risk_only else ''}">
+                    <span t-if="promo.at_risk_only" class="o_gym_badge o_gym_badge_for_you">Recomendada para ti</span>
                     <div class="o_gym_banner_title" t-field="promo.name"/>
                     <div class="o_gym_banner_text" t-field="promo.description"/>
                     <div class="o_gym_banner_text mt-2">

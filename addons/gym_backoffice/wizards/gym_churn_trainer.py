@@ -30,6 +30,12 @@ class GymChurnTrainer(models.TransientModel):
     churn_rate = fields.Float(string="Tasa de churn", readonly=True, digits=(5, 3))
     model_file = fields.Binary(string="Modelo entrenado (.joblib)", readonly=True)
     model_filename = fields.Char(default="churn_model.joblib", readonly=True)
+    churn_model_id = fields.Many2one(
+        "gym.churn.model", string="Modelo de churn persistido", readonly=True
+    )
+    feature_importance_ids = fields.One2many(
+        related="churn_model_id.feature_importance_ids", string="Importancia de features"
+    )
 
     def _fetch_partners(self):
         return self.env["res.partner"].search([("is_gym_member", "=", True)])
@@ -42,6 +48,7 @@ class GymChurnTrainer(models.TransientModel):
 
         model = ChurnModel()
         model.fit(X, y)
+        importances = model.get_feature_importances()
 
         tmp_path = os.path.join(tempfile.gettempdir(), f"churn_model_{self.id}.joblib")
         model.save_model(tmp_path)
@@ -50,6 +57,22 @@ class GymChurnTrainer(models.TransientModel):
         os.remove(tmp_path)
         model_b64 = base64.b64encode(model_bytes)
 
+        feature_importance_cmds = [
+            (0, 0, {"name": name, "importance": importance})
+            for name, importance in importances
+        ]
+
+        # Registro persistente: el cron diario de scoring lee de aquí.
+        churn_model = self.env["gym.churn.model"].create({
+            "trained_at": fields.Datetime.now(),
+            "n_customers": len(X),
+            "n_churned": int(y.sum()),
+            "churn_rate": float(y.mean()) if len(y) else 0.0,
+            "model_file": model_b64,
+            "model_filename": "churn_model.joblib",
+            "feature_importance_ids": feature_importance_cmds,
+        })
+
         self.write({
             "trained_at": fields.Datetime.now(),
             "n_customers": len(X),
@@ -57,16 +80,7 @@ class GymChurnTrainer(models.TransientModel):
             "churn_rate": float(y.mean()) if len(y) else 0.0,
             "model_file": model_b64,
             "model_filename": "churn_model.joblib",
-        })
-
-        # Registro persistente: el cron diario de scoring lee de aquí.
-        self.env["gym.churn.model"].create({
-            "trained_at": fields.Datetime.now(),
-            "n_customers": len(X),
-            "n_churned": int(y.sum()),
-            "churn_rate": float(y.mean()) if len(y) else 0.0,
-            "model_file": model_b64,
-            "model_filename": "churn_model.joblib",
+            "churn_model_id": churn_model.id,
         })
 
         return X, y
