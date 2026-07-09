@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- === MADRID CENTRO === -->
+
+        <record id="demo_class_yoga_centro" model="gym.class">
+            <field name="name">Yoga matinal</field>
+            <field name="activity_type">yoga</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="trainer_name">Laura Gómez</field>
+            <field name="date_start" eval="(datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d 09:00:00')"/>
+            <field name="duration">1.0</field>
+            <field name="capacity">15</field>
+        </record>
+
+        <record id="demo_class_spinning_centro" model="gym.class">
+            <field name="name">Spinning intenso</field>
+            <field name="activity_type">spinning</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="trainer_name">Javier Ortega</field>
+            <field name="date_start" eval="(datetime.now() + timedelta(days=2)).strftime('%Y-%m-%d 19:00:00')"/>
+            <field name="duration">0.75</field>
+            <field name="capacity">20</field>
+        </record>
+
+        <record id="demo_class_crossfit_centro" model="gym.class">
+            <field name="name">CrossFit express</field>
+            <field name="activity_type">crossfit</field>
+            <field name="gym_center_id" ref="gym_center_madrid_centro"/>
+            <field name="trainer_name">Marta Ibáñez</field>
+            <field name="date_start" eval="(datetime.now() + timedelta(days=3)).strftime('%Y-%m-%d 18:00:00')"/>
+            <field name="duration">1.0</field>
+            <field name="capacity">1</field>
+        </record>
+
+        <!-- === MADRID NORTE === -->
+
+        <record id="demo_class_pilates_norte" model="gym.class">
+            <field name="name">Pilates suave</field>
+            <field name="activity_type">pilates</field>
+            <field name="gym_center_id" ref="gym_center_madrid_norte"/>
+            <field name="trainer_name">Elena Ruiz</field>
+            <field name="date_start" eval="(datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d 10:00:00')"/>
+            <field name="duration">1.0</field>
+            <field name="capacity">12</field>
+        </record>
+
+        <record id="demo_class_zumba_norte" model="gym.class">
+            <field name="name">Zumba party</field>
+            <field name="activity_type">zumba</field>
+            <field name="gym_center_id" ref="gym_center_madrid_norte"/>
+            <field name="trainer_name">Diego Salas</field>
+            <field name="date_start" eval="(datetime.now() + timedelta(days=2)).strftime('%Y-%m-%d 20:00:00')"/>
+            <field name="duration">0.75</field>
+            <field name="capacity">25</field>
+        </record>
+
+    </data>
+</odoo>

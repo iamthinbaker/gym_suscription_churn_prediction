@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- === ACCESOS DE SOCIO (portal) === -->
+
+        <record id="demo_portal_user_lucia" model="res.users">
+            <field name="login">lucia</field>
+            <field name="password">lucia</field>
+            <field name="partner_id" ref="demo_member_lucia"/>
+            <field name="group_ids" eval="[(6, 0, [ref('base.group_portal')])]"/>
+        </record>
+
+        <record id="demo_portal_user_ana" model="res.users">
+            <field name="login">ana</field>
+            <field name="password">ana</field>
+            <field name="partner_id" ref="demo_member_ana"/>
+            <field name="group_ids" eval="[(6, 0, [ref('base.group_portal')])]"/>
+        </record>
+
+    </data>
+</odoo>

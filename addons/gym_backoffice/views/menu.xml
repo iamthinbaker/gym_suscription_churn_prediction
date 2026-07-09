@@ -48,6 +48,24 @@
               action="gym_engagement_action"
               sequence="20"/>
 
+    <menuitem id="gym_menu_classes"
+              name="Clases"
+              parent="gym_menu_operations"
+              action="gym_class_action"
+              sequence="30"/>
+
+    <menuitem id="gym_menu_bookings"
+              name="Reservas"
+              parent="gym_menu_operations"
+              action="gym_class_booking_action"
+              sequence="40"/>
+
+    <menuitem id="gym_menu_promotions"
+              name="Promociones"
+              parent="gym_menu_operations"
+              action="gym_promotion_action"
+              sequence="50"/>
+
     <!-- Análisis -->
     <menuitem id="gym_menu_health"
               name="Health Scores"

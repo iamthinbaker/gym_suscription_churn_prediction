@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Entrada "Mi Gimnasio" en /my -->
+    <template id="portal_my_home_gym" inherit_id="portal.portal_my_home">
+        <xpath expr="//div[@id='portal_common_category']" position="inside">
+            <t t-call="portal.portal_docs_entry">
+                <t t-set="title">Mi Gimnasio</t>
+                <t t-set="text">Tu centro, tus clases y tus reservas</t>
+                <t t-set="url" t-value="'/my/gym'"/>
+                <t t-set="config_card" t-value="True"/>
+            </t>
+        </xpath>
+    </template>
+
+    <!-- Barra de navegación inferior, reutilizada en las 4 páginas -->
+    <template id="portal_gym_bottom_nav" name="Mi Gimnasio: navegación">
+        <div class="o_gym_bottom_nav">
+            <a href="/my/gym" t-attf-class="#{'active' if active == 'home' else ''}">
+                <i class="fa fa-home"/>
+                <span>Inicio</span>
+            </a>
+            <a href="/my/gym/classes" t-attf-class="#{'active' if active == 'classes' else ''}">
+                <i class="fa fa-calendar"/>
+                <span>Clases</span>
+            </a>
+            <a href="/my/gym/bookings" t-attf-class="#{'active' if active == 'bookings' else ''}">
+                <i class="fa fa-bookmark"/>
+                <span>Reservas</span>
+            </a>
+            <a href="/my/gym/promotions" t-attf-class="#{'active' if active == 'promotions' else ''}">
+                <i class="fa fa-gift"/>
+                <span>Promos</span>
+            </a>
+        </div>
+    </template>
+
+    <!-- Dashboard del socio -->
+    <template id="portal_my_gym" name="Mi Gimnasio">
+        <t t-call="portal.frontend_layout">
+            <div class="o_gym_portal">
+                <div class="o_gym_greeting">Hola, <t t-esc="partner.name.split(' ')[0]"/></div>
+
+                <div t-if="center" class="o_gym_card o_gym_center_card">
+                    <div class="o_gym_icon_badge"><i class="fa fa-map-marker"/></div>
+                    <div>
+                        <strong t-field="center.name"/>
+                        <div class="text-muted"><span t-field="center.street"/>, <span t-field="center.city"/></div>
+                    </div>
+                </div>
+                <div t-else="" class="o_gym_card">
+                    <div class="text-muted">Todavía no tienes un centro asignado.</div>
+                </div>
+
+                <div class="o_gym_stats_row">
+                    <div class="o_gym_stat">
+                        <span class="o_gym_stat_num" t-esc="class_count"/>
+                        <span class="o_gym_stat_label">Clases</span>
+                    </div>
+                    <div class="o_gym_stat">
+                        <span class="o_gym_stat_num" t-esc="booking_count"/>
+                        <span class="o_gym_stat_label">Reservas</span>
+                    </div>
+                    <div class="o_gym_stat">
+                        <span class="o_gym_stat_num" t-esc="len(promotions)"/>
+                        <span class="o_gym_stat_label">Promos</span>
+                    </div>
+                </div>
+
+                <a href="/my/gym/classes" class="o_gym_btn_primary">
+                    <i class="fa fa-plus"/> Reservar clase
+                </a>
+
+                <a href="/my/gym/bookings" class="o_gym_action_row">
+                    Mis reservas
+                    <i class="fa fa-arrow-right"/>
+                </a>
+
+                <h2 class="mb-3">Promociones</h2>
+                <div t-if="not promotions" class="o_gym_empty">No hay promociones activas.</div>
+                <div t-foreach="promotions" t-as="promo" class="o_gym_banner">
+                    <div class="o_gym_banner_title" t-field="promo.name"/>
+                    <div class="o_gym_banner_text" t-field="promo.description"/>
+                    <div class="o_gym_banner_text mt-2">
+                        <span t-field="promo.date_start"/> - <span t-field="promo.date_end"/>
+                        ·
+                        <span t-if="promo.gym_center_id" t-field="promo.gym_center_id.name"/>
+                        <span t-else="">Todos los centros</span>
+                    </div>
+                </div>
+            </div>
+            <t t-call="gym_backoffice.portal_gym_bottom_nav">
+                <t t-set="active" t-value="'home'"/>
+            </t>
+        </t>
+    </template>
+
+    <!-- Listado de clases -->
+    <template id="portal_gym_classes" name="Clases">
+        <t t-call="portal.frontend_layout">
+            <div class="o_gym_portal">
+                <h2 class="mb-3">Clases</h2>
+                <div t-if="msg == 'booked'" class="o_gym_alert o_gym_alert_success">Reserva confirmada.</div>
+                <div t-if="err == 'full'" class="o_gym_alert o_gym_alert_danger">Esa clase ya no tiene plazas libres.</div>
+                <div t-if="err == 'dup'" class="o_gym_alert o_gym_alert_danger">Ya tienes una reserva para esa clase.</div>
+
+                <div t-if="not classes" class="o_gym_empty">No hay clases próximas en tu centro.</div>
+
+                <div t-foreach="classes" t-as="gym_class" class="o_gym_list_card">
+                    <div class="o_gym_list_main">
+                        <div class="o_gym_list_title" t-field="gym_class.name"/>
+                        <div class="o_gym_list_meta">
+                            <span class="o_gym_badge o_gym_badge_orange" t-field="gym_class.activity_type"/>
+                            · <span t-field="gym_class.date_start"/>
+                        </div>
+                        <div t-if="gym_class.trainer_name" class="o_gym_list_meta">
+                            <i class="fa fa-user"/> <span t-field="gym_class.trainer_name"/>
+                        </div>
+                    </div>
+                    <div class="text-end">
+                        <div class="o_gym_seats mb-2">
+                            <span t-esc="gym_class.seats_available"/>/<span t-esc="gym_class.capacity"/>
+                        </div>
+                        <form t-attf-action="/my/gym/classes/#{gym_class.id}/book" method="post">
+                            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                            <button type="submit" class="o_gym_book_btn"
+                                    t-att-disabled="'disabled' if gym_class.seats_available == 0 else None">
+                                Reservar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <t t-call="gym_backoffice.portal_gym_bottom_nav">
+                <t t-set="active" t-value="'classes'"/>
+            </t>
+        </t>
+    </template>
+
+    <!-- Mis reservas -->
+    <template id="portal_gym_bookings" name="Mis reservas">
+        <t t-call="portal.frontend_layout">
+            <div class="o_gym_portal">
+                <h2 class="mb-3">Mis reservas</h2>
+                <div t-if="msg == 'cancelled'" class="o_gym_alert o_gym_alert_success">Reserva cancelada.</div>
+
+                <div t-if="not bookings" class="o_gym_empty">Todavía no tienes reservas.</div>
+
+                <div t-foreach="bookings" t-as="booking" class="o_gym_list_card">
+                    <div class="o_gym_list_main">
+                        <div class="o_gym_list_title" t-field="booking.class_id.name"/>
+                        <div class="o_gym_list_meta" t-field="booking.class_id.date_start"/>
+                    </div>
+                    <div class="text-end">
+                        <span t-if="booking.state == 'confirmed'" class="o_gym_badge o_gym_badge_success d-block mb-2">Confirmada</span>
+                        <span t-else="" class="o_gym_badge o_gym_badge_muted d-block mb-2">Cancelada</span>
+                        <form t-if="booking.state == 'confirmed'"
+                              t-attf-action="/my/gym/bookings/#{booking.id}/cancel" method="post">
+                            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                            <button type="submit" class="o_gym_cancel_btn">Cancelar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <t t-call="gym_backoffice.portal_gym_bottom_nav">
+                <t t-set="active" t-value="'bookings'"/>
+            </t>
+        </t>
+    </template>
+
+    <!-- Promociones -->
+    <template id="portal_gym_promotions" name="Promociones">
+        <t t-call="portal.frontend_layout">
+            <div class="o_gym_portal">
+                <h2 class="mb-3">Promociones</h2>
+
+                <div t-if="not promotions" class="o_gym_empty">No hay promociones activas.</div>
+
+                <div t-foreach="promotions" t-as="promo" class="o_gym_banner">
+                    <div class="o_gym_banner_title" t-field="promo.name"/>
+                    <div class="o_gym_banner_text" t-field="promo.description"/>
+                    <div class="o_gym_banner_text mt-2">
+                        <span t-field="promo.date_start"/> - <span t-field="promo.date_end"/>
+                        ·
+                        <span t-if="promo.gym_center_id" t-field="promo.gym_center_id.name"/>
+                        <span t-else="">Todos los centros</span>
+                    </div>
+                </div>
+            </div>
+            <t t-call="gym_backoffice.portal_gym_bottom_nav">
+                <t t-set="active" t-value="'promotions'"/>
+            </t>
+        </t>
+    </template>
+
+</odoo>

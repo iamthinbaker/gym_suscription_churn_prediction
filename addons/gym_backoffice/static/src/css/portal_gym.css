@@ -1,0 +1,343 @@
+/* Identidad visual "app de gimnasio" para el portal de socios, inspirada
+   en el lenguaje visual de apps de gimnasio: fondo crema cálido, tarjetas
+   redondeadas, acentos morado/naranja y una barra de navegación inferior
+   fija tipo app móvil. */
+
+.o_gym_portal {
+    --gym-bg: #f7f1e6;
+    --gym-card: #ffffff;
+    --gym-purple: #4b2e83;
+    --gym-purple-dark: #38215f;
+    --gym-orange: #f5821f;
+    --gym-text: #241c10;
+    --gym-muted: #8a8074;
+    --gym-border: #e7dfcf;
+
+    background: var(--gym-bg);
+    color: var(--gym-text);
+    padding: 24px 16px 96px;
+    max-width: 480px;
+    margin: 0 auto;
+    font-family: inherit;
+}
+
+.o_gym_portal h1, .o_gym_portal h2, .o_gym_portal h3 {
+    color: var(--gym-text);
+    font-weight: 800;
+}
+
+.o_gym_greeting {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.o_gym_card {
+    background: var(--gym-card);
+    border: 1px solid var(--gym-border);
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.o_gym_center_card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.o_gym_center_card .o_gym_icon_badge {
+    background: var(--gym-purple);
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 1.1rem;
+}
+
+.o_gym_center_card strong {
+    display: block;
+    font-size: 1.05rem;
+}
+
+.o_gym_center_card .text-muted {
+    color: var(--gym-muted) !important;
+}
+
+.o_gym_stats_row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.o_gym_stat {
+    flex: 1;
+    background: var(--gym-card);
+    border: 1px solid var(--gym-border);
+    border-radius: 14px;
+    padding: 12px 8px;
+    text-align: center;
+}
+
+.o_gym_stat_num {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--gym-purple);
+}
+
+.o_gym_stat_label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    color: var(--gym-muted);
+}
+
+.o_gym_btn_primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    border: 2px solid var(--gym-purple);
+    color: var(--gym-purple);
+    background: transparent;
+    border-radius: 12px;
+    padding: 14px;
+    font-weight: 800;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 16px;
+    transition: background .15s ease;
+}
+
+.o_gym_btn_primary:hover {
+    background: rgba(75, 46, 131, 0.06);
+    color: var(--gym-purple-dark);
+}
+
+.o_gym_btn_solid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    background: var(--gym-purple);
+    border-radius: 12px;
+    padding: 14px;
+    font-weight: 800;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.o_gym_btn_solid:hover {
+    background: var(--gym-purple-dark);
+    color: #fff;
+}
+
+.o_gym_btn_solid:disabled {
+    background: var(--gym-border);
+    color: var(--gym-muted);
+    cursor: not-allowed;
+}
+
+.o_gym_action_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--gym-card);
+    border: 1px solid var(--gym-border);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: var(--gym-text);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: .02em;
+}
+
+.o_gym_action_row:hover {
+    background: #fbf8f2;
+    color: var(--gym-text);
+}
+
+.o_gym_action_row i.fa {
+    color: var(--gym-orange);
+}
+
+.o_gym_banner {
+    background: linear-gradient(135deg, var(--gym-orange), #ffb066);
+    color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.o_gym_banner .o_gym_banner_title {
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 6px;
+}
+
+.o_gym_banner .o_gym_banner_text {
+    font-size: 0.85rem;
+    opacity: .95;
+}
+
+.o_gym_alert {
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.o_gym_alert_success {
+    background: #e6f4ea;
+    color: #1e7d34;
+}
+
+.o_gym_alert_danger {
+    background: #fbe7e5;
+    color: #b42318;
+}
+
+.o_gym_list_card {
+    background: var(--gym-card);
+    border: 1px solid var(--gym-border);
+    border-radius: 14px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.o_gym_list_card .o_gym_list_main {
+    flex: 1;
+    min-width: 0;
+}
+
+.o_gym_list_card .o_gym_list_title {
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+.o_gym_list_card .o_gym_list_meta {
+    font-size: 0.82rem;
+    color: var(--gym-muted);
+}
+
+.o_gym_badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
+
+.o_gym_badge_orange {
+    background: #fdeadb;
+    color: var(--gym-orange);
+}
+
+.o_gym_badge_success {
+    background: #e6f4ea;
+    color: #1e7d34;
+}
+
+.o_gym_badge_muted {
+    background: #efeae0;
+    color: var(--gym-muted);
+}
+
+.o_gym_seats {
+    font-weight: 800;
+    color: var(--gym-purple);
+    white-space: nowrap;
+}
+
+.o_gym_book_btn {
+    border: none;
+    background: var(--gym-purple);
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 0.78rem;
+    white-space: nowrap;
+}
+
+.o_gym_book_btn:disabled {
+    background: var(--gym-border);
+    color: var(--gym-muted);
+}
+
+.o_gym_cancel_btn {
+    border: 2px solid #d1443c;
+    background: transparent;
+    color: #d1443c;
+    border-radius: 10px;
+    padding: 7px 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+.o_gym_empty {
+    text-align: center;
+    color: var(--gym-muted);
+    padding: 40px 10px;
+}
+
+/* Bottom nav */
+.o_gym_bottom_nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: #fff;
+    border-top: 1px solid var(--gym-border);
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0 max(8px, env(safe-area-inset-bottom));
+}
+
+.o_gym_bottom_nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    color: var(--gym-muted);
+    text-decoration: none;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 10px;
+}
+
+.o_gym_bottom_nav a i.fa {
+    font-size: 1.15rem;
+}
+
+.o_gym_bottom_nav a.active {
+    color: var(--gym-orange);
+}
