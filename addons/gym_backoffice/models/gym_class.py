@@ -3,7 +3,7 @@ from odoo import api, fields, models
 
 class GymClass(models.Model):
     _name = "gym.class"
-    _description = "Clase de Gimnasio"
+    _description = "Clase de GymBaker"
     _order = "date_start"
     _rec_name = "name"
 

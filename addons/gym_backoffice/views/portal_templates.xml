@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <!-- Entrada "Mi Gimnasio" en /my -->
+    <!-- Entrada "Mi GymBaker" en /my -->
     <template id="portal_my_home_gym" inherit_id="portal.portal_my_home">
         <xpath expr="//div[@id='portal_common_category']" position="inside">
             <t t-call="portal.portal_docs_entry">
-                <t t-set="title">Mi Gimnasio</t>
+                <t t-set="title">Mi GymBaker</t>
                 <t t-set="text">Tu centro, tus clases y tus reservas</t>
                 <t t-set="url" t-value="'/my/gym'"/>
                 <t t-set="config_card" t-value="True"/>
@@ -14,7 +14,7 @@
     </template>
 
     <!-- Barra de navegación inferior, reutilizada en las 4 páginas -->
-    <template id="portal_gym_bottom_nav" name="Mi Gimnasio: navegación">
+    <template id="portal_gym_bottom_nav" name="GymBaker: navegación">
         <div class="o_gym_bottom_nav">
             <a href="/my/gym" t-attf-class="#{'active' if active == 'home' else ''}">
                 <i class="fa fa-home"/>
@@ -36,7 +36,7 @@
     </template>
 
     <!-- Dashboard del socio -->
-    <template id="portal_my_gym" name="Mi Gimnasio">
+    <template id="portal_my_gym" name="GymBaker">
         <t t-call="portal.frontend_layout">
             <div class="o_gym_portal">
                 <div class="o_gym_greeting">Hola, <t t-esc="partner.name.split(' ')[0]"/></div>

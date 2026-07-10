@@ -3,9 +3,9 @@
 
     <!-- Root menu -->
     <menuitem id="gym_menu_root"
-              name="Gimnasio"
+              name="GymBaker"
               sequence="50"
-              web_icon="gym-backoffice,static/description/icon.png"/>
+              web_icon="gym_backoffice,static/description/icon.svg"/>
 
     <!-- Level 1 -->
     <menuitem id="gym_menu_members"

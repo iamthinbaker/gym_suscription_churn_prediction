@@ -3,7 +3,7 @@
     <data noupdate="1">
 
         <record id="ir_cron_gym_churn_scoring" model="ir.cron">
-            <field name="name">Gimnasio: puntuar riesgo de churn (diario)</field>
+            <field name="name">GymBaker: puntuar riesgo de churn (diario)</field>
             <field name="model_id" ref="model_gym_customer_health"/>
             <field name="state">code</field>
             <field name="code">model._cron_score_churn()</field>

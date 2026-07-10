@@ -1,6 +1,7 @@
 {
-    "name": "Gym Backoffice",
-    "summary": "Herramienta de gestión de un gimnasio con IA para predecir abandono de cliente",
+    "name": "GymBaker",
+    "summary": "Herramienta de gestión de GymBaker con IA para predecir abandono de cliente",
+    "icon": "/gym_backoffice/static/description/icon.svg",
     "version": "19.0.1.0.0",
     "category": "Services/Fitness",
     "license": "LGPL-3",
