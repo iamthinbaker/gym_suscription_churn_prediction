@@ -12,6 +12,7 @@ eventos_participacion, engagement.csv, suscripciones.csv) se omiten
 explícitamente: importarlos exigiría instalar crm/helpdesk/sale/hr o crear
 modelos nuevos, lo cual no corresponde a este script.
 """
+
 import csv
 import os
 import time
@@ -19,7 +20,7 @@ import xmlrpc.client
 from datetime import datetime, timedelta
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent / "odoo_synthetic_data"
+DATA_DIR = Path("data")
 
 # Por defecto "localhost": funciona cuando este script corre dentro del mismo
 # contenedor que Odoo (ver docker-compose.yml de la raíz). Si se ejecuta desde
@@ -32,11 +33,18 @@ USERNAME = "admin"
 PASSWORD = "admin"
 
 SKIPPED_CSVS = [
-    "crm_leads.csv", "facturacion.csv", "helpdesk_tickets.csv",
-    "empleados_entrenadores.csv", "ventas_servicios.csv", "inventario.csv",
-    "mantenimiento.csv", "marketing_automation.csv",
-    "encuestas_satisfaccion.csv", "eventos_participacion.csv",
-    "engagement.csv", "suscripciones.csv",
+    "crm_leads.csv",
+    "facturacion.csv",
+    "helpdesk_tickets.csv",
+    "empleados_entrenadores.csv",
+    "ventas_servicios.csv",
+    "inventario.csv",
+    "mantenimiento.csv",
+    "marketing_automation.csv",
+    "encuestas_satisfaccion.csv",
+    "eventos_participacion.csv",
+    "engagement.csv",
+    "suscripciones.csv",
 ]
 
 print("Conectando a Odoo...")
@@ -82,16 +90,22 @@ def as_int(v, default=0):
 
 
 for name in SKIPPED_CSVS:
-    print(f"Omitido {name}: no hay modelo Odoo instalado que lo soporte "
-          f"(gym_backoffice solo depende de base/contacts/mail).")
+    print(
+        f"Omitido {name}: no hay modelo Odoo instalado que lo soporte "
+        f"(gym_backoffice solo depende de base/contacts/mail)."
+    )
 
 # --- Centros deportivos -> gym.center ---
 print("Creando centros deportivos...")
 centros = read_csv("centros_deportivos.csv")
 center_ids = {}
 for c in centros:
-    existing = execute("gym.center", "search_read",
-                        [[["name", "=", c["nombre"]]]], {"fields": ["id"], "limit": 1})
+    existing = execute(
+        "gym.center",
+        "search_read",
+        [[["name", "=", c["nombre"]]]],
+        {"fields": ["id"], "limit": 1},
+    )
     if existing:
         center_ids[c["id"]] = existing[0]["id"]
         continue
@@ -132,8 +146,12 @@ def flush_partners():
 
 for row in contactos:
     ref = f"gym_cliente_{row['id']}"
-    existing = execute("res.partner", "search_read",
-                        [[["ref", "=", ref]]], {"fields": ["id"], "limit": 1})
+    existing = execute(
+        "res.partner",
+        "search_read",
+        [[["ref", "=", ref]]],
+        {"fields": ["id"], "limit": 1},
+    )
     if existing:
         partner_ids[row["id"]] = existing[0]["id"]
         continue
@@ -193,7 +211,9 @@ for row in accesos:
         continue
 
     duration_min = as_int(row["duracion_entrenamiento_min"])
-    check_out_dt = check_in_dt + timedelta(minutes=duration_min) if duration_min else None
+    check_out_dt = (
+        check_in_dt + timedelta(minutes=duration_min) if duration_min else None
+    )
 
     vals = {
         "partner_id": partner_id,
@@ -210,7 +230,9 @@ for row in accesos:
         print(f"  {created_access} accesos creados...")
 
 flush_access()
-print(f"  {created_access} accesos creados, {skipped_access} omitidos (socio no encontrado)")
+print(
+    f"  {created_access} accesos creados, {skipped_access} omitidos (socio no encontrado)"
+)
 
 # --- Actividad + customer_health -> gym.customer.health ---
 print("Creando health scores (gym.customer.health)...")

@@ -1,571 +1,571 @@
 ﻿id,nombre,apellidos,edad,sexo,fecha_nacimiento,codigo_postal,ciudad,distancia_gimnasio_km,fecha_alta,estado,segmento,objetivo_deportivo,centro_id,entrenador_asignado_id
-1,Jose Manuel,Bou Arévalo,39,Hombre,1986-11-01,48005,Bilbao,5.0,2026-06-08,Activo,Básico,Perder peso,5,29
-2,Teodora,Canals Coronado,30,Mujer,1995-09-06,08030,Barcelona,5.4,2026-02-16,Activo,VIP,Perder peso,2,22
-3,Mauricio,Cuesta Roca,29,Hombre,1997-03-02,48001,Bilbao,8.1,2026-01-26,Baja,Estándar,Bienestar general,5,18
-4,María,Bartolomé Plaza,32,Mujer,1994-04-03,08015,Barcelona,6.7,2026-03-30,Activo,Premium,Rehabilitación,2,16
-5,Graciano,Solé Ángel,54,Hombre,1971-09-01,46015,Valencia,4.1,2026-03-08,Activo,Básico,Perder peso,3,1
-6,Dionisia,Alberdi Carbó,37,Mujer,1989-04-26,46025,Valencia,0.9,2025-07-30,Activo,Básico,Bienestar general,3,14
-7,Néstor,Lasa Nieto,39,Hombre,1986-10-12,48005,Bilbao,5.9,2026-06-08,Baja,Básico,Rehabilitación,5,18
-8,Aurelia,Marin Royo,31,Mujer,1995-06-26,08010,Barcelona,4.3,2026-06-08,Activo,Básico,Bienestar general,2,8
-9,Camila,Santiago Acero,25,Mujer,2000-08-31,28002,Madrid,6.3,2026-01-03,Activo,Premium,Competición,1,6
-10,Palmira,Lago Valle,36,Mujer,1989-12-19,08010,Barcelona,5.0,2025-07-26,Activo,Estándar,Mantenimiento,2,6
-11,Rafaela,Escalona Vera,32,Mujer,1994-03-25,28020,Madrid,6.5,2026-02-28,Baja,VIP,Mantenimiento,1,10
-12,Zaira,Camino Martín,37,Mujer,1989-01-30,08001,Barcelona,6.4,2025-11-08,Activo,Básico,Competición,2,9
-13,Sol,Vera Flor,27,Mujer,1999-07-01,46015,Valencia,3.5,2025-06-03,Baja,Básico,Ganar masa muscular,3,19
-14,Calista,Pereira Cuéllar,50,Mujer,1976-02-11,46025,Valencia,5.3,2026-01-06,Activo,Estándar,Perder peso,3,13
-15,Luz,Abascal Morante,36,Mujer,1990-07-17,48012,Bilbao,4.3,2023-11-10,Activo,Estándar,Bienestar general,5,24
-16,Laura,Aliaga Caparrós,31,Mujer,1994-08-31,08001,Barcelona,5.7,2025-02-19,Activo,VIP,Bienestar general,2,29
-17,Áurea,Parejo Meléndez,17,Mujer,2008-12-18,46025,Valencia,3.7,2026-05-03,Activo,Estándar,Ganar masa muscular,3,7
-18,Dimas,Barco Hernando,29,Hombre,1996-09-03,41018,Sevilla,3.2,2025-12-07,Activo,Estándar,Rehabilitación,4,27
-19,Valeria,Bermúdez Boada,32,Mujer,1993-11-20,28002,Madrid,5.3,2025-11-08,Activo,VIP,Rehabilitación,1,16
-20,Patricia,Torre Bayón,29,Mujer,1997-05-29,08010,Barcelona,2.9,2024-12-23,Activo,Premium,Bienestar general,2,10
-21,Ricardo,Casas Castellanos,37,Hombre,1989-03-14,08030,Barcelona,3.4,2026-01-27,Activo,Premium,Competición,2,25
-22,Narciso,Talavera Dalmau,16,Hombre,2009-07-21,28020,Madrid,6.4,2023-01-19,Activo,Premium,Ganar masa muscular,1,5
-23,Eligio,Álamo Rocha,53,Hombre,1972-12-16,28030,Madrid,1.4,2026-06-08,Activo,Premium,Rendimiento deportivo,1,2
-24,Cloe,Font Mesa,35,Mujer,1991-05-10,48012,Bilbao,8.7,2026-06-08,Activo,Estándar,Rehabilitación,5,20
-25,Gloria,Perea Ríos,59,Mujer,1966-10-16,46010,Valencia,2.9,2026-06-08,Activo,Premium,Bienestar general,3,28
-26,Ximena,Villar Sanmiguel,16,Mujer,2009-10-19,41010,Sevilla,5.2,2025-01-27,Activo,Básico,Mantenimiento,4,15
-27,Azeneth,Huguet Gomila,33,Mujer,1993-02-03,28001,Madrid,3.7,2025-12-19,Activo,Estándar,Ganar masa muscular,1,5
-28,Amílcar,Neira Almazán,29,Hombre,1997-06-13,08015,Barcelona,4.9,2025-12-12,Activo,Básico,Rehabilitación,2,15
-29,Marita,Grau Giménez,55,Mujer,1970-09-26,41001,Sevilla,5.6,2025-11-04,Activo,Premium,Competición,4,29
-30,Adelaida,Belda Barral,34,Mujer,1992-02-15,48010,Bilbao,4.8,2026-06-07,Activo,Básico,Rehabilitación,5,24
-31,Crescencia,Bauzà Angulo,42,Mujer,1984-03-28,48010,Bilbao,0.1,2025-12-13,Activo,VIP,Perder peso,5,13
-32,Tito,Murillo Belda,24,Hombre,2001-11-17,46025,Valencia,1.1,2025-02-26,Activo,Premium,Rehabilitación,3,1
-33,José Ángel,Gárate Lopez,20,Hombre,2005-08-18,41018,Sevilla,3.2,2025-12-29,Activo,Premium,Ganar masa muscular,4,2
-34,Nayara,Torralba Gargallo,28,Mujer,1998-01-24,46020,Valencia,4.2,2026-06-08,Activo,Premium,Mantenimiento,3,25
-35,Julián,Catalán Suárez,34,Hombre,1991-10-14,41013,Sevilla,4.5,2023-05-12,Baja,Premium,Ganar masa muscular,4,21
-36,Domingo,Suárez Ramírez,38,Hombre,1988-03-13,28001,Madrid,1.4,2023-12-21,Activo,Premium,Rehabilitación,1,5
-37,Claudio,Busquets Caballero,47,Hombre,1978-11-24,08015,Barcelona,7.1,2026-05-16,Activo,VIP,Ganar masa muscular,2,20
-38,Narciso,Rosa Pablo,53,Hombre,1973-02-12,48001,Bilbao,5.9,2026-06-08,Baja,Estándar,Mantenimiento,5,19
-39,Héctor,Reig Solera,19,Hombre,2006-09-13,41010,Sevilla,5.9,2026-04-29,Activo,Básico,Perder peso,4,23
-40,Toni,Balaguer Cabello,44,Hombre,1981-10-03,46015,Valencia,1.2,2025-10-17,Activo,Estándar,Rehabilitación,3,14
-41,Américo,Quevedo Nicolau,50,Hombre,1975-12-18,46001,Valencia,4.7,2025-08-22,Activo,Premium,Rendimiento deportivo,3,12
-42,Rosalía,Canales Ibarra,31,Mujer,1994-09-04,41020,Sevilla,2.0,2026-06-08,Activo,Básico,Competición,4,16
-43,Celia,Falcón Sanabria,17,Mujer,2009-01-28,41001,Sevilla,7.4,2025-09-05,Activo,Básico,Mantenimiento,4,29
-44,Berta,Roca Español,35,Mujer,1991-01-26,41013,Sevilla,5.6,2024-10-13,Baja,Premium,Ganar masa muscular,4,16
-45,Eligia,Sevillano Iborra,29,Mujer,1996-09-13,08015,Barcelona,5.6,2024-03-29,Activo,Premium,Rehabilitación,2,1
-46,Trinidad,Benet Salazar,39,Mujer,1986-11-10,48002,Bilbao,4.5,2025-11-10,Activo,Premium,Bienestar general,5,16
-47,Roxana,Cabañas Ayuso,32,Mujer,1994-03-25,41010,Sevilla,4.0,2026-02-09,Activo,Estándar,Mantenimiento,4,22
-48,Modesta,Alcolea Bueno,24,Mujer,2001-12-09,48012,Bilbao,7.1,2024-10-11,Activo,Estándar,Mantenimiento,5,12
-49,Renato,Guzmán Delgado,33,Hombre,1993-04-09,41020,Sevilla,7.2,2024-10-18,Baja,Premium,Competición,4,23
-50,Griselda,Torralba Teruel,42,Mujer,1983-09-21,08030,Barcelona,6.6,2023-12-22,Activo,VIP,Rehabilitación,2,10
-51,Clotilde,Quero Barral,39,Mujer,1987-04-18,28030,Madrid,3.6,2025-11-16,Activo,Estándar,Ganar masa muscular,1,9
-52,Celestino,Pinilla Abril,50,Hombre,1975-08-29,28020,Madrid,4.4,2025-06-30,Activo,Estándar,Perder peso,1,28
-53,Gema,Lara Sanz,22,Mujer,2004-01-21,28001,Madrid,3.3,2025-05-24,Activo,Premium,Mantenimiento,1,28
-54,Eloísa,Rocha Torrecilla,38,Mujer,1988-06-10,41001,Sevilla,4.4,2025-01-16,Activo,Estándar,Ganar masa muscular,4,5
-55,Casemiro,Falcó Martin,39,Hombre,1987-05-19,48010,Bilbao,5.4,2026-04-28,Activo,Básico,Rehabilitación,5,20
-56,Concha,Barragán Barrera,37,Mujer,1988-12-03,48012,Bilbao,6.0,2026-04-26,Activo,VIP,Rendimiento deportivo,5,10
-57,Raúl,Mir Barceló,23,Hombre,2003-03-30,48005,Bilbao,2.2,2025-12-26,Activo,Básico,Bienestar general,5,3
-58,Amador,Tapia Valverde,35,Hombre,1991-07-16,08030,Barcelona,7.5,2026-06-08,Activo,Premium,Rendimiento deportivo,2,10
-59,Ágata,Criado Barberá,37,Mujer,1989-06-11,28010,Madrid,7.9,2025-04-29,Activo,Estándar,Competición,1,26
-60,Liliana,Bernat Estevez,20,Mujer,2006-05-16,48002,Bilbao,1.7,2026-06-08,Activo,Básico,Mantenimiento,5,27
-61,Anastasia,Bayo Gutierrez,41,Mujer,1984-09-17,08030,Barcelona,4.3,2026-01-15,Activo,Premium,Mantenimiento,2,15
-62,Graciana,Carretero Hoz,24,Mujer,2002-02-25,28020,Madrid,5.7,2025-06-28,Activo,Estándar,Rendimiento deportivo,1,3
-63,Marina,Ariño Bilbao,47,Mujer,1978-09-14,48001,Bilbao,5.4,2026-03-26,Activo,VIP,Ganar masa muscular,5,22
-64,Hortensia,Yáñez Molina,32,Mujer,1993-09-24,48002,Bilbao,4.5,2025-10-20,Baja,Premium,Rendimiento deportivo,5,17
-65,Dorita,Fuente Miralles,41,Mujer,1984-08-27,41001,Sevilla,3.0,2026-04-28,Activo,Estándar,Rendimiento deportivo,4,12
-66,Dimas,Lara Priego,26,Hombre,2000-01-28,41018,Sevilla,7.5,2026-06-08,Activo,Estándar,Mantenimiento,4,22
-67,Benigna,Marín Sebastián,40,Mujer,1986-06-03,41013,Sevilla,1.7,2022-05-07,Activo,Estándar,Perder peso,4,25
-68,Fausto,Belmonte Agustí,49,Hombre,1976-08-18,41018,Sevilla,4.5,2026-06-08,Activo,Básico,Rendimiento deportivo,4,2
-69,Jesusa,Cabo Beltrán,18,Mujer,2007-08-27,08001,Barcelona,3.5,2025-11-20,Activo,Básico,Ganar masa muscular,2,9
-70,Lupita,Garcés Velasco,41,Mujer,1985-05-17,48012,Bilbao,5.0,2026-06-08,Baja,Premium,Competición,5,8
-71,Dulce,Cazorla Oller,34,Mujer,1992-05-30,08001,Barcelona,5.3,2025-10-24,Baja,Estándar,Rendimiento deportivo,2,4
-72,Vera,Bayona Hidalgo,16,Mujer,2009-12-12,08025,Barcelona,3.2,2023-06-03,Activo,Básico,Ganar masa muscular,2,15
-73,Gil,López Cruz,39,Hombre,1987-06-13,48010,Bilbao,5.0,2022-07-31,Activo,Estándar,Mantenimiento,5,30
-74,Isabel,Mate Ángel,34,Mujer,1991-09-20,48010,Bilbao,4.6,2023-11-17,Activo,Premium,Competición,5,5
-75,Adelia,Marí Calleja,24,Mujer,2001-11-23,41010,Sevilla,4.1,2024-05-30,Activo,VIP,Bienestar general,4,8
-76,Valeria,Cañizares Lamas,17,Mujer,2009-06-20,48010,Bilbao,6.1,2026-01-25,Activo,VIP,Bienestar general,5,30
-77,Bautista,Campo Cortés,21,Hombre,2004-11-02,41010,Sevilla,7.5,2025-12-24,Activo,Básico,Rehabilitación,4,19
-78,Elena,Luján Galvez,51,Mujer,1975-05-31,46020,Valencia,3.1,2026-02-01,Activo,Estándar,Perder peso,3,24
-79,Plinio,Novoa Frutos,20,Hombre,2006-06-05,08015,Barcelona,6.1,2026-04-26,Activo,Premium,Mantenimiento,2,20
-80,Noelia,Laguna Vega,21,Mujer,2005-02-01,41018,Sevilla,0.2,2025-06-26,Activo,Premium,Competición,4,18
-81,Laura,Iglesias Azcona,28,Mujer,1998-03-21,28020,Madrid,2.3,2024-02-12,Activo,Estándar,Perder peso,1,25
-82,Arturo,Roda Lloret,17,Hombre,2009-06-19,28001,Madrid,4.9,2026-01-21,Activo,Estándar,Mantenimiento,1,12
-83,Amada,Acevedo Múgica,26,Mujer,1999-09-29,46010,Valencia,5.5,2026-04-08,Activo,Básico,Ganar masa muscular,3,6
-84,Rogelio,Castrillo Juárez,25,Hombre,2000-11-02,28002,Madrid,2.4,2025-12-22,Activo,Estándar,Ganar masa muscular,1,15
-85,Candelaria,Sala Roma,17,Mujer,2009-02-15,46010,Valencia,4.4,2022-02-14,Activo,Premium,Perder peso,3,15
-86,Mar,Agustí Caparrós,45,Mujer,1980-07-31,46015,Valencia,4.7,2026-01-08,Activo,Premium,Ganar masa muscular,3,13
-87,Angelita,Company Araujo,44,Mujer,1981-09-28,41013,Sevilla,5.6,2026-05-03,Activo,Estándar,Perder peso,4,27
-88,Silvestre,Peiró Colomer,32,Hombre,1993-09-09,41013,Sevilla,7.3,2025-05-11,Activo,Estándar,Competición,4,26
-89,Ildefonso,Castell Arnaiz,26,Hombre,1999-09-01,08010,Barcelona,4.2,2025-12-13,Baja,VIP,Bienestar general,2,4
-90,Encarnita,Pastor Ariño,30,Mujer,1996-05-09,28010,Madrid,6.1,2023-11-15,Baja,Premium,Mantenimiento,1,24
-91,Ximena,Pallarès Gallo,37,Mujer,1988-10-19,41013,Sevilla,5.3,2025-06-28,Activo,Premium,Competición,4,6
-92,Nilda,Iborra Calderon,59,Mujer,1967-01-31,46020,Valencia,1.6,2026-03-27,Activo,Estándar,Perder peso,3,5
-93,Felicidad,Ramos Cortes,47,Mujer,1978-10-08,08025,Barcelona,2.0,2026-06-08,Activo,Estándar,Perder peso,2,9
-94,Ángela,Guzmán Cámara,43,Mujer,1982-09-23,48005,Bilbao,5.8,2025-07-26,Activo,Estándar,Perder peso,5,22
-95,Rosalía,Elorza Revilla,18,Mujer,2007-09-04,08001,Barcelona,5.5,2022-09-07,Baja,VIP,Bienestar general,2,27
-96,Aitana,Escobar Márquez,43,Mujer,1983-05-21,41001,Sevilla,4.5,2025-02-08,Baja,Estándar,Mantenimiento,4,16
-97,Rosendo,Requena Hurtado,55,Hombre,1971-01-05,28030,Madrid,7.6,2024-03-22,Activo,Básico,Rendimiento deportivo,1,19
-98,Débora,Cuervo Campoy,48,Mujer,1977-09-08,08015,Barcelona,1.6,2024-06-23,Activo,Básico,Perder peso,2,23
-99,Graciano,Arias Sosa,37,Hombre,1989-01-13,46015,Valencia,6.4,2024-07-26,Baja,Estándar,Rehabilitación,3,29
-100,Dan,Flores Seguí,43,Hombre,1982-11-29,46010,Valencia,4.6,2023-11-17,Baja,VIP,Bienestar general,3,21
-101,Felicia,Mayoral Goñi,38,Mujer,1988-03-15,48012,Bilbao,4.3,2026-04-28,Activo,Estándar,Ganar masa muscular,5,3
-102,Dani,Alvarez Ferrando,37,Hombre,1989-01-30,48012,Bilbao,7.2,2022-04-26,Activo,Estándar,Perder peso,5,9
-103,Heraclio,Moya Lopez,49,Hombre,1977-05-25,08001,Barcelona,3.5,2023-12-15,Activo,Premium,Ganar masa muscular,2,1
-104,Teresa,Baños Lorenzo,37,Mujer,1989-07-09,46001,Valencia,2.6,2025-12-04,Activo,Estándar,Ganar masa muscular,3,24
-105,Felicia,Vergara Pulido,16,Mujer,2009-11-25,41020,Sevilla,3.9,2026-03-30,Activo,Premium,Rehabilitación,4,4
-106,Norberto,Muñoz Amorós,16,Hombre,2009-08-09,41018,Sevilla,4.1,2025-11-29,Activo,Estándar,Bienestar general,4,1
-107,Azahar,Julián Escalona,58,Mujer,1967-08-06,28020,Madrid,3.9,2025-08-29,Baja,Premium,Perder peso,1,29
-108,Luis Ángel,Lara Arenas,32,Hombre,1994-02-26,28030,Madrid,5.8,2024-02-28,Activo,VIP,Rehabilitación,1,23
-109,Asunción,Rovira Ojeda,23,Mujer,2002-11-24,46020,Valencia,6.4,2025-11-21,Activo,Premium,Perder peso,3,26
-110,Pánfilo,Mir Rubio,45,Hombre,1980-12-11,28002,Madrid,1.7,2024-09-12,Activo,Premium,Rendimiento deportivo,1,11
-111,María Dolores,Vidal Carlos,19,Mujer,2006-12-07,41013,Sevilla,5.3,2022-05-19,Activo,Estándar,Mantenimiento,4,5
-112,Guadalupe,Falcón Iñiguez,55,Hombre,1970-12-13,41013,Sevilla,6.9,2026-05-23,Baja,VIP,Competición,4,5
-113,Amada,Rubio Abellán,62,Mujer,1963-08-15,48005,Bilbao,5.8,2025-10-15,Activo,Premium,Competición,5,22
-114,Loreto,Figueras Pascual,47,Mujer,1978-09-16,41001,Sevilla,4.2,2024-04-30,Baja,Básico,Rehabilitación,4,17
-115,Ildefonso,Becerra Murillo,42,Hombre,1984-01-21,08015,Barcelona,7.8,2024-04-07,Activo,Básico,Perder peso,2,25
-116,Mateo,Mir Casanovas,16,Hombre,2009-09-04,46015,Valencia,3.6,2025-09-19,Activo,Premium,Perder peso,3,6
-117,Pacífica,Mas Vendrell,31,Mujer,1995-01-18,46010,Valencia,3.7,2023-08-15,Baja,Básico,Rehabilitación,3,22
-118,Fabián,Real Morera,52,Hombre,1974-06-05,41010,Sevilla,7.1,2025-10-28,Activo,Estándar,Rendimiento deportivo,4,14
-119,Graciana,Marqués Castejón,28,Mujer,1997-09-28,41001,Sevilla,7.2,2025-02-13,Activo,Estándar,Ganar masa muscular,4,6
-120,Celia,Rivero Pinilla,39,Mujer,1986-08-14,48012,Bilbao,5.1,2026-05-08,Activo,Estándar,Rendimiento deportivo,5,14
-121,Nicolasa,Dávila Mascaró,38,Mujer,1987-12-10,46025,Valencia,7.3,2026-01-03,Baja,Premium,Rendimiento deportivo,3,17
-122,Hermenegildo,Abad Mateu,46,Hombre,1980-07-16,46010,Valencia,6.7,2026-03-08,Baja,Básico,Competición,3,5
-123,Eloísa,Gallo Ropero,33,Mujer,1992-12-08,46020,Valencia,5.7,2022-10-16,Baja,Básico,Rehabilitación,3,23
-124,Roberta,Montserrat Sola,16,Mujer,2010-06-06,08001,Barcelona,3.8,2021-07-09,Activo,Premium,Rendimiento deportivo,2,1
-125,Isaura,Salamanca García,56,Mujer,1969-10-02,41018,Sevilla,3.6,2024-08-03,Activo,Básico,Mantenimiento,4,4
-126,Lina,Sáenz Doménech,45,Mujer,1980-07-31,41001,Sevilla,5.3,2026-06-08,Activo,Premium,Rendimiento deportivo,4,28
-127,Narciso,Blazquez Luz,35,Hombre,1990-12-27,28010,Madrid,6.1,2024-02-19,Activo,Premium,Ganar masa muscular,1,11
-128,José Ángel,Naranjo Bueno,50,Hombre,1976-01-24,08010,Barcelona,5.6,2026-05-01,Activo,Premium,Ganar masa muscular,2,4
-129,Sebastián,Gutierrez Menéndez,34,Hombre,1991-08-16,08025,Barcelona,5.5,2024-09-20,Baja,Premium,Rendimiento deportivo,2,25
-130,Coral,Flor Colom,35,Mujer,1990-08-30,48010,Bilbao,3.9,2025-01-09,Baja,Premium,Perder peso,5,16
-131,Albano,Arteaga Hierro,20,Hombre,2006-01-14,41013,Sevilla,1.7,2025-05-09,Activo,Básico,Rendimiento deportivo,4,15
-132,Jordán,Beltran Sarabia,56,Hombre,1969-08-26,28001,Madrid,5.2,2025-08-31,Activo,Básico,Rehabilitación,1,20
-133,Hipólito,Ferreras Plana,23,Hombre,2002-11-26,48012,Bilbao,7.5,2025-12-15,Activo,Básico,Bienestar general,5,7
-134,Jose Miguel,Pulido Hervás,23,Hombre,2002-11-26,46015,Valencia,2.5,2026-06-07,Baja,Estándar,Bienestar general,3,3
-135,Brunilda,Adán Campillo,32,Mujer,1993-12-04,48012,Bilbao,2.9,2026-05-12,Activo,Premium,Ganar masa muscular,5,12
-136,Reyes,Rodríguez Gilabert,45,Mujer,1980-08-06,46015,Valencia,4.1,2023-02-20,Activo,Básico,Perder peso,3,11
-137,Carmen,Villaverde Sobrino,23,Mujer,2002-08-12,28030,Madrid,4.1,2022-11-19,Activo,Estándar,Competición,1,5
-138,Amarilis,Ibañez Carrión,50,Mujer,1976-02-13,46020,Valencia,6.1,2026-02-05,Activo,Básico,Ganar masa muscular,3,20
-139,Jessica,Cañellas Sobrino,30,Mujer,1996-05-11,28030,Madrid,6.9,2025-09-22,Activo,Premium,Perder peso,1,21
-140,Natividad,Molins Salas,32,Mujer,1994-04-15,41013,Sevilla,5.3,2025-02-22,Activo,Básico,Competición,4,16
-141,Mariano,Vargas Roldan,35,Hombre,1991-02-16,08001,Barcelona,6.0,2026-06-06,Activo,Estándar,Rehabilitación,2,25
-142,Severo,Salmerón Cuenca,47,Hombre,1978-08-16,48012,Bilbao,0.6,2026-01-31,Activo,Estándar,Ganar masa muscular,5,20
-143,Ramiro,Taboada Sandoval,39,Hombre,1986-12-06,41013,Sevilla,4.7,2026-02-03,Baja,Premium,Bienestar general,4,24
-144,Dora,Huertas Lluch,51,Mujer,1975-03-24,08015,Barcelona,2.8,2022-12-31,Activo,Estándar,Competición,2,26
-145,Raquel,Vázquez Tormo,41,Mujer,1984-11-24,41018,Sevilla,4.5,2023-11-10,Activo,Estándar,Rehabilitación,4,17
-146,Matías,Haro Llobet,56,Hombre,1970-03-16,41018,Sevilla,3.6,2025-09-24,Baja,Estándar,Competición,4,12
-147,Isidro,Berenguer Macias,52,Hombre,1974-02-26,48002,Bilbao,2.7,2025-03-25,Baja,VIP,Mantenimiento,5,15
-148,Desiderio,Llabrés Narváez,42,Hombre,1983-12-01,48001,Bilbao,5.1,2025-04-17,Activo,Estándar,Rendimiento deportivo,5,2
-149,Feliciano,Berrocal Chacón,26,Hombre,2000-01-05,41013,Sevilla,4.3,2025-03-27,Activo,Básico,Perder peso,4,27
-150,Bárbara,Guardia Piñol,36,Mujer,1989-11-18,46010,Valencia,4.1,2024-01-12,Activo,Estándar,Competición,3,23
-151,Ovidio,Corominas Gargallo,33,Hombre,1993-07-07,41010,Sevilla,5.0,2025-10-29,Activo,Premium,Rehabilitación,4,24
-152,Ana Belén,Ribera Ramón,29,Mujer,1997-03-16,48001,Bilbao,3.6,2025-04-06,Activo,Básico,Ganar masa muscular,5,14
-153,Eusebia,Solano Ricart,29,Mujer,1996-09-13,48012,Bilbao,4.5,2025-02-08,Activo,Estándar,Rehabilitación,5,8
-154,Ana,Gabaldón Rivera,34,Mujer,1992-03-15,08010,Barcelona,3.9,2024-12-01,Activo,Premium,Bienestar general,2,22
-155,Guiomar,Aller Pintor,23,Hombre,2002-12-27,28001,Madrid,3.1,2024-05-11,Activo,Premium,Bienestar general,1,13
-156,Jorge,Aguado Ortiz,34,Hombre,1992-01-22,46001,Valencia,6.7,2025-10-12,Baja,Básico,Competición,3,19
-157,Emma,Porta Rius,42,Mujer,1983-08-24,46020,Valencia,5.4,2024-08-22,Activo,Estándar,Bienestar general,3,16
-158,Lupita,Giménez Torrents,36,Mujer,1990-06-29,08001,Barcelona,5.1,2025-10-14,Baja,Básico,Competición,2,7
-159,Constanza,Llamas Ruano,30,Mujer,1995-10-11,28001,Madrid,5.9,2026-05-05,Activo,Premium,Competición,1,21
-160,Jose Carlos,Andres Porcel,29,Hombre,1996-08-14,08001,Barcelona,9.1,2026-06-08,Activo,Premium,Competición,2,12
-161,Evangelina,Quiroga Dalmau,50,Mujer,1976-01-29,41018,Sevilla,3.2,2026-02-02,Activo,Básico,Bienestar general,4,16
-162,Sosimo,Solsona Castell,47,Hombre,1978-12-15,46025,Valencia,3.6,2025-09-03,Baja,Básico,Competición,3,6
-163,María Ángeles,Amores Prada,33,Mujer,1992-08-12,48010,Bilbao,6.0,2026-02-24,Activo,Premium,Rehabilitación,5,23
-164,Martina,Amores Blanes,41,Mujer,1985-06-27,41013,Sevilla,7.0,2026-06-08,Activo,Premium,Rehabilitación,4,14
-165,Modesto,Romero Cerdá,21,Hombre,2005-06-05,46020,Valencia,2.8,2026-06-08,Activo,Estándar,Mantenimiento,3,17
-166,Teresita,Serrano Espada,41,Mujer,1985-07-01,08010,Barcelona,3.1,2024-09-23,Activo,Estándar,Competición,2,21
-167,Amador,Juan Pinilla,16,Hombre,2009-09-06,46020,Valencia,7.6,2026-05-20,Activo,Estándar,Mantenimiento,3,12
-168,Eugenia,Galán Sanz,36,Mujer,1989-12-26,41013,Sevilla,4.3,2026-03-22,Baja,Premium,Ganar masa muscular,4,4
-169,Eugenia,Nebot Pinilla,33,Mujer,1992-10-02,28010,Madrid,1.0,2026-01-06,Activo,Premium,Bienestar general,1,15
-170,Eligia,Robles Iniesta,44,Mujer,1982-04-08,08001,Barcelona,4.0,2023-09-23,Baja,Estándar,Rendimiento deportivo,2,6
-171,Silvia,Bilbao Sosa,56,Mujer,1969-08-15,41001,Sevilla,4.6,2023-08-31,Activo,Estándar,Rehabilitación,4,18
-172,Agapito,Azorin Olmo,53,Hombre,1973-01-17,46001,Valencia,2.5,2022-08-31,Activo,Básico,Ganar masa muscular,3,26
-173,Consuelo,Bayona Arjona,36,Mujer,1989-10-07,08025,Barcelona,8.1,2025-04-12,Activo,Estándar,Competición,2,18
-174,Priscila,Anguita Huertas,31,Mujer,1994-12-25,08025,Barcelona,4.4,2025-12-14,Activo,Premium,Rehabilitación,2,14
-175,Chus,Almagro Corominas,37,Mujer,1988-08-23,41018,Sevilla,5.1,2025-03-25,Baja,Básico,Bienestar general,4,17
-176,Dimas,Cases Sáenz,50,Hombre,1976-05-15,46001,Valencia,6.8,2026-04-16,Activo,Premium,Competición,3,4
-177,Nayara,Carbó Gibert,39,Mujer,1986-07-20,48012,Bilbao,4.2,2025-01-13,Activo,VIP,Mantenimiento,5,28
-178,Josefa,Jaén Peinado,34,Mujer,1992-05-13,28030,Madrid,8.4,2024-12-18,Activo,VIP,Rehabilitación,1,3
-179,Celso,Carbó Céspedes,24,Hombre,2002-04-18,48012,Bilbao,2.2,2025-01-11,Activo,Estándar,Mantenimiento,5,27
-180,Fabricio,Campoy Amigó,58,Hombre,1968-06-29,48012,Bilbao,4.8,2026-05-17,Activo,Premium,Mantenimiento,5,21
-181,Fabricio,Perez Puente,36,Hombre,1989-11-05,08030,Barcelona,4.1,2025-06-17,Activo,Básico,Mantenimiento,2,21
-182,Otilia,Fiol Benitez,16,Mujer,2010-02-10,46001,Valencia,4.2,2025-12-12,Activo,VIP,Ganar masa muscular,3,15
-183,Manu,Herrero Cal,26,Hombre,2000-02-05,41013,Sevilla,4.2,2025-08-26,Activo,Estándar,Bienestar general,4,28
-184,Obdulia,Mata Carrillo,41,Mujer,1984-10-28,46015,Valencia,4.5,2025-10-17,Activo,Estándar,Ganar masa muscular,3,15
-185,Rómulo,Armengol Olivera,34,Hombre,1992-06-21,28020,Madrid,6.2,2025-12-21,Activo,Estándar,Competición,1,20
-186,Juan Pablo,Romero Pellicer,35,Hombre,1991-01-31,41013,Sevilla,8.1,2026-06-08,Activo,Premium,Ganar masa muscular,4,25
-187,Anastasia,Velasco Nogueira,20,Mujer,2006-02-06,08001,Barcelona,5.4,2025-12-03,Activo,Premium,Rendimiento deportivo,2,17
-188,Adora,Rivera Trillo,43,Mujer,1983-06-25,41018,Sevilla,3.5,2024-01-31,Baja,Estándar,Rehabilitación,4,29
-189,Balduino,Rosselló Paredes,34,Hombre,1991-12-09,41013,Sevilla,5.9,2025-05-13,Baja,Estándar,Bienestar general,4,12
-190,Maximino,Segura Coronado,26,Hombre,2000-01-11,41001,Sevilla,7.9,2024-05-23,Activo,Básico,Rendimiento deportivo,4,17
-191,Isaac,Echeverría Vélez,35,Hombre,1991-05-13,41018,Sevilla,3.2,2025-03-11,Activo,Premium,Mantenimiento,4,26
-192,Máximo,León Tomás,24,Hombre,2002-04-04,46020,Valencia,4.2,2026-02-10,Activo,Básico,Rehabilitación,3,2
-193,Josefa,Ruano Ledesma,53,Mujer,1972-10-29,28030,Madrid,4.5,2025-03-01,Activo,Premium,Rehabilitación,1,5
-194,Etelvina,Higueras Bolaños,44,Mujer,1981-09-07,46015,Valencia,6.3,2026-03-02,Activo,Estándar,Rehabilitación,3,11
-195,Eligia,Sanmartín Hervás,41,Mujer,1984-11-17,48005,Bilbao,1.6,2025-11-15,Activo,Premium,Mantenimiento,5,22
-196,Remigio,Sobrino Pinilla,50,Hombre,1975-09-19,28030,Madrid,4.3,2026-04-03,Activo,VIP,Rehabilitación,1,8
-197,Evangelina,Andrade Urrutia,28,Mujer,1998-05-01,28002,Madrid,5.4,2026-03-01,Activo,Básico,Perder peso,1,19
-198,Susanita,Morcillo Espada,39,Mujer,1987-05-02,28002,Madrid,5.9,2026-06-08,Activo,Básico,Rendimiento deportivo,1,17
-199,Jose Francisco,Garay Pacheco,56,Hombre,1969-07-26,48002,Bilbao,2.6,2025-08-25,Baja,Estándar,Rehabilitación,5,11
-200,Sabas,Jordán Niño,24,Hombre,2001-11-21,41013,Sevilla,3.5,2024-03-17,Activo,Básico,Rehabilitación,4,12
-201,Enrique,Llorente Agustín,28,Hombre,1998-02-23,46010,Valencia,4.4,2025-12-25,Activo,Estándar,Mantenimiento,3,25
-202,Lorena,Feijoo Boada,29,Mujer,1997-02-03,46025,Valencia,2.8,2026-06-08,Activo,Básico,Competición,3,24
-203,Dalila,Ramos Torres,31,Mujer,1994-12-26,46010,Valencia,6.3,2025-10-31,Activo,Estándar,Mantenimiento,3,2
-204,Manu,Hernandez Tamayo,39,Mujer,1986-08-17,46020,Valencia,3.1,2025-10-29,Activo,Estándar,Ganar masa muscular,3,7
-205,Mireia,Tudela Samper,32,Mujer,1994-05-07,48012,Bilbao,5.6,2025-04-16,Activo,Básico,Ganar masa muscular,5,8
-206,Ruy,Alemany Buendía,27,Hombre,1999-06-19,28010,Madrid,1.8,2025-09-23,Baja,VIP,Bienestar general,1,16
-207,Eugenio,Giralt Quiroga,32,Hombre,1993-12-20,28020,Madrid,3.6,2025-08-23,Activo,Premium,Rendimiento deportivo,1,21
-208,Nydia,Hervia Medina,35,Mujer,1990-08-21,08001,Barcelona,4.5,2026-02-18,Baja,Premium,Bienestar general,2,19
-209,Natanael,Peinado Sáenz,16,Hombre,2010-04-14,08010,Barcelona,4.1,2024-10-13,Activo,Estándar,Perder peso,2,27
-210,Manola,Núñez Roig,36,Mujer,1990-06-28,41020,Sevilla,3.3,2022-01-16,Baja,Básico,Rehabilitación,4,4
-211,Petrona,Muro Ortiz,27,Mujer,1999-05-08,46020,Valencia,11.3,2026-06-08,Activo,Premium,Mantenimiento,3,7
-212,Odalys,Santiago Lillo,25,Mujer,2001-04-10,28010,Madrid,7.9,2024-08-23,Baja,Básico,Competición,1,10
-213,Encarnación,Iglesias Gual,31,Mujer,1994-12-10,48001,Bilbao,3.1,2026-02-20,Activo,Básico,Rendimiento deportivo,5,22
-214,Azeneth,Fernández Moles,37,Mujer,1989-03-12,28020,Madrid,4.6,2026-01-24,Baja,Premium,Ganar masa muscular,1,15
-215,Benito,Esteve Feliu,44,Hombre,1982-03-08,46010,Valencia,5.0,2025-09-19,Activo,Estándar,Perder peso,3,22
-216,Concepción,Tomé Lloret,28,Mujer,1997-07-27,28010,Madrid,5.2,2025-12-24,Baja,Básico,Mantenimiento,1,20
-217,Porfirio,Zamorano Luna,36,Hombre,1989-11-27,08030,Barcelona,4.6,2026-01-19,Activo,Premium,Mantenimiento,2,14
-218,Aureliano,Ferrera Marti,52,Hombre,1974-03-17,48012,Bilbao,3.1,2022-04-04,Activo,Premium,Competición,5,26
-219,Corona,Paniagua Escobar,20,Mujer,2006-06-04,28001,Madrid,3.7,2026-06-08,Activo,VIP,Perder peso,1,27
-220,Eutropio,Alcalá Castañeda,41,Hombre,1985-04-25,48012,Bilbao,5.2,2024-12-03,Baja,Premium,Rendimiento deportivo,5,4
-221,Eli,Arroyo Ballester,32,Mujer,1994-06-18,08030,Barcelona,1.6,2025-09-25,Activo,Estándar,Rendimiento deportivo,2,15
-222,Manola,Manzano Cases,47,Mujer,1979-07-09,48001,Bilbao,6.3,2026-02-15,Activo,Básico,Bienestar general,5,7
-223,Melchor,Tudela Calderon,46,Hombre,1979-10-16,48001,Bilbao,7.2,2026-04-04,Activo,Básico,Rendimiento deportivo,5,2
-224,Trini,Alberola Luís,17,Mujer,2009-01-02,46020,Valencia,6.1,2025-09-12,Activo,Premium,Rendimiento deportivo,3,28
-225,Joel,Tejero Saez,22,Hombre,2003-08-14,41001,Sevilla,6.7,2025-09-30,Activo,Básico,Ganar masa muscular,4,18
-226,Francisco,Espinosa Aznar,16,Hombre,2010-07-11,41013,Sevilla,4.4,2022-11-13,Activo,VIP,Rendimiento deportivo,4,22
-227,Edmundo,Tejedor Carbonell,24,Hombre,2002-03-10,48002,Bilbao,5.7,2024-09-18,Activo,VIP,Mantenimiento,5,7
-228,Segismundo,Bas Pérez,52,Hombre,1974-03-20,28001,Madrid,4.1,2025-06-25,Activo,VIP,Rehabilitación,1,2
-229,Jose Luis,Benavent Baeza,19,Hombre,2007-03-10,41018,Sevilla,2.4,2026-06-03,Activo,Estándar,Rendimiento deportivo,4,8
-230,Carlos,Company Mateu,39,Hombre,1987-05-08,48005,Bilbao,9.6,2026-03-30,Activo,Básico,Ganar masa muscular,5,27
-231,Anselma,Hurtado Carrasco,28,Mujer,1998-03-16,48002,Bilbao,6.8,2026-05-02,Activo,Premium,Bienestar general,5,17
-232,León,Rico Gonzalez,26,Hombre,1999-08-29,08030,Barcelona,7.0,2024-12-19,Activo,Estándar,Rendimiento deportivo,2,2
-233,Renata,Yáñez Pintor,51,Mujer,1974-07-30,46010,Valencia,4.5,2026-05-06,Activo,Premium,Mantenimiento,3,13
-234,Jafet,Salas Martinez,35,Hombre,1991-02-14,08010,Barcelona,2.1,2025-04-13,Activo,Estándar,Competición,2,15
-235,Tito,Romeu Mayoral,16,Hombre,2009-12-26,28002,Madrid,2.1,2025-02-13,Activo,Estándar,Mantenimiento,1,21
-236,Lucas,Barrena Cabezas,55,Hombre,1970-10-21,28002,Madrid,1.8,2025-12-20,Activo,VIP,Perder peso,1,9
-237,Rico,Galiano Galván,27,Hombre,1999-04-10,41020,Sevilla,1.3,2026-01-27,Activo,Estándar,Bienestar general,4,22
-238,Dulce,Bertrán Crespo,36,Mujer,1990-02-12,48001,Bilbao,5.7,2023-10-29,Activo,Premium,Ganar masa muscular,5,30
-239,Dafne,Durán Benavides,40,Mujer,1986-03-16,08010,Barcelona,3.9,2026-06-08,Activo,Básico,Rendimiento deportivo,2,30
-240,Camila,Acedo Real,16,Mujer,2009-11-16,08015,Barcelona,3.3,2026-06-08,Activo,Premium,Mantenimiento,2,9
-241,Jafet,Soriano Manuel,20,Hombre,2005-11-15,46015,Valencia,5.3,2025-11-13,Activo,Básico,Ganar masa muscular,3,12
-242,Alcides,Guardiola Maldonado,21,Hombre,2005-04-30,46025,Valencia,6.1,2022-10-19,Baja,Estándar,Rehabilitación,3,19
-243,Patricio,Luna Santiago,32,Hombre,1994-01-03,41010,Sevilla,6.7,2026-03-19,Activo,Estándar,Rendimiento deportivo,4,18
-244,Andrea,Guillen Lamas,33,Mujer,1992-11-23,46015,Valencia,8.2,2025-02-21,Baja,Básico,Ganar masa muscular,3,5
-245,Rufino,Figuerola Rodríguez,16,Hombre,2009-10-17,48001,Bilbao,5.0,2026-02-20,Baja,Premium,Competición,5,22
-246,Baudelio,Gomila Company,36,Hombre,1990-06-13,28001,Madrid,2.3,2025-10-08,Activo,Estándar,Ganar masa muscular,1,17
-247,Yéssica,Larrañaga Cisneros,23,Mujer,2002-08-11,41001,Sevilla,6.3,2025-10-27,Activo,Básico,Rehabilitación,4,18
-248,Andrea,Barreda Daza,49,Mujer,1976-10-19,41001,Sevilla,6.5,2026-05-03,Activo,Básico,Rehabilitación,4,27
-249,Ruy,Meléndez Malo,44,Hombre,1982-05-31,41010,Sevilla,0.1,2026-03-24,Activo,Básico,Ganar masa muscular,4,20
-250,Isabel,Casanova Solís,34,Mujer,1992-06-06,48010,Bilbao,6.8,2024-05-17,Activo,VIP,Rendimiento deportivo,5,19
-251,Omar,Mateu Quevedo,43,Hombre,1982-08-19,08001,Barcelona,3.9,2024-07-10,Activo,VIP,Perder peso,2,13
-252,Elías,Vall Uribe,25,Hombre,2000-07-20,41018,Sevilla,7.9,2026-03-28,Baja,VIP,Competición,4,14
-253,Isidoro,Bernat Ariño,16,Hombre,2009-10-15,46010,Valencia,2.2,2026-03-28,Activo,VIP,Ganar masa muscular,3,29
-254,Victor,Rosales Mora,31,Hombre,1994-07-31,48012,Bilbao,4.0,2021-07-09,Activo,Premium,Rehabilitación,5,22
-255,Marciano,Ibáñez Amigó,45,Hombre,1981-04-04,28020,Madrid,9.1,2022-03-21,Activo,Estándar,Perder peso,1,10
-256,Apolonia,Granados Almansa,20,Mujer,2005-08-01,08015,Barcelona,4.0,2026-03-04,Activo,Estándar,Rendimiento deportivo,2,25
-257,Roberto,Leon Arjona,39,Hombre,1986-11-04,08015,Barcelona,1.3,2025-05-30,Activo,Básico,Perder peso,2,4
-258,Rafaela,Díez Sosa,35,Mujer,1991-01-31,41013,Sevilla,6.0,2025-06-03,Baja,VIP,Competición,4,15
-259,Lorenza,Salamanca Lobo,37,Mujer,1988-12-08,41020,Sevilla,7.0,2026-04-07,Activo,Premium,Bienestar general,4,13
-260,Cipriano,Ruano Téllez,36,Hombre,1990-06-10,28002,Madrid,2.5,2023-07-22,Baja,VIP,Rendimiento deportivo,1,23
-261,Artemio,Soriano Oliveras,34,Hombre,1992-05-31,08015,Barcelona,2.5,2022-07-23,Baja,Estándar,Rendimiento deportivo,2,12
-262,Guadalupe,Mínguez Montesinos,39,Mujer,1986-12-01,46025,Valencia,6.5,2022-08-02,Activo,Premium,Rendimiento deportivo,3,4
-263,Nazaret,Calvo Cuevas,47,Mujer,1979-01-04,28020,Madrid,6.8,2026-04-28,Baja,Estándar,Rendimiento deportivo,1,25
-264,Fidel,Requena Valbuena,32,Hombre,1993-09-27,28020,Madrid,2.5,2025-01-22,Activo,Estándar,Ganar masa muscular,1,5
-265,Ernesto,Pérez Arco,30,Hombre,1996-04-21,46020,Valencia,6.9,2025-04-20,Activo,Premium,Mantenimiento,3,16
-266,Jenny,Borja Miranda,16,Mujer,2009-09-11,28020,Madrid,7.9,2026-04-20,Activo,Premium,Perder peso,1,5
-267,Dolores,Morales Carmona,47,Mujer,1979-02-02,46020,Valencia,4.2,2024-09-05,Activo,Estándar,Competición,3,27
-268,Rolando,Quintero Vilar,41,Hombre,1984-11-15,48010,Bilbao,6.9,2026-06-08,Activo,Básico,Mantenimiento,5,10
-269,Sara,Abella Sevilla,55,Mujer,1971-01-11,41018,Sevilla,2.9,2025-12-10,Activo,VIP,Mantenimiento,4,4
-270,Hilario,Ballester Expósito,47,Hombre,1978-08-05,48001,Bilbao,9.9,2026-03-05,Activo,Premium,Bienestar general,5,15
-271,Juan Antonio,Pardo Valentín,25,Hombre,2000-12-17,08010,Barcelona,5.8,2026-03-27,Activo,Estándar,Bienestar general,2,10
-272,Maura,Salamanca Aznar,34,Mujer,1992-01-05,08030,Barcelona,5.3,2024-03-02,Baja,Premium,Rendimiento deportivo,2,19
-273,Clara,Lasa Castro,16,Mujer,2009-10-07,41013,Sevilla,4.8,2026-05-30,Baja,Básico,Bienestar general,4,29
-274,Ernesto,Ríos Tormo,16,Hombre,2010-03-07,48005,Bilbao,3.0,2026-06-08,Activo,Estándar,Ganar masa muscular,5,21
-275,Azucena,Andres Heras,68,Mujer,1958-02-06,48010,Bilbao,6.2,2025-03-21,Activo,Básico,Perder peso,5,1
-276,Pedro,Cuadrado Mercader,34,Hombre,1991-12-01,28020,Madrid,7.9,2026-02-22,Activo,Estándar,Competición,1,22
-277,Leoncio,Alcalá Raya,32,Hombre,1993-11-11,48010,Bilbao,4.6,2023-10-16,Baja,VIP,Perder peso,5,4
-278,Arturo,Gomila Carballo,28,Hombre,1997-10-22,08025,Barcelona,7.4,2026-06-08,Activo,Premium,Perder peso,2,15
-279,Jerónimo,Carpio Correa,30,Hombre,1996-07-04,41001,Sevilla,5.8,2025-12-11,Activo,Estándar,Bienestar general,4,26
-280,Josep,Manzanares Verdú,52,Hombre,1973-10-12,08030,Barcelona,2.0,2024-08-26,Activo,VIP,Rendimiento deportivo,2,15
-281,Patricio,Llano Ribes,40,Hombre,1985-08-25,08025,Barcelona,0.4,2022-06-02,Activo,Premium,Perder peso,2,24
-282,Silvia,Tolosa Sureda,44,Mujer,1982-01-01,48002,Bilbao,4.1,2026-01-14,Baja,Premium,Ganar masa muscular,5,9
-283,Domingo,Saura Coca,16,Hombre,2010-01-06,28020,Madrid,2.9,2026-03-04,Activo,Premium,Perder peso,1,9
-284,Fátima,Farré Verdejo,18,Mujer,2007-09-04,41001,Sevilla,3.3,2025-12-12,Activo,Premium,Mantenimiento,4,12
-285,Piedad,Cerezo Baños,18,Mujer,2007-09-02,41010,Sevilla,2.3,2026-03-12,Activo,Básico,Mantenimiento,4,4
-286,Emiliano,Ribera Nieto,32,Hombre,1993-10-28,08030,Barcelona,5.8,2023-07-08,Activo,Básico,Ganar masa muscular,2,19
-287,Rufino,Vera Lastra,22,Hombre,2003-10-03,41013,Sevilla,5.7,2025-09-06,Baja,Estándar,Ganar masa muscular,4,6
-288,Samanta,Acedo Luna,44,Mujer,1982-07-15,46010,Valencia,2.0,2026-06-08,Activo,Básico,Competición,3,13
-289,Paola,Martín Tovar,20,Mujer,2005-12-13,48010,Bilbao,5.2,2026-04-21,Activo,VIP,Rendimiento deportivo,5,6
-290,Toribio,Comas Salom,16,Hombre,2010-02-13,28002,Madrid,2.3,2026-02-02,Baja,VIP,Rehabilitación,1,10
-291,Lupita,Tomé Ochoa,37,Mujer,1988-10-09,08030,Barcelona,1.9,2025-06-16,Activo,Estándar,Perder peso,2,9
-292,Flavio,Pi Sarabia,40,Hombre,1985-12-05,48010,Bilbao,2.3,2025-06-03,Activo,Estándar,Perder peso,5,24
-293,Úrsula,Montserrat Fabregat,21,Mujer,2005-03-01,08001,Barcelona,12.4,2024-11-27,Activo,Estándar,Rendimiento deportivo,2,28
-294,Octavia,Haro Piñol,36,Mujer,1989-07-19,28020,Madrid,2.5,2025-12-19,Activo,VIP,Ganar masa muscular,1,20
-295,Demetrio,Reig Arranz,39,Hombre,1986-09-30,08015,Barcelona,0.1,2022-09-10,Activo,VIP,Rehabilitación,2,18
-296,Ester,Suárez Piquer,26,Mujer,1999-09-25,08030,Barcelona,7.7,2025-11-20,Activo,Premium,Bienestar general,2,27
-297,Gabriela,Cornejo Valbuena,48,Mujer,1978-06-20,28002,Madrid,7.3,2025-10-05,Activo,Estándar,Bienestar general,1,28
-298,Alejandro,Cases Vallés,35,Hombre,1990-08-05,08010,Barcelona,6.6,2026-03-20,Activo,Premium,Rehabilitación,2,21
-299,Manolo,Mármol Cabrera,26,Hombre,1999-08-25,46001,Valencia,4.3,2026-04-18,Activo,Básico,Rendimiento deportivo,3,17
-300,Trinidad,Sacristán Cabo,26,Mujer,1999-11-08,46001,Valencia,0.9,2024-04-02,Activo,Estándar,Competición,3,25
-301,Lucila,Saura Alcántara,33,Mujer,1993-06-14,28020,Madrid,2.0,2026-06-05,Activo,Básico,Ganar masa muscular,1,14
-302,Palmira,Cobos Redondo,24,Mujer,2002-01-23,08010,Barcelona,3.3,2022-09-20,Activo,Estándar,Rehabilitación,2,28
-303,Trinidad,Cortes Benavides,41,Hombre,1985-06-25,41018,Sevilla,1.2,2025-12-07,Baja,Premium,Perder peso,4,4
-304,José,Landa Nevado,34,Mujer,1992-04-04,08010,Barcelona,4.8,2024-05-26,Activo,Estándar,Bienestar general,2,10
-305,Mateo,Puga Bernat,52,Hombre,1973-08-20,08001,Barcelona,2.1,2025-03-01,Activo,Premium,Mantenimiento,2,22
-306,Teodosio,Moya Pinto,50,Hombre,1975-12-14,08001,Barcelona,5.9,2025-04-17,Activo,Básico,Perder peso,2,7
-307,Ester,Torrents Araujo,49,Mujer,1977-07-16,41013,Sevilla,4.6,2023-09-29,Baja,Estándar,Competición,4,4
-308,Martin,Bayona Guitart,30,Hombre,1996-01-01,41001,Sevilla,2.1,2026-02-10,Baja,Estándar,Perder peso,4,11
-309,Maximiano,Madrigal Gordillo,39,Hombre,1986-08-24,46010,Valencia,4.8,2026-06-08,Activo,Básico,Perder peso,3,17
-310,Piedad,Botella Roura,52,Mujer,1974-01-23,48002,Bilbao,3.7,2024-08-14,Activo,Básico,Rendimiento deportivo,5,20
-311,Augusto,Cabrera Salcedo,38,Hombre,1988-05-07,41020,Sevilla,3.8,2025-11-13,Activo,Estándar,Bienestar general,4,13
-312,Celso,Marí Andres,45,Hombre,1981-03-15,46001,Valencia,3.2,2026-06-08,Activo,VIP,Ganar masa muscular,3,18
-313,Alonso,Morata Barba,21,Hombre,2004-08-10,48002,Bilbao,3.6,2026-03-25,Activo,Estándar,Rehabilitación,5,20
-314,Eugenio,Palmer Perera,39,Hombre,1987-03-18,48001,Bilbao,6.4,2026-01-30,Activo,Estándar,Ganar masa muscular,5,16
-315,Ildefonso,Coello Hidalgo,57,Hombre,1969-01-19,48002,Bilbao,7.0,2026-06-08,Activo,Premium,Rendimiento deportivo,5,28
-316,Juan Manuel,Requena Escolano,21,Hombre,2004-11-14,48001,Bilbao,6.3,2022-08-21,Activo,Estándar,Perder peso,5,19
-317,Che,Díez Bermúdez,43,Hombre,1982-12-28,28030,Madrid,6.3,2025-05-30,Activo,Estándar,Competición,1,14
-318,Marcos,Piñeiro Hernando,33,Hombre,1993-02-24,41001,Sevilla,5.4,2024-08-05,Baja,Básico,Rehabilitación,4,30
-319,Leonor,Clemente Guerra,41,Mujer,1984-12-30,08001,Barcelona,3.3,2026-01-16,Activo,Estándar,Mantenimiento,2,23
-320,Jerónimo,Izquierdo Segura,32,Hombre,1994-03-13,41018,Sevilla,1.1,2025-01-29,Baja,Premium,Perder peso,4,15
-321,Edu,Agustí Sola,26,Hombre,2000-05-14,48002,Bilbao,5.2,2026-04-26,Baja,Básico,Bienestar general,5,1
-322,Xiomara,Maestre Cruz,23,Mujer,2003-04-20,08015,Barcelona,4.8,2023-10-16,Activo,Premium,Bienestar general,2,29
-323,Angelina,Sala Ojeda,35,Mujer,1991-02-28,28010,Madrid,6.1,2022-06-06,Activo,Premium,Bienestar general,1,19
-324,Lázaro,Martínez Rodrigo,20,Hombre,2005-10-31,28002,Madrid,4.4,2025-11-27,Activo,Premium,Mantenimiento,1,6
-325,Onofre,Ibáñez Saura,38,Hombre,1988-03-23,46001,Valencia,1.3,2025-05-03,Activo,Básico,Perder peso,3,28
-326,Sonia,Matas Flor,35,Mujer,1991-05-02,28001,Madrid,8.6,2025-09-25,Baja,Estándar,Rehabilitación,1,26
-327,Fátima,Tomas Campillo,36,Mujer,1990-03-01,41020,Sevilla,5.3,2026-04-14,Activo,Premium,Mantenimiento,4,4
-328,Diego,Pizarro Palomar,33,Hombre,1992-10-25,48010,Bilbao,3.8,2025-06-15,Activo,VIP,Perder peso,5,29
-329,Maricela,Marqués Marquez,48,Mujer,1978-02-03,41018,Sevilla,3.8,2026-06-08,Baja,Básico,Perder peso,4,12
-330,Aitor,Priego Llobet,29,Hombre,1996-11-20,08025,Barcelona,8.2,2025-06-11,Activo,Estándar,Competición,2,25
-331,Adalberto,Avilés Valdés,33,Hombre,1993-04-30,08025,Barcelona,2.7,2025-02-09,Baja,Premium,Perder peso,2,8
-332,Sigfrido,Macías Grau,21,Hombre,2005-01-23,48010,Bilbao,8.7,2026-05-27,Baja,Estándar,Competición,5,24
-333,Marcio,Ortuño Gilabert,46,Hombre,1979-12-18,46001,Valencia,5.7,2025-08-22,Activo,Estándar,Ganar masa muscular,3,23
-334,Mercedes,Falcón Iglesia,57,Mujer,1968-07-29,46020,Valencia,7.8,2023-07-03,Activo,Premium,Bienestar general,3,3
-335,Nidia,Cerro Caballero,40,Mujer,1986-06-10,48001,Bilbao,5.6,2025-02-22,Activo,Premium,Rendimiento deportivo,5,22
-336,Yaiza,Ariza Mendizábal,35,Mujer,1990-12-28,08015,Barcelona,5.6,2025-09-29,Activo,VIP,Mantenimiento,2,15
-337,Rufino,Saez Aragonés,37,Hombre,1988-09-21,46001,Valencia,9.1,2025-01-24,Baja,Premium,Ganar masa muscular,3,15
-338,Marina,Patiño Catalá,32,Mujer,1994-04-01,41018,Sevilla,7.4,2024-07-23,Activo,Básico,Mantenimiento,4,28
-339,Apolonia,Marquez Morillo,53,Mujer,1972-07-26,28001,Madrid,5.8,2024-06-04,Activo,Básico,Ganar masa muscular,1,27
-340,Piedad,Ribes Echevarría,46,Mujer,1979-12-30,46015,Valencia,8.1,2026-01-22,Activo,Básico,Mantenimiento,3,27
-341,Chus,Catalán Paz,46,Mujer,1979-10-09,08010,Barcelona,5.2,2022-01-06,Activo,VIP,Perder peso,2,15
-342,Juan Manuel,Valls Llamas,37,Hombre,1989-06-16,28002,Madrid,4.5,2025-03-16,Activo,Estándar,Ganar masa muscular,1,7
-343,Severo,Córdoba Jimenez,23,Hombre,2002-09-19,41001,Sevilla,7.5,2025-08-12,Activo,VIP,Perder peso,4,3
-344,Yago,Tirado Marquez,45,Hombre,1981-06-02,08015,Barcelona,3.5,2025-09-17,Activo,Estándar,Perder peso,2,2
-345,Piedad,Nevado Cardona,60,Mujer,1966-01-02,41018,Sevilla,5.6,2026-04-19,Activo,Premium,Bienestar general,4,14
-346,Josefina,Benet Chico,19,Mujer,2007-02-20,08010,Barcelona,9.6,2025-02-27,Activo,Básico,Perder peso,2,20
-347,Priscila,Gonzalez Puerta,22,Mujer,2003-12-16,48010,Bilbao,3.8,2026-06-08,Activo,Premium,Perder peso,5,3
-348,Teo,Paz Bosch,25,Hombre,2000-08-26,46025,Valencia,6.3,2026-06-08,Activo,Premium,Competición,3,1
-349,Rosa,Prat Alcalá,37,Mujer,1989-01-22,41020,Sevilla,2.9,2022-05-22,Activo,Estándar,Mantenimiento,4,13
-350,Eligio,Casals Sanz,39,Hombre,1987-07-03,46015,Valencia,5.4,2026-03-05,Activo,Premium,Perder peso,3,26
-351,Gerónimo,Juárez Piquer,16,Hombre,2010-04-22,41010,Sevilla,4.9,2024-08-27,Baja,Estándar,Mantenimiento,4,18
-352,Sandra,Pera Campoy,37,Mujer,1989-01-17,28002,Madrid,1.4,2023-01-18,Activo,Básico,Ganar masa muscular,1,8
-353,Nereida,Guillen Soto,26,Mujer,1999-09-16,48005,Bilbao,6.7,2025-08-12,Baja,Premium,Rehabilitación,5,19
-354,Aitana,Mosquera Giralt,27,Mujer,1998-10-11,08025,Barcelona,3.4,2023-12-27,Activo,Básico,Perder peso,2,3
-355,Miriam,Barroso Simó,35,Mujer,1991-07-17,28030,Madrid,5.7,2024-07-17,Activo,Premium,Ganar masa muscular,1,26
-356,Yéssica,Matas Real,30,Mujer,1996-06-15,08030,Barcelona,5.1,2025-11-20,Baja,Básico,Bienestar general,2,30
-357,Azahar,Chaves Arrieta,38,Mujer,1988-06-10,08025,Barcelona,0.8,2024-02-15,Activo,Básico,Rehabilitación,2,4
-358,Alejo,Mayo Ugarte,32,Hombre,1993-12-05,46020,Valencia,5.6,2026-01-27,Activo,Estándar,Bienestar general,3,11
-359,Azahar,Cabanillas Guitart,30,Mujer,1996-03-23,08010,Barcelona,1.3,2023-11-17,Activo,Premium,Rendimiento deportivo,2,10
-360,Victoria,Cerdá Pont,48,Mujer,1977-10-03,46025,Valencia,8.6,2024-11-30,Baja,Básico,Mantenimiento,3,30
-361,Jenny,Peláez Rius,37,Mujer,1989-05-06,48001,Bilbao,6.4,2025-04-07,Activo,Premium,Ganar masa muscular,5,12
-362,Lázaro,Cortes Ribera,47,Hombre,1978-07-23,46015,Valencia,8.2,2024-05-18,Activo,VIP,Rendimiento deportivo,3,1
-363,Morena,Cabeza Tovar,39,Mujer,1987-03-09,46001,Valencia,7.0,2026-06-08,Activo,Premium,Perder peso,3,13
-364,María Manuela,Raya Losa,31,Mujer,1994-11-06,41013,Sevilla,0.6,2026-06-08,Activo,Estándar,Rehabilitación,4,13
-365,Alcides,Pellicer Gaya,45,Hombre,1981-04-27,28001,Madrid,1.3,2026-02-09,Activo,Estándar,Mantenimiento,1,1
-366,Isidora,Sales Guzman,34,Mujer,1992-04-20,46010,Valencia,5.7,2026-01-02,Activo,Premium,Bienestar general,3,3
-367,Tania,Pareja Cabezas,65,Mujer,1960-09-23,48010,Bilbao,4.3,2026-02-09,Activo,Estándar,Bienestar general,5,1
-368,Noelia,Pedrero Palmer,41,Mujer,1985-04-29,41013,Sevilla,3.9,2025-11-19,Baja,Básico,Ganar masa muscular,4,7
-369,Ana,Puig Llorente,28,Mujer,1997-08-11,41010,Sevilla,1.9,2024-09-30,Activo,Estándar,Perder peso,4,2
-370,Claudio,Carvajal Sanz,16,Hombre,2010-06-15,41018,Sevilla,2.3,2025-10-19,Activo,Premium,Perder peso,4,10
-371,Artemio,Garay Almazán,29,Hombre,1997-04-19,48001,Bilbao,4.7,2026-01-13,Activo,Básico,Rendimiento deportivo,5,28
-372,Amarilis,Múgica Hervia,30,Mujer,1995-08-12,28030,Madrid,7.1,2025-12-28,Baja,VIP,Rendimiento deportivo,1,6
-373,Begoña,Fuertes Bayona,43,Mujer,1983-06-27,46020,Valencia,2.5,2025-03-14,Activo,Premium,Mantenimiento,3,8
-374,Severino,Galan Garzón,28,Hombre,1998-06-02,46025,Valencia,3.9,2025-04-19,Activo,Básico,Rendimiento deportivo,3,25
-375,Ruth,Guijarro Moya,35,Mujer,1990-10-23,48012,Bilbao,5.7,2025-11-22,Activo,Premium,Bienestar general,5,28
-376,Remedios,Coloma Acedo,27,Mujer,1999-06-05,41001,Sevilla,2.8,2026-05-18,Activo,Estándar,Rehabilitación,4,19
-377,Emiliano,Coca Castillo,40,Hombre,1986-05-18,48010,Bilbao,2.3,2026-02-25,Activo,Estándar,Ganar masa muscular,5,6
-378,Luz,Iglesia Díaz,37,Mujer,1989-06-07,08025,Barcelona,3.9,2021-12-14,Activo,Básico,Ganar masa muscular,2,27
-379,Bartolomé,Amigó Catalá,39,Hombre,1987-06-04,08025,Barcelona,2.9,2025-08-12,Activo,Básico,Rehabilitación,2,11
-380,Adrián,Palma Gárate,16,Hombre,2009-07-19,46025,Valencia,4.1,2022-05-05,Activo,Básico,Competición,3,14
-381,Macario,Morante Alcázar,29,Hombre,1997-05-22,28001,Madrid,7.0,2026-01-02,Activo,Estándar,Competición,1,10
-382,Carmelita,Lara Badía,52,Mujer,1974-01-06,48012,Bilbao,0.8,2024-12-06,Activo,Estándar,Rehabilitación,5,16
-383,Begoña,Robledo Zorrilla,40,Mujer,1986-06-29,28010,Madrid,6.4,2026-01-04,Activo,Estándar,Bienestar general,1,8
-384,Aurora,Bartolomé Tamayo,34,Mujer,1992-07-06,28010,Madrid,1.6,2026-03-16,Baja,Básico,Mantenimiento,1,9
-385,Jacobo,Paredes Vilanova,46,Hombre,1980-05-12,41018,Sevilla,1.6,2025-09-07,Activo,Estándar,Competición,4,27
-386,Manu,Canales Sans,33,Hombre,1993-04-11,46020,Valencia,6.3,2026-02-06,Activo,Premium,Bienestar general,3,16
-387,José,Giralt Aroca,49,Hombre,1977-06-17,48012,Bilbao,2.9,2022-10-12,Baja,Estándar,Rendimiento deportivo,5,5
-388,Prudencio,Vázquez Mata,37,Hombre,1989-04-06,48002,Bilbao,4.4,2026-06-04,Activo,Básico,Perder peso,5,15
-389,Jesusa,Anguita Barrera,51,Mujer,1975-01-14,28030,Madrid,2.7,2022-10-15,Activo,Estándar,Rendimiento deportivo,1,21
-390,Julia,Querol Roldan,31,Mujer,1994-09-15,28020,Madrid,2.3,2026-05-24,Activo,Premium,Rehabilitación,1,18
-391,Noelia,Campoy Trujillo,22,Mujer,2003-07-27,46001,Valencia,8.6,2025-06-11,Baja,Premium,Rendimiento deportivo,3,2
-392,Pelayo,Salcedo Beltrán,47,Hombre,1979-03-29,08010,Barcelona,3.8,2026-03-19,Activo,Básico,Mantenimiento,2,21
-393,Vinicio,Berrocal Montserrat,16,Hombre,2009-11-12,41010,Sevilla,4.4,2022-07-25,Activo,Estándar,Rehabilitación,4,26
-394,María Fernanda,Colomer Bastida,37,Mujer,1988-07-18,28010,Madrid,8.1,2025-04-09,Activo,Premium,Rendimiento deportivo,1,29
-395,Bernardino,Llopis Morcillo,42,Hombre,1983-11-23,41020,Sevilla,2.4,2025-05-08,Activo,Estándar,Competición,4,20
-396,Francisca,Mariño Santiago,33,Mujer,1992-10-02,41020,Sevilla,3.8,2026-02-12,Activo,Premium,Mantenimiento,4,10
-397,Ligia,Ros Cabezas,24,Mujer,2001-08-21,28010,Madrid,3.8,2023-11-24,Activo,VIP,Mantenimiento,1,21
-398,Régulo,Carbó Garrido,40,Hombre,1986-06-19,46025,Valencia,7.3,2026-05-23,Activo,Básico,Rendimiento deportivo,3,22
-399,Irene,Sanmiguel Gracia,26,Mujer,2000-02-14,46020,Valencia,3.0,2023-06-22,Baja,Estándar,Rendimiento deportivo,3,13
-400,Hilario,Nicolau Santana,16,Hombre,2010-01-18,28002,Madrid,1.2,2023-12-01,Activo,Estándar,Bienestar general,1,18
-401,Gloria,Ricart Bustamante,49,Mujer,1977-04-24,41020,Sevilla,3.7,2025-07-15,Activo,Premium,Ganar masa muscular,4,10
-402,Faustino,Roldán Milla,16,Hombre,2009-07-29,28001,Madrid,5.1,2025-02-22,Activo,Estándar,Ganar masa muscular,1,12
-403,Natalia,Jara Perelló,34,Mujer,1992-01-08,08015,Barcelona,3.5,2026-06-08,Baja,Premium,Rendimiento deportivo,2,28
-404,Carmelo,Sánchez Bautista,16,Hombre,2009-11-13,28030,Madrid,5.2,2026-03-01,Activo,Estándar,Perder peso,1,28
-405,Artemio,Blázquez Buendía,22,Hombre,2004-05-04,41013,Sevilla,2.9,2022-04-17,Activo,Estándar,Rendimiento deportivo,4,19
-406,Inocencio,Bárcena Peralta,49,Hombre,1977-06-09,41010,Sevilla,7.1,2024-03-16,Activo,Básico,Mantenimiento,4,21
-407,Santiago,Castillo Barreda,44,Hombre,1981-09-27,28020,Madrid,4.2,2025-02-18,Activo,VIP,Competición,1,25
-408,Maristela,Murcia Carvajal,43,Mujer,1982-12-25,28020,Madrid,6.1,2026-05-22,Activo,Básico,Rendimiento deportivo,1,1
-409,Hernán,Otero Rocha,16,Hombre,2010-01-29,28030,Madrid,4.4,2025-11-13,Activo,Básico,Ganar masa muscular,1,1
-410,Teófila,Aznar Maestre,28,Mujer,1998-02-06,28020,Madrid,2.4,2024-09-14,Activo,VIP,Rehabilitación,1,19
-411,María Carmen,Miguel Ortiz,46,Mujer,1980-02-22,46025,Valencia,6.9,2025-10-11,Activo,Estándar,Rehabilitación,3,17
-412,Baldomero,Vera Garcia,18,Hombre,2008-01-19,46020,Valencia,5.7,2025-10-30,Activo,Premium,Mantenimiento,3,25
-413,Calixta,Toledo Gomez,48,Mujer,1978-07-11,08010,Barcelona,9.7,2026-06-08,Baja,Estándar,Ganar masa muscular,2,24
-414,Soraya,Campoy Ordóñez,28,Mujer,1997-07-16,28001,Madrid,4.3,2025-06-03,Activo,Premium,Rendimiento deportivo,1,29
-415,Telmo,Pedrero Cardona,37,Hombre,1988-08-13,46001,Valencia,0.9,2026-02-28,Activo,Premium,Perder peso,3,23
-416,Rafaela,Lopez Gonzalo,24,Mujer,2001-11-14,28002,Madrid,4.4,2026-05-23,Activo,Básico,Bienestar general,1,22
-417,Roxana,Romeu Amo,29,Mujer,1996-08-31,28002,Madrid,7.1,2023-12-09,Activo,Premium,Rendimiento deportivo,1,27
-418,María Fernanda,Lastra Andres,18,Mujer,2008-05-15,28020,Madrid,4.3,2026-06-08,Activo,Estándar,Ganar masa muscular,1,20
-419,Cipriano,Llano Mendizábal,38,Hombre,1988-01-16,08015,Barcelona,2.0,2026-04-05,Activo,Básico,Ganar masa muscular,2,2
-420,Águeda,Nicolás Orozco,26,Mujer,2000-01-27,48001,Bilbao,3.7,2026-02-23,Activo,Básico,Bienestar general,5,3
-421,Abraham,Escudero Clemente,44,Hombre,1982-06-03,28001,Madrid,2.6,2025-10-28,Activo,Premium,Bienestar general,1,24
-422,Marcia,Pérez Baños,49,Mujer,1977-02-19,28001,Madrid,2.2,2025-04-27,Activo,Premium,Perder peso,1,27
-423,Bibiana,Anglada Bravo,51,Mujer,1974-08-09,08001,Barcelona,3.2,2026-06-06,Baja,VIP,Perder peso,2,28
-424,Raúl,Garrido Peñalver,41,Hombre,1985-01-31,28020,Madrid,5.6,2024-07-11,Activo,Premium,Rehabilitación,1,9
-425,Hugo,Santiago Nogueira,27,Hombre,1998-12-22,28020,Madrid,6.8,2024-08-12,Activo,VIP,Mantenimiento,1,27
-426,Camila,Pelayo Mesa,29,Mujer,1996-08-17,41010,Sevilla,3.5,2025-09-01,Activo,Básico,Perder peso,4,5
-427,Poncio,Morata Blazquez,57,Hombre,1968-12-21,28020,Madrid,3.8,2025-05-02,Activo,Premium,Competición,1,19
-428,Verónica,Badía Cortés,39,Mujer,1986-09-08,41010,Sevilla,7.9,2025-02-23,Baja,Estándar,Rendimiento deportivo,4,30
-429,Cayetano,Ayala Bilbao,44,Hombre,1982-06-17,41013,Sevilla,5.8,2026-06-07,Activo,Estándar,Perder peso,4,23
-430,Elías,Salazar Rodrigo,36,Hombre,1989-08-09,48012,Bilbao,2.5,2023-08-22,Activo,Premium,Rehabilitación,5,23
-431,Jose Carlos,Salamanca Ribas,49,Hombre,1976-11-16,48010,Bilbao,7.8,2025-09-21,Baja,Básico,Ganar masa muscular,5,27
-432,Elías,Garriga Vila,47,Hombre,1978-08-25,48012,Bilbao,1.7,2025-11-28,Activo,VIP,Competición,5,16
-433,Aurora,Ochoa Ropero,38,Mujer,1988-02-04,41013,Sevilla,5.1,2025-05-03,Baja,Premium,Perder peso,4,17
-434,Bartolomé,Luque Torrecilla,23,Hombre,2003-06-04,08030,Barcelona,4.6,2025-11-02,Activo,Premium,Rendimiento deportivo,2,3
-435,Lucila,Mendez Arroyo,29,Mujer,1996-08-15,41018,Sevilla,5.7,2026-03-15,Baja,Premium,Rendimiento deportivo,4,2
-436,Constanza,Prats Ballesteros,16,Mujer,2009-10-25,48010,Bilbao,2.7,2025-10-21,Activo,Estándar,Mantenimiento,5,12
-437,Adelaida,Fuente Mata,44,Mujer,1981-10-06,28030,Madrid,0.4,2025-03-09,Activo,VIP,Rendimiento deportivo,1,23
-438,Curro,Cervantes Jaume,33,Hombre,1993-07-15,46015,Valencia,3.6,2026-06-08,Activo,Premium,Rehabilitación,3,17
-439,Espiridión,Mosquera Carretero,33,Hombre,1992-11-06,46020,Valencia,4.0,2026-02-08,Baja,Estándar,Perder peso,3,9
-440,Adelaida,Valencia Ros,37,Mujer,1989-03-29,48002,Bilbao,5.2,2026-06-08,Activo,Estándar,Bienestar general,5,11
-441,Chucho,Castelló Pinto,35,Hombre,1990-11-29,28030,Madrid,5.3,2025-10-14,Activo,Básico,Rehabilitación,1,5
-442,Luisina,Grau Vall,54,Mujer,1971-09-26,41020,Sevilla,3.2,2025-08-07,Activo,VIP,Competición,4,30
-443,Lino,Pablo Bello,32,Hombre,1994-05-24,08030,Barcelona,3.2,2026-05-20,Activo,Premium,Rehabilitación,2,29
-444,Heliodoro,Arnal Rubio,23,Hombre,2003-02-24,46015,Valencia,3.5,2025-10-30,Activo,Premium,Mantenimiento,3,15
-445,Agustina,Segura Bermejo,45,Mujer,1980-07-25,08015,Barcelona,8.2,2026-03-17,Activo,Básico,Bienestar general,2,24
-446,Tere,Millán Román,29,Mujer,1996-07-29,48002,Bilbao,4.0,2026-04-26,Activo,Básico,Bienestar general,5,21
-447,Maribel,Quiroga Rios,16,Mujer,2009-07-14,08015,Barcelona,4.3,2026-04-08,Baja,Premium,Rehabilitación,2,16
-448,Ema,Cardona Quirós,18,Mujer,2007-08-02,48012,Bilbao,2.5,2023-10-09,Activo,Premium,Mantenimiento,5,29
-449,Agustín,Morcillo Duarte,40,Hombre,1986-01-04,41001,Sevilla,2.7,2025-03-07,Baja,Básico,Ganar masa muscular,4,9
-450,Salvador,Seguí Paredes,53,Hombre,1973-06-20,08015,Barcelona,3.3,2026-01-27,Activo,Estándar,Ganar masa muscular,2,25
-451,Arsenio,Rueda Camacho,56,Hombre,1969-09-10,48012,Bilbao,5.7,2026-03-09,Activo,Estándar,Competición,5,8
-452,Daniela,Ruano Pérez,24,Mujer,2001-07-25,48010,Bilbao,7.8,2025-09-27,Activo,Básico,Rendimiento deportivo,5,14
-453,Luciana,Bermúdez Priego,38,Mujer,1988-04-05,46020,Valencia,5.9,2026-01-25,Activo,Premium,Competición,3,8
-454,Trinidad,Menéndez Nicolás,35,Hombre,1991-04-09,46010,Valencia,1.4,2024-07-15,Activo,Estándar,Bienestar general,3,3
-455,Dan,Mínguez Diéguez,54,Hombre,1972-01-10,08015,Barcelona,5.3,2023-12-22,Baja,VIP,Rehabilitación,2,9
-456,Antonio,Vicens Carbonell,47,Hombre,1979-02-01,08010,Barcelona,6.6,2025-12-27,Activo,Estándar,Perder peso,2,5
-457,Luisa,Viana Ferrera,18,Mujer,2007-11-04,46025,Valencia,2.4,2025-08-28,Activo,VIP,Mantenimiento,3,3
-458,Víctor,Olmedo Ortega,16,Hombre,2009-10-27,46025,Valencia,3.1,2023-11-13,Activo,Básico,Rehabilitación,3,13
-459,Pascuala,Coloma Guzman,20,Mujer,2006-01-25,28002,Madrid,6.6,2025-11-06,Activo,Premium,Competición,1,20
-460,Aurelio,Coll Jaén,19,Hombre,2007-05-16,48010,Bilbao,5.8,2025-09-29,Activo,Básico,Ganar masa muscular,5,29
-461,Conrado,Durán Coronado,42,Hombre,1983-08-04,48010,Bilbao,5.0,2024-06-02,Activo,Estándar,Competición,5,4
-462,Ricardo,Benet Elorza,34,Hombre,1991-10-26,41013,Sevilla,8.8,2024-07-20,Activo,Premium,Rehabilitación,4,26
-463,Rolando,Uribe Simó,31,Hombre,1995-02-02,48001,Bilbao,5.0,2024-11-25,Activo,Estándar,Ganar masa muscular,5,25
-464,René,Sanchez Moraleda,18,Hombre,2007-08-04,48002,Bilbao,4.3,2025-06-04,Activo,Básico,Competición,5,22
-465,Teresa,Molina Corbacho,39,Mujer,1986-08-21,41001,Sevilla,5.2,2025-05-27,Activo,Básico,Bienestar general,4,22
-466,Isidro,Bayo Somoza,53,Hombre,1973-06-07,08010,Barcelona,4.8,2025-01-24,Baja,Estándar,Competición,2,9
-467,Isaura,Mateo Llobet,55,Mujer,1970-12-26,48010,Bilbao,6.5,2026-05-17,Activo,Básico,Rendimiento deportivo,5,11
-468,Manolo,Barbero Ortiz,30,Hombre,1995-08-22,28001,Madrid,4.7,2026-06-08,Activo,Premium,Competición,1,24
-469,Lilia,Benavent Menéndez,57,Mujer,1968-11-07,48005,Bilbao,6.8,2025-02-06,Baja,Estándar,Rehabilitación,5,3
-470,Joaquina,Sans Arellano,36,Mujer,1989-08-13,46010,Valencia,3.5,2026-04-30,Baja,Básico,Rehabilitación,3,8
-471,Amparo,Peinado Madrid,34,Mujer,1991-08-27,08015,Barcelona,1.4,2026-06-08,Baja,Básico,Perder peso,2,18
-472,Angélica,Bosch Vendrell,37,Mujer,1988-10-15,48001,Bilbao,5.2,2023-12-03,Activo,Estándar,Mantenimiento,5,7
-473,Gregorio,Sevillano Armengol,41,Hombre,1985-04-27,46025,Valencia,8.9,2025-12-31,Baja,Básico,Competición,3,9
-474,Jafet,Fabra Montoya,48,Hombre,1977-10-12,08030,Barcelona,6.9,2026-03-24,Activo,Estándar,Perder peso,2,10
-475,María Del Carmen,Tamarit Vallejo,34,Mujer,1992-01-29,28002,Madrid,4.7,2025-04-12,Activo,Estándar,Perder peso,1,10
-476,Bárbara,Barrio Sanjuan,42,Mujer,1983-12-01,48005,Bilbao,5.5,2026-06-08,Activo,Estándar,Bienestar general,5,19
-477,Aroa,Nuñez Blasco,24,Mujer,2001-12-07,08015,Barcelona,5.5,2026-04-01,Baja,Básico,Ganar masa muscular,2,26
-478,Ligia,Duque Ariza,30,Mujer,1996-01-13,08015,Barcelona,1.3,2022-06-29,Activo,Premium,Rendimiento deportivo,2,15
-479,Duilio,Río Saavedra,28,Hombre,1998-04-17,41001,Sevilla,6.2,2025-07-28,Activo,Estándar,Competición,4,9
-480,Juan Francisco,Yáñez Cuenca,41,Hombre,1985-06-10,08030,Barcelona,3.6,2025-11-04,Activo,Estándar,Bienestar general,2,1
-481,Germán,Peralta Luna,16,Hombre,2010-06-24,48012,Bilbao,2.6,2025-01-15,Activo,Premium,Rehabilitación,5,16
-482,Gala,Rebollo Neira,29,Mujer,1997-05-08,08030,Barcelona,6.6,2026-04-24,Activo,Estándar,Perder peso,2,13
-483,Norberto,Badía Nadal,17,Hombre,2008-10-22,46010,Valencia,4.1,2025-11-10,Activo,VIP,Ganar masa muscular,3,19
-484,Ana Sofía,Murcia Busquets,18,Mujer,2008-01-11,48010,Bilbao,1.0,2025-06-02,Baja,Estándar,Ganar masa muscular,5,3
-485,León,Pomares Luz,32,Hombre,1993-10-24,46015,Valencia,5.2,2026-05-17,Activo,Premium,Rendimiento deportivo,3,16
-486,Dolores,Conesa Mínguez,37,Mujer,1989-05-26,41020,Sevilla,3.1,2026-05-10,Activo,Estándar,Bienestar general,4,27
-487,Apolinar,Cid Olmo,39,Hombre,1987-01-07,46015,Valencia,2.7,2026-04-29,Activo,Premium,Rehabilitación,3,21
-488,Fabián,Pou Castelló,23,Hombre,2002-10-23,28010,Madrid,4.5,2026-03-31,Activo,Estándar,Rendimiento deportivo,1,26
-489,Manuel,Blazquez Menendez,36,Hombre,1989-12-04,41001,Sevilla,4.1,2023-09-23,Activo,Estándar,Rehabilitación,4,21
-490,Manuelita,Peñas Moya,36,Mujer,1989-09-12,46001,Valencia,5.7,2025-08-29,Activo,Estándar,Bienestar general,3,8
-491,Ruth,Castell Zurita,42,Mujer,1983-08-08,41010,Sevilla,1.6,2026-06-08,Activo,Premium,Rehabilitación,4,6
-492,Arturo,Roda Verdugo,38,Hombre,1988-05-10,41001,Sevilla,4.2,2026-06-06,Activo,Estándar,Rehabilitación,4,5
-493,Fidela,Alfaro Pareja,48,Mujer,1977-09-17,28001,Madrid,7.7,2025-06-17,Activo,Premium,Bienestar general,1,24
-494,Esmeralda,Escribano Gargallo,42,Mujer,1983-11-15,46020,Valencia,4.6,2025-03-08,Baja,Estándar,Rehabilitación,3,5
-495,Evita,Torre Fernandez,38,Mujer,1988-04-23,48005,Bilbao,1.9,2026-06-08,Activo,Premium,Rendimiento deportivo,5,20
-496,Daniel,Cervantes Cortina,45,Hombre,1981-05-25,48012,Bilbao,5.1,2025-07-29,Baja,Premium,Competición,5,30
-497,Antonio,Marqués Cadenas,25,Hombre,2001-04-15,48012,Bilbao,1.6,2024-07-19,Activo,Premium,Rehabilitación,5,2
-498,Lilia,Zurita Arellano,29,Mujer,1996-08-12,48012,Bilbao,5.8,2025-10-24,Baja,Básico,Rehabilitación,5,27
-499,Nadia,Navarro Castro,51,Mujer,1974-10-27,28001,Madrid,2.3,2024-08-11,Activo,Estándar,Bienestar general,1,17
-500,María,Peñas Correa,37,Mujer,1989-01-19,41020,Sevilla,9.9,2026-04-25,Activo,Premium,Perder peso,4,14
-501,Ceferino,Escrivá Daza,41,Hombre,1984-09-03,46015,Valencia,9.8,2025-09-26,Baja,Premium,Perder peso,3,6
-502,Poncio,Río Arranz,50,Hombre,1976-06-14,28002,Madrid,6.3,2025-12-02,Baja,Premium,Competición,1,22
-503,Guiomar,Pastor Gámez,38,Mujer,1987-11-19,41020,Sevilla,7.5,2025-08-19,Baja,Básico,Perder peso,4,27
-504,Isidora,López Sanchez,32,Mujer,1993-11-01,28010,Madrid,6.6,2025-10-21,Activo,Básico,Rehabilitación,1,29
-505,Cruz,Haro Mendoza,30,Mujer,1996-03-09,41020,Sevilla,6.5,2025-10-16,Activo,Estándar,Competición,4,22
-506,Sandalio,Somoza Ferrera,38,Hombre,1987-07-19,41018,Sevilla,8.3,2025-10-26,Baja,Estándar,Mantenimiento,4,27
-507,Gerónimo,Saez Serrano,52,Hombre,1974-05-03,08010,Barcelona,6.2,2025-11-06,Activo,Premium,Perder peso,2,2
-508,Rebeca,Luján Piña,34,Mujer,1992-02-10,48010,Bilbao,8.3,2025-10-03,Baja,Estándar,Bienestar general,5,7
-509,José,Álamo Riquelme,34,Hombre,1992-06-04,41018,Sevilla,7.4,2025-10-18,Activo,Premium,Bienestar general,4,1
-510,Cecilio,Flores Chacón,41,Hombre,1985-06-22,48005,Bilbao,10.3,2025-07-27,Baja,Estándar,Mantenimiento,5,17
-511,Tristán,Ibáñez Azorin,33,Hombre,1992-11-18,41013,Sevilla,10.5,2025-07-27,Activo,Premium,Rehabilitación,4,3
-512,Miguela,Terrón Pera,29,Mujer,1996-09-13,48010,Bilbao,8.2,2025-12-10,Baja,Estándar,Rendimiento deportivo,5,29
-513,Manola,Calderon Villalobos,53,Mujer,1973-04-20,28010,Madrid,9.6,2026-01-05,Activo,Premium,Perder peso,1,15
-514,Susanita,Casanovas López,55,Mujer,1970-09-04,28030,Madrid,11.7,2025-09-07,Baja,Básico,Mantenimiento,1,28
-515,Anna,Cueto Llamas,41,Mujer,1984-12-26,48005,Bilbao,5.5,2025-10-25,Baja,Estándar,Rendimiento deportivo,5,4
-516,Javiera,Vilanova Colom,34,Mujer,1991-10-16,41020,Sevilla,7.9,2025-09-14,Activo,Básico,Mantenimiento,4,23
-517,Severo,Ruiz Bravo,41,Hombre,1985-01-09,28030,Madrid,5.5,2025-12-31,Baja,Estándar,Competición,1,29
-518,Zaida,Girona Sanmartín,34,Mujer,1992-01-17,46020,Valencia,7.2,2025-09-12,Activo,Estándar,Mantenimiento,3,1
-519,Verónica,Olmedo Amor,46,Mujer,1979-09-11,48001,Bilbao,6.0,2025-08-29,Activo,Básico,Ganar masa muscular,5,27
-520,Hipólito,Baeza Prieto,46,Hombre,1979-10-02,48012,Bilbao,2.9,2025-07-12,Baja,VIP,Perder peso,5,18
-521,José,Pereira Gutiérrez,49,Hombre,1977-02-11,08010,Barcelona,9.0,2025-09-25,Activo,Básico,Ganar masa muscular,2,12
-522,Gabriela,Bilbao Perera,45,Mujer,1981-03-21,48010,Bilbao,7.1,2025-08-24,Baja,Premium,Competición,5,15
-523,Consuelo,Anaya Montalbán,33,Mujer,1993-04-19,28010,Madrid,10.1,2025-10-01,Baja,VIP,Mantenimiento,1,28
-524,Íngrid,Cabeza Naranjo,53,Mujer,1973-03-23,08025,Barcelona,10.0,2025-10-13,Activo,Básico,Mantenimiento,2,1
-525,Rosa María,Coll Cervantes,54,Mujer,1972-07-10,48010,Bilbao,8.0,2025-12-01,Baja,Premium,Competición,5,1
-526,Alejo,Madrid Sureda,36,Hombre,1989-10-10,48005,Bilbao,10.5,2025-11-22,Activo,Básico,Competición,5,26
-527,Obdulia,Chamorro Somoza,31,Mujer,1994-10-01,08015,Barcelona,8.8,2025-08-05,Baja,Básico,Rehabilitación,2,20
-528,Jacinta,Adadia Bernad,36,Mujer,1989-10-15,46010,Valencia,6.5,2026-01-04,Activo,Estándar,Rehabilitación,3,21
-529,Agapito,Jaén Garriga,39,Hombre,1986-07-25,08025,Barcelona,7.7,2025-12-05,Baja,VIP,Competición,2,2
-530,Silvestre,Conde Álamo,55,Hombre,1971-02-24,08010,Barcelona,8.0,2025-08-05,Baja,Básico,Rendimiento deportivo,2,12
-531,Héctor,Cantero Maldonado,36,Hombre,1990-04-27,08025,Barcelona,7.3,2025-10-30,Baja,Estándar,Mantenimiento,2,3
-532,Diego,Mascaró Carro,34,Hombre,1991-09-10,41001,Sevilla,7.4,2025-11-12,Baja,Estándar,Rehabilitación,4,14
-533,Amanda,Gómez Rivas,40,Mujer,1986-02-13,28030,Madrid,4.8,2025-11-19,Baja,Premium,Competición,1,27
-534,Micaela,Sebastián Barros,47,Mujer,1978-08-31,41010,Sevilla,5.3,2025-09-10,Baja,Básico,Ganar masa muscular,4,15
-535,Bartolomé,Valero Alegre,32,Hombre,1994-03-18,08030,Barcelona,6.5,2025-11-19,Baja,Premium,Competición,2,16
-536,Maximiano,Villalba Herranz,40,Hombre,1986-05-26,48002,Bilbao,6.5,2025-08-13,Activo,Premium,Mantenimiento,5,26
-537,Plinio,Cobo Manuel,29,Hombre,1997-05-23,48010,Bilbao,6.4,2025-11-14,Baja,Premium,Ganar masa muscular,5,23
-538,Inés,Abellán Osorio,42,Mujer,1983-08-07,48010,Bilbao,6.3,2025-08-22,Activo,VIP,Ganar masa muscular,5,28
-539,Dalila,Riera Exposito,54,Mujer,1972-06-10,08030,Barcelona,6.7,2025-12-01,Activo,Premium,Bienestar general,2,25
-540,Nazaret,Boada Zabaleta,55,Hombre,1971-04-11,28002,Madrid,9.2,2025-11-30,Activo,Básico,Competición,1,10
-541,Geraldo,Bauzà Zorrilla,44,Hombre,1981-12-08,08015,Barcelona,8.1,2025-08-14,Baja,Estándar,Mantenimiento,2,23
-542,Macaria,Vera Vera,30,Mujer,1996-01-02,28010,Madrid,7.7,2025-10-18,Activo,Estándar,Competición,1,2
-543,Leonel,Almagro Portero,37,Hombre,1989-06-09,08025,Barcelona,7.1,2025-10-23,Baja,Estándar,Bienestar general,2,25
-544,Trinidad,Soriano Arranz,33,Mujer,1992-12-19,46020,Valencia,7.7,2025-08-30,Baja,Estándar,Rehabilitación,3,8
-545,Maximino,Pombo Perea,51,Hombre,1975-07-08,46015,Valencia,3.5,2025-12-21,Baja,Estándar,Competición,3,7
-546,Dolores,Alegre Palau,55,Mujer,1970-09-29,48012,Bilbao,5.1,2026-01-08,Baja,Estándar,Ganar masa muscular,5,18
-547,Rufino,Bauzà Ochoa,44,Hombre,1982-05-27,46020,Valencia,6.7,2025-12-04,Baja,VIP,Bienestar general,3,6
-548,Dionisio,Calleja Márquez,32,Hombre,1993-12-25,41001,Sevilla,9.3,2025-08-23,Baja,Básico,Bienestar general,4,17
-549,Bonifacio,Arregui Ortuño,41,Hombre,1985-03-21,08015,Barcelona,5.5,2025-08-14,Activo,VIP,Bienestar general,2,24
-550,Leandro,Nevado Díez,28,Hombre,1998-07-12,41001,Sevilla,5.9,2025-07-30,Activo,Estándar,Rehabilitación,4,9
-551,Severo,Sobrino Tejero,41,Hombre,1985-06-24,48005,Bilbao,8.6,2025-08-24,Activo,Estándar,Rendimiento deportivo,5,22
-552,Maximiano,Esparza Cepeda,31,Hombre,1994-11-01,28030,Madrid,9.8,2025-12-27,Baja,Premium,Mantenimiento,1,15
-553,Ana Belén,Seco Arco,45,Mujer,1980-11-14,41020,Sevilla,5.0,2025-08-18,Activo,Estándar,Perder peso,4,12
-554,Eugenio,Fortuny Arranz,49,Hombre,1976-09-11,08025,Barcelona,7.0,2025-10-27,Baja,Estándar,Perder peso,2,22
-555,Rosa María,Flores Arnaiz,41,Mujer,1984-12-13,28001,Madrid,10.4,2025-12-25,Activo,Estándar,Rendimiento deportivo,1,9
-556,Estela,Menéndez Villalba,45,Mujer,1981-05-31,46020,Valencia,7.8,2025-07-27,Baja,Estándar,Competición,3,18
-557,Heliodoro,Sáenz Isern,28,Hombre,1998-04-17,46015,Valencia,7.1,2025-11-29,Baja,VIP,Bienestar general,3,16
-558,Alejandro,Feijoo Macias,41,Hombre,1985-02-17,41020,Sevilla,8.7,2025-10-16,Baja,Premium,Rendimiento deportivo,4,17
-559,Felipa,Asenjo Mármol,39,Mujer,1986-11-05,48010,Bilbao,7.0,2025-10-10,Activo,Básico,Competición,5,5
-560,Elena,Casanova Pedro,41,Mujer,1985-02-12,08030,Barcelona,10.5,2026-01-05,Activo,Básico,Perder peso,2,17
-561,Isaías,Páez Sabater,53,Hombre,1972-12-31,28002,Madrid,7.3,2025-09-12,Baja,Estándar,Rehabilitación,1,4
-562,Victorino,Pomares Nicolau,33,Hombre,1993-02-05,48012,Bilbao,7.9,2025-08-25,Activo,Básico,Mantenimiento,5,9
-563,Cayetana,Valderrama Valencia,38,Mujer,1988-06-12,46025,Valencia,8.2,2025-08-27,Baja,Estándar,Bienestar general,3,1
-564,Flor,Vives Lasa,51,Mujer,1974-11-24,28002,Madrid,7.4,2025-07-15,Baja,Básico,Ganar masa muscular,1,19
-565,Rosario,Blanch Rodriguez,36,Mujer,1990-01-15,48001,Bilbao,10.4,2025-10-15,Baja,Estándar,Perder peso,5,19
-566,Ani,Ros Escribano,37,Mujer,1988-08-20,46025,Valencia,6.9,2025-11-10,Baja,Básico,Perder peso,3,30
-567,Magdalena,Marin Montesinos,48,Mujer,1977-08-23,46010,Valencia,9.9,2026-01-02,Baja,Estándar,Mantenimiento,3,19
-568,Aroa,Bernal Mosquera,47,Mujer,1979-01-04,41020,Sevilla,6.3,2025-07-14,Baja,Premium,Perder peso,4,13
-569,Natalio,Marqués Medina,44,Hombre,1981-11-12,46010,Valencia,5.1,2025-08-30,Baja,Estándar,Ganar masa muscular,3,11
-570,Jacinto,Rojas Diaz,53,Hombre,1972-10-25,08001,Barcelona,4.8,2025-10-11,Activo,VIP,Competición,2,5
+1,Jose Manuel,Bou Arévalo,39,Hombre,1986-11-05,48005,Bilbao,5.0,2026-06-12,Baja,Básico,Perder peso,5,29
+2,Teodora,Canals Coronado,30,Mujer,1995-09-10,08030,Barcelona,5.4,2026-02-20,Activo,VIP,Perder peso,2,22
+3,Mauricio,Cuesta Roca,29,Hombre,1997-03-06,48001,Bilbao,8.1,2026-01-30,Baja,Estándar,Bienestar general,5,18
+4,María,Bartolomé Plaza,32,Mujer,1994-04-07,08015,Barcelona,6.7,2026-04-03,Activo,Premium,Rehabilitación,2,16
+5,Graciano,Solé Ángel,54,Hombre,1971-09-05,46015,Valencia,4.1,2026-03-12,Baja,Básico,Perder peso,3,1
+6,Dionisia,Alberdi Carbó,37,Mujer,1989-04-30,46025,Valencia,0.9,2025-08-03,Activo,Básico,Bienestar general,3,14
+7,Néstor,Lasa Nieto,39,Hombre,1986-10-16,48005,Bilbao,5.9,2026-06-12,Baja,Básico,Rehabilitación,5,18
+8,Aurelia,Marin Royo,31,Mujer,1995-06-30,08010,Barcelona,4.3,2026-06-12,Activo,Básico,Bienestar general,2,8
+9,Camila,Santiago Acero,25,Mujer,2000-09-04,28002,Madrid,6.3,2026-01-07,Activo,Premium,Competición,1,6
+10,Palmira,Lago Valle,36,Mujer,1989-12-23,08010,Barcelona,5.0,2025-07-30,Activo,Estándar,Mantenimiento,2,6
+11,Rafaela,Escalona Vera,32,Mujer,1994-03-29,28020,Madrid,6.5,2026-03-04,Baja,VIP,Mantenimiento,1,10
+12,Zaira,Camino Martín,37,Mujer,1989-02-03,08001,Barcelona,6.4,2025-11-12,Activo,Básico,Competición,2,9
+13,Sol,Vera Flor,27,Mujer,1999-07-05,46015,Valencia,3.5,2025-06-07,Baja,Básico,Ganar masa muscular,3,19
+14,Calista,Pereira Cuéllar,50,Mujer,1976-02-15,46025,Valencia,5.3,2026-01-10,Baja,Estándar,Perder peso,3,13
+15,Luz,Abascal Morante,36,Mujer,1990-07-21,48012,Bilbao,4.3,2023-11-14,Activo,Estándar,Bienestar general,5,24
+16,Laura,Aliaga Caparrós,31,Mujer,1994-09-04,08001,Barcelona,5.7,2025-02-23,Baja,VIP,Bienestar general,2,29
+17,Áurea,Parejo Meléndez,17,Mujer,2008-12-22,46025,Valencia,3.7,2026-05-07,Activo,Estándar,Ganar masa muscular,3,7
+18,Dimas,Barco Hernando,29,Hombre,1996-09-07,41018,Sevilla,3.2,2025-12-11,Baja,Estándar,Rehabilitación,4,27
+19,Valeria,Bermúdez Boada,32,Mujer,1993-11-24,28002,Madrid,5.3,2025-11-12,Activo,VIP,Rehabilitación,1,16
+20,Patricia,Torre Bayón,29,Mujer,1997-06-02,08010,Barcelona,2.9,2024-12-27,Activo,Premium,Bienestar general,2,10
+21,Ricardo,Casas Castellanos,37,Hombre,1989-03-18,08030,Barcelona,3.4,2026-01-31,Activo,Premium,Competición,2,25
+22,Narciso,Talavera Dalmau,16,Hombre,2009-07-25,28020,Madrid,6.4,2023-01-23,Baja,Premium,Ganar masa muscular,1,5
+23,Eligio,Álamo Rocha,53,Hombre,1972-12-20,28030,Madrid,1.4,2026-06-12,Baja,Premium,Rendimiento deportivo,1,2
+24,Cloe,Font Mesa,35,Mujer,1991-05-14,48012,Bilbao,8.7,2026-06-12,Activo,Estándar,Rehabilitación,5,20
+25,Gloria,Perea Ríos,59,Mujer,1966-10-20,46010,Valencia,2.9,2026-06-12,Activo,Premium,Bienestar general,3,28
+26,Ximena,Villar Sanmiguel,16,Mujer,2009-10-23,41010,Sevilla,5.2,2025-01-31,Activo,Básico,Mantenimiento,4,15
+27,Azeneth,Huguet Gomila,33,Mujer,1993-02-07,28001,Madrid,3.7,2025-12-23,Activo,Estándar,Ganar masa muscular,1,5
+28,Amílcar,Neira Almazán,29,Hombre,1997-06-17,08015,Barcelona,4.9,2025-12-16,Activo,Básico,Rehabilitación,2,15
+29,Marita,Grau Giménez,55,Mujer,1970-09-30,41001,Sevilla,5.6,2025-11-08,Activo,Premium,Competición,4,29
+30,Adelaida,Belda Barral,34,Mujer,1992-02-19,48010,Bilbao,4.8,2026-06-11,Activo,Básico,Rehabilitación,5,24
+31,Crescencia,Bauzà Angulo,42,Mujer,1984-04-01,48010,Bilbao,0.1,2025-12-17,Activo,VIP,Perder peso,5,13
+32,Tito,Murillo Belda,24,Hombre,2001-11-21,46025,Valencia,1.1,2025-03-02,Activo,Premium,Rehabilitación,3,1
+33,José Ángel,Gárate Lopez,20,Hombre,2005-08-22,41018,Sevilla,3.2,2026-01-02,Baja,Premium,Ganar masa muscular,4,2
+34,Nayara,Torralba Gargallo,28,Mujer,1998-01-28,46020,Valencia,4.2,2026-06-12,Activo,Premium,Mantenimiento,3,25
+35,Julián,Catalán Suárez,34,Hombre,1991-10-18,41013,Sevilla,4.5,2023-05-16,Baja,Premium,Ganar masa muscular,4,21
+36,Domingo,Suárez Ramírez,38,Hombre,1988-03-17,28001,Madrid,1.4,2023-12-25,Baja,Premium,Rehabilitación,1,5
+37,Claudio,Busquets Caballero,47,Hombre,1978-11-28,08015,Barcelona,7.1,2026-05-20,Activo,VIP,Ganar masa muscular,2,20
+38,Narciso,Rosa Pablo,53,Hombre,1973-02-16,48001,Bilbao,5.9,2026-06-12,Baja,Estándar,Mantenimiento,5,19
+39,Héctor,Reig Solera,19,Hombre,2006-09-17,41010,Sevilla,5.9,2026-05-03,Activo,Básico,Perder peso,4,23
+40,Toni,Balaguer Cabello,44,Hombre,1981-10-07,46015,Valencia,1.2,2025-10-21,Activo,Estándar,Rehabilitación,3,14
+41,Américo,Quevedo Nicolau,50,Hombre,1975-12-22,46001,Valencia,4.7,2025-08-26,Activo,Premium,Rendimiento deportivo,3,12
+42,Rosalía,Canales Ibarra,31,Mujer,1994-09-08,41020,Sevilla,2.0,2026-06-12,Activo,Básico,Competición,4,16
+43,Celia,Falcón Sanabria,17,Mujer,2009-02-01,41001,Sevilla,7.4,2025-09-09,Baja,Básico,Mantenimiento,4,29
+44,Berta,Roca Español,35,Mujer,1991-01-30,41013,Sevilla,5.6,2024-10-17,Baja,Premium,Ganar masa muscular,4,16
+45,Eligia,Sevillano Iborra,29,Mujer,1996-09-17,08015,Barcelona,5.6,2024-04-02,Activo,Premium,Rehabilitación,2,1
+46,Trinidad,Benet Salazar,39,Mujer,1986-11-14,48002,Bilbao,4.5,2025-11-14,Baja,Premium,Bienestar general,5,16
+47,Roxana,Cabañas Ayuso,32,Mujer,1994-03-29,41010,Sevilla,4.0,2026-02-13,Activo,Estándar,Mantenimiento,4,22
+48,Modesta,Alcolea Bueno,24,Mujer,2001-12-13,48012,Bilbao,7.1,2024-10-15,Activo,Estándar,Mantenimiento,5,12
+49,Renato,Guzmán Delgado,33,Hombre,1993-04-13,41020,Sevilla,7.2,2024-10-22,Baja,Premium,Competición,4,23
+50,Griselda,Torralba Teruel,42,Mujer,1983-09-25,08030,Barcelona,6.6,2023-12-26,Activo,VIP,Rehabilitación,2,10
+51,Clotilde,Quero Barral,39,Mujer,1987-04-22,28030,Madrid,3.6,2025-11-20,Baja,Estándar,Ganar masa muscular,1,9
+52,Celestino,Pinilla Abril,50,Hombre,1975-09-02,28020,Madrid,4.4,2025-07-04,Activo,Estándar,Perder peso,1,28
+53,Gema,Lara Sanz,22,Mujer,2004-01-25,28001,Madrid,3.3,2025-05-28,Baja,Premium,Mantenimiento,1,28
+54,Eloísa,Rocha Torrecilla,38,Mujer,1988-06-14,41001,Sevilla,4.4,2025-01-20,Activo,Estándar,Ganar masa muscular,4,5
+55,Casemiro,Falcó Martin,39,Hombre,1987-05-23,48010,Bilbao,5.4,2026-05-02,Baja,Básico,Rehabilitación,5,20
+56,Concha,Barragán Barrera,37,Mujer,1988-12-07,48012,Bilbao,6.0,2026-04-30,Activo,VIP,Rendimiento deportivo,5,10
+57,Raúl,Mir Barceló,23,Hombre,2003-04-03,48005,Bilbao,2.2,2025-12-30,Activo,Básico,Bienestar general,5,3
+58,Amador,Tapia Valverde,35,Hombre,1991-07-20,08030,Barcelona,7.5,2026-06-12,Baja,Premium,Rendimiento deportivo,2,10
+59,Ágata,Criado Barberá,37,Mujer,1989-06-15,28010,Madrid,7.9,2025-05-03,Activo,Estándar,Competición,1,26
+60,Liliana,Bernat Estevez,20,Mujer,2006-05-20,48002,Bilbao,1.7,2026-06-12,Baja,Básico,Mantenimiento,5,27
+61,Anastasia,Bayo Gutierrez,41,Mujer,1984-09-21,08030,Barcelona,4.3,2026-01-19,Activo,Premium,Mantenimiento,2,15
+62,Graciana,Carretero Hoz,24,Mujer,2002-03-01,28020,Madrid,5.7,2025-07-02,Baja,Estándar,Rendimiento deportivo,1,3
+63,Marina,Ariño Bilbao,47,Mujer,1978-09-18,48001,Bilbao,5.4,2026-03-30,Baja,VIP,Ganar masa muscular,5,22
+64,Hortensia,Yáñez Molina,32,Mujer,1993-09-28,48002,Bilbao,4.5,2025-10-24,Baja,Premium,Rendimiento deportivo,5,17
+65,Dorita,Fuente Miralles,41,Mujer,1984-08-31,41001,Sevilla,3.0,2026-05-02,Activo,Estándar,Rendimiento deportivo,4,12
+66,Dimas,Lara Priego,26,Hombre,2000-02-01,41018,Sevilla,7.5,2026-06-12,Baja,Estándar,Mantenimiento,4,22
+67,Benigna,Marín Sebastián,40,Mujer,1986-06-07,41013,Sevilla,1.7,2022-05-11,Baja,Estándar,Perder peso,4,25
+68,Fausto,Belmonte Agustí,49,Hombre,1976-08-22,41018,Sevilla,4.5,2026-06-12,Baja,Básico,Rendimiento deportivo,4,2
+69,Jesusa,Cabo Beltrán,18,Mujer,2007-08-31,08001,Barcelona,3.5,2025-11-24,Activo,Básico,Ganar masa muscular,2,9
+70,Lupita,Garcés Velasco,41,Mujer,1985-05-21,48012,Bilbao,5.0,2026-06-12,Baja,Premium,Competición,5,8
+71,Dulce,Cazorla Oller,34,Mujer,1992-06-03,08001,Barcelona,5.3,2025-10-28,Baja,Estándar,Rendimiento deportivo,2,4
+72,Vera,Bayona Hidalgo,16,Mujer,2009-12-16,08025,Barcelona,3.2,2023-06-07,Activo,Básico,Ganar masa muscular,2,15
+73,Gil,López Cruz,39,Hombre,1987-06-17,48010,Bilbao,5.0,2022-08-04,Baja,Estándar,Mantenimiento,5,30
+74,Isabel,Mate Ángel,34,Mujer,1991-09-24,48010,Bilbao,4.6,2023-11-21,Activo,Premium,Competición,5,5
+75,Adelia,Marí Calleja,24,Mujer,2001-11-27,41010,Sevilla,4.1,2024-06-03,Activo,VIP,Bienestar general,4,8
+76,Valeria,Cañizares Lamas,17,Mujer,2009-06-24,48010,Bilbao,6.1,2026-01-29,Activo,VIP,Bienestar general,5,30
+77,Bautista,Campo Cortés,21,Hombre,2004-11-06,41010,Sevilla,7.5,2025-12-28,Activo,Básico,Rehabilitación,4,19
+78,Elena,Luján Galvez,51,Mujer,1975-06-04,46020,Valencia,3.1,2026-02-05,Baja,Estándar,Perder peso,3,24
+79,Plinio,Novoa Frutos,20,Hombre,2006-06-09,08015,Barcelona,6.1,2026-04-30,Baja,Premium,Mantenimiento,2,20
+80,Noelia,Laguna Vega,21,Mujer,2005-02-05,41018,Sevilla,0.2,2025-06-30,Activo,Premium,Competición,4,18
+81,Laura,Iglesias Azcona,28,Mujer,1998-03-25,28020,Madrid,2.3,2024-02-16,Activo,Estándar,Perder peso,1,25
+82,Arturo,Roda Lloret,17,Hombre,2009-06-23,28001,Madrid,4.9,2026-01-25,Activo,Estándar,Mantenimiento,1,12
+83,Amada,Acevedo Múgica,26,Mujer,1999-10-03,46010,Valencia,5.5,2026-04-12,Activo,Básico,Ganar masa muscular,3,6
+84,Rogelio,Castrillo Juárez,25,Hombre,2000-11-06,28002,Madrid,2.4,2025-12-26,Activo,Estándar,Ganar masa muscular,1,15
+85,Candelaria,Sala Roma,17,Mujer,2009-02-19,46010,Valencia,4.4,2022-02-18,Activo,Premium,Perder peso,3,15
+86,Mar,Agustí Caparrós,45,Mujer,1980-08-04,46015,Valencia,4.7,2026-01-12,Baja,Premium,Ganar masa muscular,3,13
+87,Angelita,Company Araujo,44,Mujer,1981-10-02,41013,Sevilla,5.6,2026-05-07,Baja,Estándar,Perder peso,4,27
+88,Silvestre,Peiró Colomer,32,Hombre,1993-09-13,41013,Sevilla,7.3,2025-05-15,Activo,Estándar,Competición,4,26
+89,Ildefonso,Castell Arnaiz,26,Hombre,1999-09-05,08010,Barcelona,4.2,2025-12-17,Baja,VIP,Bienestar general,2,4
+90,Encarnita,Pastor Ariño,30,Mujer,1996-05-13,28010,Madrid,6.1,2023-11-19,Baja,Premium,Mantenimiento,1,24
+91,Ximena,Pallarès Gallo,37,Mujer,1988-10-23,41013,Sevilla,5.3,2025-07-02,Activo,Premium,Competición,4,6
+92,Nilda,Iborra Calderon,59,Mujer,1967-02-04,46020,Valencia,1.6,2026-03-31,Activo,Estándar,Perder peso,3,5
+93,Felicidad,Ramos Cortes,47,Mujer,1978-10-12,08025,Barcelona,2.0,2026-06-12,Baja,Estándar,Perder peso,2,9
+94,Ángela,Guzmán Cámara,43,Mujer,1982-09-27,48005,Bilbao,5.8,2025-07-30,Baja,Estándar,Perder peso,5,22
+95,Rosalía,Elorza Revilla,18,Mujer,2007-09-08,08001,Barcelona,5.5,2022-09-11,Baja,VIP,Bienestar general,2,27
+96,Aitana,Escobar Márquez,43,Mujer,1983-05-25,41001,Sevilla,4.5,2025-02-12,Baja,Estándar,Mantenimiento,4,16
+97,Rosendo,Requena Hurtado,55,Hombre,1971-01-09,28030,Madrid,7.6,2024-03-26,Baja,Básico,Rendimiento deportivo,1,19
+98,Débora,Cuervo Campoy,48,Mujer,1977-09-12,08015,Barcelona,1.6,2024-06-27,Activo,Básico,Perder peso,2,23
+99,Graciano,Arias Sosa,37,Hombre,1989-01-17,46015,Valencia,6.4,2024-07-30,Baja,Estándar,Rehabilitación,3,29
+100,Dan,Flores Seguí,43,Hombre,1982-12-03,46010,Valencia,4.6,2023-11-21,Baja,VIP,Bienestar general,3,21
+101,Felicia,Mayoral Goñi,38,Mujer,1988-03-19,48012,Bilbao,4.3,2026-05-02,Activo,Estándar,Ganar masa muscular,5,3
+102,Dani,Alvarez Ferrando,37,Hombre,1989-02-03,48012,Bilbao,7.2,2022-04-30,Baja,Estándar,Perder peso,5,9
+103,Heraclio,Moya Lopez,49,Hombre,1977-05-29,08001,Barcelona,3.5,2023-12-19,Activo,Premium,Ganar masa muscular,2,1
+104,Teresa,Baños Lorenzo,37,Mujer,1989-07-13,46001,Valencia,2.6,2025-12-08,Baja,Estándar,Ganar masa muscular,3,24
+105,Felicia,Vergara Pulido,16,Mujer,2009-11-29,41020,Sevilla,3.9,2026-04-03,Activo,Premium,Rehabilitación,4,4
+106,Norberto,Muñoz Amorós,16,Hombre,2009-08-13,41018,Sevilla,4.1,2025-12-03,Activo,Estándar,Bienestar general,4,1
+107,Azahar,Julián Escalona,58,Mujer,1967-08-10,28020,Madrid,3.9,2025-09-02,Baja,Premium,Perder peso,1,29
+108,Luis Ángel,Lara Arenas,32,Hombre,1994-03-02,28030,Madrid,5.8,2024-03-03,Activo,VIP,Rehabilitación,1,23
+109,Asunción,Rovira Ojeda,23,Mujer,2002-11-28,46020,Valencia,6.4,2025-11-25,Activo,Premium,Perder peso,3,26
+110,Pánfilo,Mir Rubio,45,Hombre,1980-12-15,28002,Madrid,1.7,2024-09-16,Activo,Premium,Rendimiento deportivo,1,11
+111,María Dolores,Vidal Carlos,19,Mujer,2006-12-11,41013,Sevilla,5.3,2022-05-23,Activo,Estándar,Mantenimiento,4,5
+112,Guadalupe,Falcón Iñiguez,55,Hombre,1970-12-17,41013,Sevilla,6.9,2026-05-27,Baja,VIP,Competición,4,5
+113,Amada,Rubio Abellán,62,Mujer,1963-08-19,48005,Bilbao,5.8,2025-10-19,Baja,Premium,Competición,5,22
+114,Loreto,Figueras Pascual,47,Mujer,1978-09-20,41001,Sevilla,4.2,2024-05-04,Baja,Básico,Rehabilitación,4,17
+115,Ildefonso,Becerra Murillo,42,Hombre,1984-01-25,08015,Barcelona,7.8,2024-04-11,Baja,Básico,Perder peso,2,25
+116,Mateo,Mir Casanovas,16,Hombre,2009-09-08,46015,Valencia,3.6,2025-09-23,Activo,Premium,Perder peso,3,6
+117,Pacífica,Mas Vendrell,31,Mujer,1995-01-22,46010,Valencia,3.7,2023-08-19,Baja,Básico,Rehabilitación,3,22
+118,Fabián,Real Morera,52,Hombre,1974-06-09,41010,Sevilla,7.1,2025-11-01,Baja,Estándar,Rendimiento deportivo,4,14
+119,Graciana,Marqués Castejón,28,Mujer,1997-10-02,41001,Sevilla,7.2,2025-02-17,Baja,Estándar,Ganar masa muscular,4,6
+120,Celia,Rivero Pinilla,39,Mujer,1986-08-18,48012,Bilbao,5.1,2026-05-12,Baja,Estándar,Rendimiento deportivo,5,14
+121,Nicolasa,Dávila Mascaró,38,Mujer,1987-12-14,46025,Valencia,7.3,2026-01-07,Baja,Premium,Rendimiento deportivo,3,17
+122,Hermenegildo,Abad Mateu,46,Hombre,1980-07-20,46010,Valencia,6.7,2026-03-12,Baja,Básico,Competición,3,5
+123,Eloísa,Gallo Ropero,33,Mujer,1992-12-12,46020,Valencia,5.7,2022-10-20,Baja,Básico,Rehabilitación,3,23
+124,Roberta,Montserrat Sola,16,Mujer,2010-06-10,08001,Barcelona,3.8,2021-07-13,Activo,Premium,Rendimiento deportivo,2,1
+125,Isaura,Salamanca García,56,Mujer,1969-10-06,41018,Sevilla,3.6,2024-08-07,Baja,Básico,Mantenimiento,4,4
+126,Lina,Sáenz Doménech,45,Mujer,1980-08-04,41001,Sevilla,5.3,2026-06-12,Activo,Premium,Rendimiento deportivo,4,28
+127,Narciso,Blazquez Luz,35,Hombre,1990-12-31,28010,Madrid,6.1,2024-02-23,Activo,Premium,Ganar masa muscular,1,11
+128,José Ángel,Naranjo Bueno,50,Hombre,1976-01-28,08010,Barcelona,5.6,2026-05-05,Baja,Premium,Ganar masa muscular,2,4
+129,Sebastián,Gutierrez Menéndez,34,Hombre,1991-08-20,08025,Barcelona,5.5,2024-09-24,Baja,Premium,Rendimiento deportivo,2,25
+130,Coral,Flor Colom,35,Mujer,1990-09-03,48010,Bilbao,3.9,2025-01-13,Baja,Premium,Perder peso,5,16
+131,Albano,Arteaga Hierro,20,Hombre,2006-01-18,41013,Sevilla,1.7,2025-05-13,Activo,Básico,Rendimiento deportivo,4,15
+132,Jordán,Beltran Sarabia,56,Hombre,1969-08-30,28001,Madrid,5.2,2025-09-04,Activo,Básico,Rehabilitación,1,20
+133,Hipólito,Ferreras Plana,23,Hombre,2002-11-30,48012,Bilbao,7.5,2025-12-19,Activo,Básico,Bienestar general,5,7
+134,Jose Miguel,Pulido Hervás,23,Hombre,2002-11-30,46015,Valencia,2.5,2026-06-11,Baja,Estándar,Bienestar general,3,3
+135,Brunilda,Adán Campillo,32,Mujer,1993-12-08,48012,Bilbao,2.9,2026-05-16,Activo,Premium,Ganar masa muscular,5,12
+136,Reyes,Rodríguez Gilabert,45,Mujer,1980-08-10,46015,Valencia,4.1,2023-02-24,Baja,Básico,Perder peso,3,11
+137,Carmen,Villaverde Sobrino,23,Mujer,2002-08-16,28030,Madrid,4.1,2022-11-23,Activo,Estándar,Competición,1,5
+138,Amarilis,Ibañez Carrión,50,Mujer,1976-02-17,46020,Valencia,6.1,2026-02-09,Activo,Básico,Ganar masa muscular,3,20
+139,Jessica,Cañellas Sobrino,30,Mujer,1996-05-15,28030,Madrid,6.9,2025-09-26,Activo,Premium,Perder peso,1,21
+140,Natividad,Molins Salas,32,Mujer,1994-04-19,41013,Sevilla,5.3,2025-02-26,Activo,Básico,Competición,4,16
+141,Mariano,Vargas Roldan,35,Hombre,1991-02-20,08001,Barcelona,6.0,2026-06-10,Activo,Estándar,Rehabilitación,2,25
+142,Severo,Salmerón Cuenca,47,Hombre,1978-08-20,48012,Bilbao,0.6,2026-02-04,Baja,Estándar,Ganar masa muscular,5,20
+143,Ramiro,Taboada Sandoval,39,Hombre,1986-12-10,41013,Sevilla,4.7,2026-02-07,Baja,Premium,Bienestar general,4,24
+144,Dora,Huertas Lluch,51,Mujer,1975-03-28,08015,Barcelona,2.8,2023-01-04,Activo,Estándar,Competición,2,26
+145,Raquel,Vázquez Tormo,41,Mujer,1984-11-28,41018,Sevilla,4.5,2023-11-14,Activo,Estándar,Rehabilitación,4,17
+146,Matías,Haro Llobet,56,Hombre,1970-03-20,41018,Sevilla,3.6,2025-09-28,Baja,Estándar,Competición,4,12
+147,Isidro,Berenguer Macias,52,Hombre,1974-03-02,48002,Bilbao,2.7,2025-03-29,Baja,VIP,Mantenimiento,5,15
+148,Desiderio,Llabrés Narváez,42,Hombre,1983-12-05,48001,Bilbao,5.1,2025-04-21,Activo,Estándar,Rendimiento deportivo,5,2
+149,Feliciano,Berrocal Chacón,26,Hombre,2000-01-09,41013,Sevilla,4.3,2025-03-31,Baja,Básico,Perder peso,4,27
+150,Bárbara,Guardia Piñol,36,Mujer,1989-11-22,46010,Valencia,4.1,2024-01-16,Activo,Estándar,Competición,3,23
+151,Ovidio,Corominas Gargallo,33,Hombre,1993-07-11,41010,Sevilla,5.0,2025-11-02,Baja,Premium,Rehabilitación,4,24
+152,Ana Belén,Ribera Ramón,29,Mujer,1997-03-20,48001,Bilbao,3.6,2025-04-10,Activo,Básico,Ganar masa muscular,5,14
+153,Eusebia,Solano Ricart,29,Mujer,1996-09-17,48012,Bilbao,4.5,2025-02-12,Activo,Estándar,Rehabilitación,5,8
+154,Ana,Gabaldón Rivera,34,Mujer,1992-03-19,08010,Barcelona,3.9,2024-12-05,Activo,Premium,Bienestar general,2,22
+155,Guiomar,Aller Pintor,23,Hombre,2002-12-31,28001,Madrid,3.1,2024-05-15,Activo,Premium,Bienestar general,1,13
+156,Jorge,Aguado Ortiz,34,Hombre,1992-01-26,46001,Valencia,6.7,2025-10-16,Baja,Básico,Competición,3,19
+157,Emma,Porta Rius,42,Mujer,1983-08-28,46020,Valencia,5.4,2024-08-26,Baja,Estándar,Bienestar general,3,16
+158,Lupita,Giménez Torrents,36,Mujer,1990-07-03,08001,Barcelona,5.1,2025-10-18,Baja,Básico,Competición,2,7
+159,Constanza,Llamas Ruano,30,Mujer,1995-10-15,28001,Madrid,5.9,2026-05-09,Activo,Premium,Competición,1,21
+160,Jose Carlos,Andres Porcel,29,Hombre,1996-08-18,08001,Barcelona,9.1,2026-06-12,Baja,Premium,Competición,2,12
+161,Evangelina,Quiroga Dalmau,50,Mujer,1976-02-02,41018,Sevilla,3.2,2026-02-06,Activo,Básico,Bienestar general,4,16
+162,Sosimo,Solsona Castell,47,Hombre,1978-12-19,46025,Valencia,3.6,2025-09-07,Baja,Básico,Competición,3,6
+163,María Ángeles,Amores Prada,33,Mujer,1992-08-16,48010,Bilbao,6.0,2026-02-28,Baja,Premium,Rehabilitación,5,23
+164,Martina,Amores Blanes,41,Mujer,1985-07-01,41013,Sevilla,7.0,2026-06-12,Activo,Premium,Rehabilitación,4,14
+165,Modesto,Romero Cerdá,21,Hombre,2005-06-09,46020,Valencia,2.8,2026-06-12,Baja,Estándar,Mantenimiento,3,17
+166,Teresita,Serrano Espada,41,Mujer,1985-07-05,08010,Barcelona,3.1,2024-09-27,Baja,Estándar,Competición,2,21
+167,Amador,Juan Pinilla,16,Hombre,2009-09-10,46020,Valencia,7.6,2026-05-24,Baja,Estándar,Mantenimiento,3,12
+168,Eugenia,Galán Sanz,36,Mujer,1989-12-30,41013,Sevilla,4.3,2026-03-26,Baja,Premium,Ganar masa muscular,4,4
+169,Eugenia,Nebot Pinilla,33,Mujer,1992-10-06,28010,Madrid,1.0,2026-01-10,Activo,Premium,Bienestar general,1,15
+170,Eligia,Robles Iniesta,44,Mujer,1982-04-12,08001,Barcelona,4.0,2023-09-27,Baja,Estándar,Rendimiento deportivo,2,6
+171,Silvia,Bilbao Sosa,56,Mujer,1969-08-19,41001,Sevilla,4.6,2023-09-04,Baja,Estándar,Rehabilitación,4,18
+172,Agapito,Azorin Olmo,53,Hombre,1973-01-21,46001,Valencia,2.5,2022-09-04,Baja,Básico,Ganar masa muscular,3,26
+173,Consuelo,Bayona Arjona,36,Mujer,1989-10-11,08025,Barcelona,8.1,2025-04-16,Baja,Estándar,Competición,2,18
+174,Priscila,Anguita Huertas,31,Mujer,1994-12-29,08025,Barcelona,4.4,2025-12-18,Activo,Premium,Rehabilitación,2,14
+175,Chus,Almagro Corominas,37,Mujer,1988-08-27,41018,Sevilla,5.1,2025-03-29,Baja,Básico,Bienestar general,4,17
+176,Dimas,Cases Sáenz,50,Hombre,1976-05-19,46001,Valencia,6.8,2026-04-20,Activo,Premium,Competición,3,4
+177,Nayara,Carbó Gibert,39,Mujer,1986-07-24,48012,Bilbao,4.2,2025-01-17,Activo,VIP,Mantenimiento,5,28
+178,Josefa,Jaén Peinado,34,Mujer,1992-05-17,28030,Madrid,8.4,2024-12-22,Baja,VIP,Rehabilitación,1,3
+179,Celso,Carbó Céspedes,24,Hombre,2002-04-22,48012,Bilbao,2.2,2025-01-15,Activo,Estándar,Mantenimiento,5,27
+180,Fabricio,Campoy Amigó,58,Hombre,1968-07-03,48012,Bilbao,4.8,2026-05-21,Activo,Premium,Mantenimiento,5,21
+181,Fabricio,Perez Puente,36,Hombre,1989-11-09,08030,Barcelona,4.1,2025-06-21,Baja,Básico,Mantenimiento,2,21
+182,Otilia,Fiol Benitez,16,Mujer,2010-02-14,46001,Valencia,4.2,2025-12-16,Activo,VIP,Ganar masa muscular,3,15
+183,Manu,Herrero Cal,26,Hombre,2000-02-09,41013,Sevilla,4.2,2025-08-30,Activo,Estándar,Bienestar general,4,28
+184,Obdulia,Mata Carrillo,41,Mujer,1984-11-01,46015,Valencia,4.5,2025-10-21,Activo,Estándar,Ganar masa muscular,3,15
+185,Rómulo,Armengol Olivera,34,Hombre,1992-06-25,28020,Madrid,6.2,2025-12-25,Baja,Estándar,Competición,1,20
+186,Juan Pablo,Romero Pellicer,35,Hombre,1991-02-04,41013,Sevilla,8.1,2026-06-12,Activo,Premium,Ganar masa muscular,4,25
+187,Anastasia,Velasco Nogueira,20,Mujer,2006-02-10,08001,Barcelona,5.4,2025-12-07,Baja,Premium,Rendimiento deportivo,2,17
+188,Adora,Rivera Trillo,43,Mujer,1983-06-29,41018,Sevilla,3.5,2024-02-04,Baja,Estándar,Rehabilitación,4,29
+189,Balduino,Rosselló Paredes,34,Hombre,1991-12-13,41013,Sevilla,5.9,2025-05-17,Baja,Estándar,Bienestar general,4,12
+190,Maximino,Segura Coronado,26,Hombre,2000-01-15,41001,Sevilla,7.9,2024-05-27,Baja,Básico,Rendimiento deportivo,4,17
+191,Isaac,Echeverría Vélez,35,Hombre,1991-05-17,41018,Sevilla,3.2,2025-03-15,Activo,Premium,Mantenimiento,4,26
+192,Máximo,León Tomás,24,Hombre,2002-04-08,46020,Valencia,4.2,2026-02-14,Activo,Básico,Rehabilitación,3,2
+193,Josefa,Ruano Ledesma,53,Mujer,1972-11-02,28030,Madrid,4.5,2025-03-05,Activo,Premium,Rehabilitación,1,5
+194,Etelvina,Higueras Bolaños,44,Mujer,1981-09-11,46015,Valencia,6.3,2026-03-06,Baja,Estándar,Rehabilitación,3,11
+195,Eligia,Sanmartín Hervás,41,Mujer,1984-11-21,48005,Bilbao,1.6,2025-11-19,Activo,Premium,Mantenimiento,5,22
+196,Remigio,Sobrino Pinilla,50,Hombre,1975-09-23,28030,Madrid,4.3,2026-04-07,Baja,VIP,Rehabilitación,1,8
+197,Evangelina,Andrade Urrutia,28,Mujer,1998-05-05,28002,Madrid,5.4,2026-03-05,Baja,Básico,Perder peso,1,19
+198,Susanita,Morcillo Espada,39,Mujer,1987-05-06,28002,Madrid,5.9,2026-06-12,Activo,Básico,Rendimiento deportivo,1,17
+199,Jose Francisco,Garay Pacheco,56,Hombre,1969-07-30,48002,Bilbao,2.6,2025-08-29,Baja,Estándar,Rehabilitación,5,11
+200,Sabas,Jordán Niño,24,Hombre,2001-11-25,41013,Sevilla,3.5,2024-03-21,Activo,Básico,Rehabilitación,4,12
+201,Enrique,Llorente Agustín,28,Hombre,1998-02-27,46010,Valencia,4.4,2025-12-29,Baja,Estándar,Mantenimiento,3,25
+202,Lorena,Feijoo Boada,29,Mujer,1997-02-07,46025,Valencia,2.8,2026-06-12,Baja,Básico,Competición,3,24
+203,Dalila,Ramos Torres,31,Mujer,1994-12-30,46010,Valencia,6.3,2025-11-04,Activo,Estándar,Mantenimiento,3,2
+204,Manu,Hernandez Tamayo,39,Mujer,1986-08-21,46020,Valencia,3.1,2025-11-02,Activo,Estándar,Ganar masa muscular,3,7
+205,Mireia,Tudela Samper,32,Mujer,1994-05-11,48012,Bilbao,5.6,2025-04-20,Activo,Básico,Ganar masa muscular,5,8
+206,Ruy,Alemany Buendía,27,Hombre,1999-06-23,28010,Madrid,1.8,2025-09-27,Baja,VIP,Bienestar general,1,16
+207,Eugenio,Giralt Quiroga,32,Hombre,1993-12-24,28020,Madrid,3.6,2025-08-27,Activo,Premium,Rendimiento deportivo,1,21
+208,Nydia,Hervia Medina,35,Mujer,1990-08-25,08001,Barcelona,4.5,2026-02-22,Baja,Premium,Bienestar general,2,19
+209,Natanael,Peinado Sáenz,16,Hombre,2010-04-18,08010,Barcelona,4.1,2024-10-17,Baja,Estándar,Perder peso,2,27
+210,Manola,Núñez Roig,36,Mujer,1990-07-02,41020,Sevilla,3.3,2022-01-20,Baja,Básico,Rehabilitación,4,4
+211,Petrona,Muro Ortiz,27,Mujer,1999-05-12,46020,Valencia,11.3,2026-06-12,Activo,Premium,Mantenimiento,3,7
+212,Odalys,Santiago Lillo,25,Mujer,2001-04-14,28010,Madrid,7.9,2024-08-27,Baja,Básico,Competición,1,10
+213,Encarnación,Iglesias Gual,31,Mujer,1994-12-14,48001,Bilbao,3.1,2026-02-24,Activo,Básico,Rendimiento deportivo,5,22
+214,Azeneth,Fernández Moles,37,Mujer,1989-03-16,28020,Madrid,4.6,2026-01-28,Baja,Premium,Ganar masa muscular,1,15
+215,Benito,Esteve Feliu,44,Hombre,1982-03-12,46010,Valencia,5.0,2025-09-23,Baja,Estándar,Perder peso,3,22
+216,Concepción,Tomé Lloret,28,Mujer,1997-07-31,28010,Madrid,5.2,2025-12-28,Baja,Básico,Mantenimiento,1,20
+217,Porfirio,Zamorano Luna,36,Hombre,1989-12-01,08030,Barcelona,4.6,2026-01-23,Activo,Premium,Mantenimiento,2,14
+218,Aureliano,Ferrera Marti,52,Hombre,1974-03-21,48012,Bilbao,3.1,2022-04-08,Activo,Premium,Competición,5,26
+219,Corona,Paniagua Escobar,20,Mujer,2006-06-08,28001,Madrid,3.7,2026-06-12,Activo,VIP,Perder peso,1,27
+220,Eutropio,Alcalá Castañeda,41,Hombre,1985-04-29,48012,Bilbao,5.2,2024-12-07,Baja,Premium,Rendimiento deportivo,5,4
+221,Eli,Arroyo Ballester,32,Mujer,1994-06-22,08030,Barcelona,1.6,2025-09-29,Activo,Estándar,Rendimiento deportivo,2,15
+222,Manola,Manzano Cases,47,Mujer,1979-07-13,48001,Bilbao,6.3,2026-02-19,Baja,Básico,Bienestar general,5,7
+223,Melchor,Tudela Calderon,46,Hombre,1979-10-20,48001,Bilbao,7.2,2026-04-08,Baja,Básico,Rendimiento deportivo,5,2
+224,Trini,Alberola Luís,17,Mujer,2009-01-06,46020,Valencia,6.1,2025-09-16,Activo,Premium,Rendimiento deportivo,3,28
+225,Joel,Tejero Saez,22,Hombre,2003-08-18,41001,Sevilla,6.7,2025-10-04,Activo,Básico,Ganar masa muscular,4,18
+226,Francisco,Espinosa Aznar,16,Hombre,2010-07-15,41013,Sevilla,4.4,2022-11-17,Activo,VIP,Rendimiento deportivo,4,22
+227,Edmundo,Tejedor Carbonell,24,Hombre,2002-03-14,48002,Bilbao,5.7,2024-09-22,Baja,VIP,Mantenimiento,5,7
+228,Segismundo,Bas Pérez,52,Hombre,1974-03-24,28001,Madrid,4.1,2025-06-29,Activo,VIP,Rehabilitación,1,2
+229,Jose Luis,Benavent Baeza,19,Hombre,2007-03-14,41018,Sevilla,2.4,2026-06-07,Activo,Estándar,Rendimiento deportivo,4,8
+230,Carlos,Company Mateu,39,Hombre,1987-05-12,48005,Bilbao,9.6,2026-04-03,Baja,Básico,Ganar masa muscular,5,27
+231,Anselma,Hurtado Carrasco,28,Mujer,1998-03-20,48002,Bilbao,6.8,2026-05-06,Baja,Premium,Bienestar general,5,17
+232,León,Rico Gonzalez,26,Hombre,1999-09-02,08030,Barcelona,7.0,2024-12-23,Baja,Estándar,Rendimiento deportivo,2,2
+233,Renata,Yáñez Pintor,51,Mujer,1974-08-03,46010,Valencia,4.5,2026-05-10,Baja,Premium,Mantenimiento,3,13
+234,Jafet,Salas Martinez,35,Hombre,1991-02-18,08010,Barcelona,2.1,2025-04-17,Activo,Estándar,Competición,2,15
+235,Tito,Romeu Mayoral,16,Hombre,2009-12-30,28002,Madrid,2.1,2025-02-17,Baja,Estándar,Mantenimiento,1,21
+236,Lucas,Barrena Cabezas,55,Hombre,1970-10-25,28002,Madrid,1.8,2025-12-24,Activo,VIP,Perder peso,1,9
+237,Rico,Galiano Galván,27,Hombre,1999-04-14,41020,Sevilla,1.3,2026-01-31,Activo,Estándar,Bienestar general,4,22
+238,Dulce,Bertrán Crespo,36,Mujer,1990-02-16,48001,Bilbao,5.7,2023-11-02,Activo,Premium,Ganar masa muscular,5,30
+239,Dafne,Durán Benavides,40,Mujer,1986-03-20,08010,Barcelona,3.9,2026-06-12,Activo,Básico,Rendimiento deportivo,2,30
+240,Camila,Acedo Real,16,Mujer,2009-11-20,08015,Barcelona,3.3,2026-06-12,Activo,Premium,Mantenimiento,2,9
+241,Jafet,Soriano Manuel,20,Hombre,2005-11-19,46015,Valencia,5.3,2025-11-17,Baja,Básico,Ganar masa muscular,3,12
+242,Alcides,Guardiola Maldonado,21,Hombre,2005-05-04,46025,Valencia,6.1,2022-10-23,Baja,Estándar,Rehabilitación,3,19
+243,Patricio,Luna Santiago,32,Hombre,1994-01-07,41010,Sevilla,6.7,2026-03-23,Baja,Estándar,Rendimiento deportivo,4,18
+244,Andrea,Guillen Lamas,33,Mujer,1992-11-27,46015,Valencia,8.2,2025-02-25,Baja,Básico,Ganar masa muscular,3,5
+245,Rufino,Figuerola Rodríguez,16,Hombre,2009-10-21,48001,Bilbao,5.0,2026-02-24,Baja,Premium,Competición,5,22
+246,Baudelio,Gomila Company,36,Hombre,1990-06-17,28001,Madrid,2.3,2025-10-12,Activo,Estándar,Ganar masa muscular,1,17
+247,Yéssica,Larrañaga Cisneros,23,Mujer,2002-08-15,41001,Sevilla,6.3,2025-10-31,Activo,Básico,Rehabilitación,4,18
+248,Andrea,Barreda Daza,49,Mujer,1976-10-23,41001,Sevilla,6.5,2026-05-07,Baja,Básico,Rehabilitación,4,27
+249,Ruy,Meléndez Malo,44,Hombre,1982-06-04,41010,Sevilla,0.1,2026-03-28,Activo,Básico,Ganar masa muscular,4,20
+250,Isabel,Casanova Solís,34,Mujer,1992-06-10,48010,Bilbao,6.8,2024-05-21,Baja,VIP,Rendimiento deportivo,5,19
+251,Omar,Mateu Quevedo,43,Hombre,1982-08-23,08001,Barcelona,3.9,2024-07-14,Activo,VIP,Perder peso,2,13
+252,Elías,Vall Uribe,25,Hombre,2000-07-24,41018,Sevilla,7.9,2026-04-01,Baja,VIP,Competición,4,14
+253,Isidoro,Bernat Ariño,16,Hombre,2009-10-19,46010,Valencia,2.2,2026-04-01,Activo,VIP,Ganar masa muscular,3,29
+254,Victor,Rosales Mora,31,Hombre,1994-08-04,48012,Bilbao,4.0,2021-07-13,Activo,Premium,Rehabilitación,5,22
+255,Marciano,Ibáñez Amigó,45,Hombre,1981-04-08,28020,Madrid,9.1,2022-03-25,Baja,Estándar,Perder peso,1,10
+256,Apolonia,Granados Almansa,20,Mujer,2005-08-05,08015,Barcelona,4.0,2026-03-08,Activo,Estándar,Rendimiento deportivo,2,25
+257,Roberto,Leon Arjona,39,Hombre,1986-11-08,08015,Barcelona,1.3,2025-06-03,Activo,Básico,Perder peso,2,4
+258,Rafaela,Díez Sosa,35,Mujer,1991-02-04,41013,Sevilla,6.0,2025-06-07,Baja,VIP,Competición,4,15
+259,Lorenza,Salamanca Lobo,37,Mujer,1988-12-12,41020,Sevilla,7.0,2026-04-11,Baja,Premium,Bienestar general,4,13
+260,Cipriano,Ruano Téllez,36,Hombre,1990-06-14,28002,Madrid,2.5,2023-07-26,Baja,VIP,Rendimiento deportivo,1,23
+261,Artemio,Soriano Oliveras,34,Hombre,1992-06-04,08015,Barcelona,2.5,2022-07-27,Baja,Estándar,Rendimiento deportivo,2,12
+262,Guadalupe,Mínguez Montesinos,39,Mujer,1986-12-05,46025,Valencia,6.5,2022-08-06,Baja,Premium,Rendimiento deportivo,3,4
+263,Nazaret,Calvo Cuevas,47,Mujer,1979-01-08,28020,Madrid,6.8,2026-05-02,Baja,Estándar,Rendimiento deportivo,1,25
+264,Fidel,Requena Valbuena,32,Hombre,1993-10-01,28020,Madrid,2.5,2025-01-26,Baja,Estándar,Ganar masa muscular,1,5
+265,Ernesto,Pérez Arco,30,Hombre,1996-04-25,46020,Valencia,6.9,2025-04-24,Baja,Premium,Mantenimiento,3,16
+266,Jenny,Borja Miranda,16,Mujer,2009-09-15,28020,Madrid,7.9,2026-04-24,Activo,Premium,Perder peso,1,5
+267,Dolores,Morales Carmona,47,Mujer,1979-02-06,46020,Valencia,4.2,2024-09-09,Activo,Estándar,Competición,3,27
+268,Rolando,Quintero Vilar,41,Hombre,1984-11-19,48010,Bilbao,6.9,2026-06-12,Baja,Básico,Mantenimiento,5,10
+269,Sara,Abella Sevilla,55,Mujer,1971-01-15,41018,Sevilla,2.9,2025-12-14,Activo,VIP,Mantenimiento,4,4
+270,Hilario,Ballester Expósito,47,Hombre,1978-08-09,48001,Bilbao,9.9,2026-03-09,Activo,Premium,Bienestar general,5,15
+271,Juan Antonio,Pardo Valentín,25,Hombre,2000-12-21,08010,Barcelona,5.8,2026-03-31,Baja,Estándar,Bienestar general,2,10
+272,Maura,Salamanca Aznar,34,Mujer,1992-01-09,08030,Barcelona,5.3,2024-03-06,Baja,Premium,Rendimiento deportivo,2,19
+273,Clara,Lasa Castro,16,Mujer,2009-10-11,41013,Sevilla,4.8,2026-06-03,Baja,Básico,Bienestar general,4,29
+274,Ernesto,Ríos Tormo,16,Hombre,2010-03-11,48005,Bilbao,3.0,2026-06-12,Baja,Estándar,Ganar masa muscular,5,21
+275,Azucena,Andres Heras,68,Mujer,1958-02-10,48010,Bilbao,6.2,2025-03-25,Activo,Básico,Perder peso,5,1
+276,Pedro,Cuadrado Mercader,34,Hombre,1991-12-05,28020,Madrid,7.9,2026-02-26,Baja,Estándar,Competición,1,22
+277,Leoncio,Alcalá Raya,32,Hombre,1993-11-15,48010,Bilbao,4.6,2023-10-20,Baja,VIP,Perder peso,5,4
+278,Arturo,Gomila Carballo,28,Hombre,1997-10-26,08025,Barcelona,7.4,2026-06-12,Baja,Premium,Perder peso,2,15
+279,Jerónimo,Carpio Correa,30,Hombre,1996-07-08,41001,Sevilla,5.8,2025-12-15,Activo,Estándar,Bienestar general,4,26
+280,Josep,Manzanares Verdú,52,Hombre,1973-10-16,08030,Barcelona,2.0,2024-08-30,Activo,VIP,Rendimiento deportivo,2,15
+281,Patricio,Llano Ribes,40,Hombre,1985-08-29,08025,Barcelona,0.4,2022-06-06,Activo,Premium,Perder peso,2,24
+282,Silvia,Tolosa Sureda,44,Mujer,1982-01-05,48002,Bilbao,4.1,2026-01-18,Baja,Premium,Ganar masa muscular,5,9
+283,Domingo,Saura Coca,16,Hombre,2010-01-10,28020,Madrid,2.9,2026-03-08,Baja,Premium,Perder peso,1,9
+284,Fátima,Farré Verdejo,18,Mujer,2007-09-08,41001,Sevilla,3.3,2025-12-16,Activo,Premium,Mantenimiento,4,12
+285,Piedad,Cerezo Baños,18,Mujer,2007-09-06,41010,Sevilla,2.3,2026-03-16,Activo,Básico,Mantenimiento,4,4
+286,Emiliano,Ribera Nieto,32,Hombre,1993-11-01,08030,Barcelona,5.8,2023-07-12,Baja,Básico,Ganar masa muscular,2,19
+287,Rufino,Vera Lastra,22,Hombre,2003-10-07,41013,Sevilla,5.7,2025-09-10,Baja,Estándar,Ganar masa muscular,4,6
+288,Samanta,Acedo Luna,44,Mujer,1982-07-19,46010,Valencia,2.0,2026-06-12,Activo,Básico,Competición,3,13
+289,Paola,Martín Tovar,20,Mujer,2005-12-17,48010,Bilbao,5.2,2026-04-25,Baja,VIP,Rendimiento deportivo,5,6
+290,Toribio,Comas Salom,16,Hombre,2010-02-17,28002,Madrid,2.3,2026-02-06,Baja,VIP,Rehabilitación,1,10
+291,Lupita,Tomé Ochoa,37,Mujer,1988-10-13,08030,Barcelona,1.9,2025-06-20,Activo,Estándar,Perder peso,2,9
+292,Flavio,Pi Sarabia,40,Hombre,1985-12-09,48010,Bilbao,2.3,2025-06-07,Activo,Estándar,Perder peso,5,24
+293,Úrsula,Montserrat Fabregat,21,Mujer,2005-03-05,08001,Barcelona,12.4,2024-12-01,Baja,Estándar,Rendimiento deportivo,2,28
+294,Octavia,Haro Piñol,36,Mujer,1989-07-23,28020,Madrid,2.5,2025-12-23,Activo,VIP,Ganar masa muscular,1,20
+295,Demetrio,Reig Arranz,39,Hombre,1986-10-04,08015,Barcelona,0.1,2022-09-14,Activo,VIP,Rehabilitación,2,18
+296,Ester,Suárez Piquer,26,Mujer,1999-09-29,08030,Barcelona,7.7,2025-11-24,Baja,Premium,Bienestar general,2,27
+297,Gabriela,Cornejo Valbuena,48,Mujer,1978-06-24,28002,Madrid,7.3,2025-10-09,Activo,Estándar,Bienestar general,1,28
+298,Alejandro,Cases Vallés,35,Hombre,1990-08-09,08010,Barcelona,6.6,2026-03-24,Activo,Premium,Rehabilitación,2,21
+299,Manolo,Mármol Cabrera,26,Hombre,1999-08-29,46001,Valencia,4.3,2026-04-22,Baja,Básico,Rendimiento deportivo,3,17
+300,Trinidad,Sacristán Cabo,26,Mujer,1999-11-12,46001,Valencia,0.9,2024-04-06,Baja,Estándar,Competición,3,25
+301,Lucila,Saura Alcántara,33,Mujer,1993-06-18,28020,Madrid,2.0,2026-06-09,Activo,Básico,Ganar masa muscular,1,14
+302,Palmira,Cobos Redondo,24,Mujer,2002-01-27,08010,Barcelona,3.3,2022-09-24,Activo,Estándar,Rehabilitación,2,28
+303,Trinidad,Cortes Benavides,41,Hombre,1985-06-29,41018,Sevilla,1.2,2025-12-11,Baja,Premium,Perder peso,4,4
+304,José,Landa Nevado,34,Mujer,1992-04-08,08010,Barcelona,4.8,2024-05-30,Activo,Estándar,Bienestar general,2,10
+305,Mateo,Puga Bernat,52,Hombre,1973-08-24,08001,Barcelona,2.1,2025-03-05,Baja,Premium,Mantenimiento,2,22
+306,Teodosio,Moya Pinto,50,Hombre,1975-12-18,08001,Barcelona,5.9,2025-04-21,Activo,Básico,Perder peso,2,7
+307,Ester,Torrents Araujo,49,Mujer,1977-07-20,41013,Sevilla,4.6,2023-10-03,Baja,Estándar,Competición,4,4
+308,Martin,Bayona Guitart,30,Hombre,1996-01-05,41001,Sevilla,2.1,2026-02-14,Baja,Estándar,Perder peso,4,11
+309,Maximiano,Madrigal Gordillo,39,Hombre,1986-08-28,46010,Valencia,4.8,2026-06-12,Activo,Básico,Perder peso,3,17
+310,Piedad,Botella Roura,52,Mujer,1974-01-27,48002,Bilbao,3.7,2024-08-18,Activo,Básico,Rendimiento deportivo,5,20
+311,Augusto,Cabrera Salcedo,38,Hombre,1988-05-11,41020,Sevilla,3.8,2025-11-17,Activo,Estándar,Bienestar general,4,13
+312,Celso,Marí Andres,45,Hombre,1981-03-19,46001,Valencia,3.2,2026-06-12,Activo,VIP,Ganar masa muscular,3,18
+313,Alonso,Morata Barba,21,Hombre,2004-08-14,48002,Bilbao,3.6,2026-03-29,Activo,Estándar,Rehabilitación,5,20
+314,Eugenio,Palmer Perera,39,Hombre,1987-03-22,48001,Bilbao,6.4,2026-02-03,Activo,Estándar,Ganar masa muscular,5,16
+315,Ildefonso,Coello Hidalgo,57,Hombre,1969-01-23,48002,Bilbao,7.0,2026-06-12,Activo,Premium,Rendimiento deportivo,5,28
+316,Juan Manuel,Requena Escolano,21,Hombre,2004-11-18,48001,Bilbao,6.3,2022-08-25,Activo,Estándar,Perder peso,5,19
+317,Che,Díez Bermúdez,43,Hombre,1983-01-01,28030,Madrid,6.3,2025-06-03,Baja,Estándar,Competición,1,14
+318,Marcos,Piñeiro Hernando,33,Hombre,1993-02-28,41001,Sevilla,5.4,2024-08-09,Baja,Básico,Rehabilitación,4,30
+319,Leonor,Clemente Guerra,41,Mujer,1985-01-03,08001,Barcelona,3.3,2026-01-20,Activo,Estándar,Mantenimiento,2,23
+320,Jerónimo,Izquierdo Segura,32,Hombre,1994-03-17,41018,Sevilla,1.1,2025-02-02,Baja,Premium,Perder peso,4,15
+321,Edu,Agustí Sola,26,Hombre,2000-05-18,48002,Bilbao,5.2,2026-04-30,Baja,Básico,Bienestar general,5,1
+322,Xiomara,Maestre Cruz,23,Mujer,2003-04-24,08015,Barcelona,4.8,2023-10-20,Baja,Premium,Bienestar general,2,29
+323,Angelina,Sala Ojeda,35,Mujer,1991-03-04,28010,Madrid,6.1,2022-06-10,Baja,Premium,Bienestar general,1,19
+324,Lázaro,Martínez Rodrigo,20,Hombre,2005-11-04,28002,Madrid,4.4,2025-12-01,Activo,Premium,Mantenimiento,1,6
+325,Onofre,Ibáñez Saura,38,Hombre,1988-03-27,46001,Valencia,1.3,2025-05-07,Baja,Básico,Perder peso,3,28
+326,Sonia,Matas Flor,35,Mujer,1991-05-06,28001,Madrid,8.6,2025-09-29,Baja,Estándar,Rehabilitación,1,26
+327,Fátima,Tomas Campillo,36,Mujer,1990-03-05,41020,Sevilla,5.3,2026-04-18,Activo,Premium,Mantenimiento,4,4
+328,Diego,Pizarro Palomar,33,Hombre,1992-10-29,48010,Bilbao,3.8,2025-06-19,Activo,VIP,Perder peso,5,29
+329,Maricela,Marqués Marquez,48,Mujer,1978-02-07,41018,Sevilla,3.8,2026-06-12,Baja,Básico,Perder peso,4,12
+330,Aitor,Priego Llobet,29,Hombre,1996-11-24,08025,Barcelona,8.2,2025-06-15,Baja,Estándar,Competición,2,25
+331,Adalberto,Avilés Valdés,33,Hombre,1993-05-04,08025,Barcelona,2.7,2025-02-13,Baja,Premium,Perder peso,2,8
+332,Sigfrido,Macías Grau,21,Hombre,2005-01-27,48010,Bilbao,8.7,2026-05-31,Baja,Estándar,Competición,5,24
+333,Marcio,Ortuño Gilabert,46,Hombre,1979-12-22,46001,Valencia,5.7,2025-08-26,Activo,Estándar,Ganar masa muscular,3,23
+334,Mercedes,Falcón Iglesia,57,Mujer,1968-08-02,46020,Valencia,7.8,2023-07-07,Activo,Premium,Bienestar general,3,3
+335,Nidia,Cerro Caballero,40,Mujer,1986-06-14,48001,Bilbao,5.6,2025-02-26,Baja,Premium,Rendimiento deportivo,5,22
+336,Yaiza,Ariza Mendizábal,35,Mujer,1991-01-01,08015,Barcelona,5.6,2025-10-03,Activo,VIP,Mantenimiento,2,15
+337,Rufino,Saez Aragonés,37,Hombre,1988-09-25,46001,Valencia,9.1,2025-01-28,Baja,Premium,Ganar masa muscular,3,15
+338,Marina,Patiño Catalá,32,Mujer,1994-04-05,41018,Sevilla,7.4,2024-07-27,Baja,Básico,Mantenimiento,4,28
+339,Apolonia,Marquez Morillo,53,Mujer,1972-07-30,28001,Madrid,5.8,2024-06-08,Activo,Básico,Ganar masa muscular,1,27
+340,Piedad,Ribes Echevarría,46,Mujer,1980-01-03,46015,Valencia,8.1,2026-01-26,Baja,Básico,Mantenimiento,3,27
+341,Chus,Catalán Paz,46,Mujer,1979-10-13,08010,Barcelona,5.2,2022-01-10,Activo,VIP,Perder peso,2,15
+342,Juan Manuel,Valls Llamas,37,Hombre,1989-06-20,28002,Madrid,4.5,2025-03-20,Activo,Estándar,Ganar masa muscular,1,7
+343,Severo,Córdoba Jimenez,23,Hombre,2002-09-23,41001,Sevilla,7.5,2025-08-16,Baja,VIP,Perder peso,4,3
+344,Yago,Tirado Marquez,45,Hombre,1981-06-06,08015,Barcelona,3.5,2025-09-21,Activo,Estándar,Perder peso,2,2
+345,Piedad,Nevado Cardona,60,Mujer,1966-01-06,41018,Sevilla,5.6,2026-04-23,Activo,Premium,Bienestar general,4,14
+346,Josefina,Benet Chico,19,Mujer,2007-02-24,08010,Barcelona,9.6,2025-03-03,Baja,Básico,Perder peso,2,20
+347,Priscila,Gonzalez Puerta,22,Mujer,2003-12-20,48010,Bilbao,3.8,2026-06-12,Baja,Premium,Perder peso,5,3
+348,Teo,Paz Bosch,25,Hombre,2000-08-30,46025,Valencia,6.3,2026-06-12,Activo,Premium,Competición,3,1
+349,Rosa,Prat Alcalá,37,Mujer,1989-01-26,41020,Sevilla,2.9,2022-05-26,Activo,Estándar,Mantenimiento,4,13
+350,Eligio,Casals Sanz,39,Hombre,1987-07-07,46015,Valencia,5.4,2026-03-09,Activo,Premium,Perder peso,3,26
+351,Gerónimo,Juárez Piquer,16,Hombre,2010-04-26,41010,Sevilla,4.9,2024-08-31,Baja,Estándar,Mantenimiento,4,18
+352,Sandra,Pera Campoy,37,Mujer,1989-01-21,28002,Madrid,1.4,2023-01-22,Baja,Básico,Ganar masa muscular,1,8
+353,Nereida,Guillen Soto,26,Mujer,1999-09-20,48005,Bilbao,6.7,2025-08-16,Baja,Premium,Rehabilitación,5,19
+354,Aitana,Mosquera Giralt,27,Mujer,1998-10-15,08025,Barcelona,3.4,2023-12-31,Activo,Básico,Perder peso,2,3
+355,Miriam,Barroso Simó,35,Mujer,1991-07-21,28030,Madrid,5.7,2024-07-21,Baja,Premium,Ganar masa muscular,1,26
+356,Yéssica,Matas Real,30,Mujer,1996-06-19,08030,Barcelona,5.1,2025-11-24,Baja,Básico,Bienestar general,2,30
+357,Azahar,Chaves Arrieta,38,Mujer,1988-06-14,08025,Barcelona,0.8,2024-02-19,Baja,Básico,Rehabilitación,2,4
+358,Alejo,Mayo Ugarte,32,Hombre,1993-12-09,46020,Valencia,5.6,2026-01-31,Activo,Estándar,Bienestar general,3,11
+359,Azahar,Cabanillas Guitart,30,Mujer,1996-03-27,08010,Barcelona,1.3,2023-11-21,Activo,Premium,Rendimiento deportivo,2,10
+360,Victoria,Cerdá Pont,48,Mujer,1977-10-07,46025,Valencia,8.6,2024-12-04,Baja,Básico,Mantenimiento,3,30
+361,Jenny,Peláez Rius,37,Mujer,1989-05-10,48001,Bilbao,6.4,2025-04-11,Activo,Premium,Ganar masa muscular,5,12
+362,Lázaro,Cortes Ribera,47,Hombre,1978-07-27,46015,Valencia,8.2,2024-05-22,Activo,VIP,Rendimiento deportivo,3,1
+363,Morena,Cabeza Tovar,39,Mujer,1987-03-13,46001,Valencia,7.0,2026-06-12,Activo,Premium,Perder peso,3,13
+364,María Manuela,Raya Losa,31,Mujer,1994-11-10,41013,Sevilla,0.6,2026-06-12,Baja,Estándar,Rehabilitación,4,13
+365,Alcides,Pellicer Gaya,45,Hombre,1981-05-01,28001,Madrid,1.3,2026-02-13,Baja,Estándar,Mantenimiento,1,1
+366,Isidora,Sales Guzman,34,Mujer,1992-04-24,46010,Valencia,5.7,2026-01-06,Activo,Premium,Bienestar general,3,3
+367,Tania,Pareja Cabezas,65,Mujer,1960-09-27,48010,Bilbao,4.3,2026-02-13,Baja,Estándar,Bienestar general,5,1
+368,Noelia,Pedrero Palmer,41,Mujer,1985-05-03,41013,Sevilla,3.9,2025-11-23,Baja,Básico,Ganar masa muscular,4,7
+369,Ana,Puig Llorente,28,Mujer,1997-08-15,41010,Sevilla,1.9,2024-10-04,Baja,Estándar,Perder peso,4,2
+370,Claudio,Carvajal Sanz,16,Hombre,2010-06-19,41018,Sevilla,2.3,2025-10-23,Activo,Premium,Perder peso,4,10
+371,Artemio,Garay Almazán,29,Hombre,1997-04-23,48001,Bilbao,4.7,2026-01-17,Activo,Básico,Rendimiento deportivo,5,28
+372,Amarilis,Múgica Hervia,30,Mujer,1995-08-16,28030,Madrid,7.1,2026-01-01,Baja,VIP,Rendimiento deportivo,1,6
+373,Begoña,Fuertes Bayona,43,Mujer,1983-07-01,46020,Valencia,2.5,2025-03-18,Activo,Premium,Mantenimiento,3,8
+374,Severino,Galan Garzón,28,Hombre,1998-06-06,46025,Valencia,3.9,2025-04-23,Activo,Básico,Rendimiento deportivo,3,25
+375,Ruth,Guijarro Moya,35,Mujer,1990-10-27,48012,Bilbao,5.7,2025-11-26,Baja,Premium,Bienestar general,5,28
+376,Remedios,Coloma Acedo,27,Mujer,1999-06-09,41001,Sevilla,2.8,2026-05-22,Activo,Estándar,Rehabilitación,4,19
+377,Emiliano,Coca Castillo,40,Hombre,1986-05-22,48010,Bilbao,2.3,2026-03-01,Activo,Estándar,Ganar masa muscular,5,6
+378,Luz,Iglesia Díaz,37,Mujer,1989-06-11,08025,Barcelona,3.9,2021-12-18,Activo,Básico,Ganar masa muscular,2,27
+379,Bartolomé,Amigó Catalá,39,Hombre,1987-06-08,08025,Barcelona,2.9,2025-08-16,Activo,Básico,Rehabilitación,2,11
+380,Adrián,Palma Gárate,16,Hombre,2009-07-23,46025,Valencia,4.1,2022-05-09,Activo,Básico,Competición,3,14
+381,Macario,Morante Alcázar,29,Hombre,1997-05-26,28001,Madrid,7.0,2026-01-06,Baja,Estándar,Competición,1,10
+382,Carmelita,Lara Badía,52,Mujer,1974-01-10,48012,Bilbao,0.8,2024-12-10,Activo,Estándar,Rehabilitación,5,16
+383,Begoña,Robledo Zorrilla,40,Mujer,1986-07-03,28010,Madrid,6.4,2026-01-08,Baja,Estándar,Bienestar general,1,8
+384,Aurora,Bartolomé Tamayo,34,Mujer,1992-07-10,28010,Madrid,1.6,2026-03-20,Baja,Básico,Mantenimiento,1,9
+385,Jacobo,Paredes Vilanova,46,Hombre,1980-05-16,41018,Sevilla,1.6,2025-09-11,Baja,Estándar,Competición,4,27
+386,Manu,Canales Sans,33,Hombre,1993-04-15,46020,Valencia,6.3,2026-02-10,Activo,Premium,Bienestar general,3,16
+387,José,Giralt Aroca,49,Hombre,1977-06-21,48012,Bilbao,2.9,2022-10-16,Baja,Estándar,Rendimiento deportivo,5,5
+388,Prudencio,Vázquez Mata,37,Hombre,1989-04-10,48002,Bilbao,4.4,2026-06-08,Activo,Básico,Perder peso,5,15
+389,Jesusa,Anguita Barrera,51,Mujer,1975-01-18,28030,Madrid,2.7,2022-10-19,Activo,Estándar,Rendimiento deportivo,1,21
+390,Julia,Querol Roldan,31,Mujer,1994-09-19,28020,Madrid,2.3,2026-05-28,Activo,Premium,Rehabilitación,1,18
+391,Noelia,Campoy Trujillo,22,Mujer,2003-07-31,46001,Valencia,8.6,2025-06-15,Baja,Premium,Rendimiento deportivo,3,2
+392,Pelayo,Salcedo Beltrán,47,Hombre,1979-04-02,08010,Barcelona,3.8,2026-03-23,Baja,Básico,Mantenimiento,2,21
+393,Vinicio,Berrocal Montserrat,16,Hombre,2009-11-16,41010,Sevilla,4.4,2022-07-29,Activo,Estándar,Rehabilitación,4,26
+394,María Fernanda,Colomer Bastida,37,Mujer,1988-07-22,28010,Madrid,8.1,2025-04-13,Activo,Premium,Rendimiento deportivo,1,29
+395,Bernardino,Llopis Morcillo,42,Hombre,1983-11-27,41020,Sevilla,2.4,2025-05-12,Baja,Estándar,Competición,4,20
+396,Francisca,Mariño Santiago,33,Mujer,1992-10-06,41020,Sevilla,3.8,2026-02-16,Activo,Premium,Mantenimiento,4,10
+397,Ligia,Ros Cabezas,24,Mujer,2001-08-25,28010,Madrid,3.8,2023-11-28,Activo,VIP,Mantenimiento,1,21
+398,Régulo,Carbó Garrido,40,Hombre,1986-06-23,46025,Valencia,7.3,2026-05-27,Activo,Básico,Rendimiento deportivo,3,22
+399,Irene,Sanmiguel Gracia,26,Mujer,2000-02-18,46020,Valencia,3.0,2023-06-26,Baja,Estándar,Rendimiento deportivo,3,13
+400,Hilario,Nicolau Santana,16,Hombre,2010-01-22,28002,Madrid,1.2,2023-12-05,Activo,Estándar,Bienestar general,1,18
+401,Gloria,Ricart Bustamante,49,Mujer,1977-04-28,41020,Sevilla,3.7,2025-07-19,Activo,Premium,Ganar masa muscular,4,10
+402,Faustino,Roldán Milla,16,Hombre,2009-08-02,28001,Madrid,5.1,2025-02-26,Activo,Estándar,Ganar masa muscular,1,12
+403,Natalia,Jara Perelló,34,Mujer,1992-01-12,08015,Barcelona,3.5,2026-06-12,Baja,Premium,Rendimiento deportivo,2,28
+404,Carmelo,Sánchez Bautista,16,Hombre,2009-11-17,28030,Madrid,5.2,2026-03-05,Activo,Estándar,Perder peso,1,28
+405,Artemio,Blázquez Buendía,22,Hombre,2004-05-08,41013,Sevilla,2.9,2022-04-21,Activo,Estándar,Rendimiento deportivo,4,19
+406,Inocencio,Bárcena Peralta,49,Hombre,1977-06-13,41010,Sevilla,7.1,2024-03-20,Activo,Básico,Mantenimiento,4,21
+407,Santiago,Castillo Barreda,44,Hombre,1981-10-01,28020,Madrid,4.2,2025-02-22,Activo,VIP,Competición,1,25
+408,Maristela,Murcia Carvajal,43,Mujer,1982-12-29,28020,Madrid,6.1,2026-05-26,Baja,Básico,Rendimiento deportivo,1,1
+409,Hernán,Otero Rocha,16,Hombre,2010-02-02,28030,Madrid,4.4,2025-11-17,Activo,Básico,Ganar masa muscular,1,1
+410,Teófila,Aznar Maestre,28,Mujer,1998-02-10,28020,Madrid,2.4,2024-09-18,Baja,VIP,Rehabilitación,1,19
+411,María Carmen,Miguel Ortiz,46,Mujer,1980-02-26,46025,Valencia,6.9,2025-10-15,Activo,Estándar,Rehabilitación,3,17
+412,Baldomero,Vera Garcia,18,Hombre,2008-01-23,46020,Valencia,5.7,2025-11-03,Activo,Premium,Mantenimiento,3,25
+413,Calixta,Toledo Gomez,48,Mujer,1978-07-15,08010,Barcelona,9.7,2026-06-12,Baja,Estándar,Ganar masa muscular,2,24
+414,Soraya,Campoy Ordóñez,28,Mujer,1997-07-20,28001,Madrid,4.3,2025-06-07,Activo,Premium,Rendimiento deportivo,1,29
+415,Telmo,Pedrero Cardona,37,Hombre,1988-08-17,46001,Valencia,0.9,2026-03-04,Baja,Premium,Perder peso,3,23
+416,Rafaela,Lopez Gonzalo,24,Mujer,2001-11-18,28002,Madrid,4.4,2026-05-27,Activo,Básico,Bienestar general,1,22
+417,Roxana,Romeu Amo,29,Mujer,1996-09-04,28002,Madrid,7.1,2023-12-13,Activo,Premium,Rendimiento deportivo,1,27
+418,María Fernanda,Lastra Andres,18,Mujer,2008-05-19,28020,Madrid,4.3,2026-06-12,Activo,Estándar,Ganar masa muscular,1,20
+419,Cipriano,Llano Mendizábal,38,Hombre,1988-01-20,08015,Barcelona,2.0,2026-04-09,Baja,Básico,Ganar masa muscular,2,2
+420,Águeda,Nicolás Orozco,26,Mujer,2000-01-31,48001,Bilbao,3.7,2026-02-27,Activo,Básico,Bienestar general,5,3
+421,Abraham,Escudero Clemente,44,Hombre,1982-06-07,28001,Madrid,2.6,2025-11-01,Activo,Premium,Bienestar general,1,24
+422,Marcia,Pérez Baños,49,Mujer,1977-02-23,28001,Madrid,2.2,2025-05-01,Activo,Premium,Perder peso,1,27
+423,Bibiana,Anglada Bravo,51,Mujer,1974-08-13,08001,Barcelona,3.2,2026-06-10,Baja,VIP,Perder peso,2,28
+424,Raúl,Garrido Peñalver,41,Hombre,1985-02-04,28020,Madrid,5.6,2024-07-15,Baja,Premium,Rehabilitación,1,9
+425,Hugo,Santiago Nogueira,27,Hombre,1998-12-26,28020,Madrid,6.8,2024-08-16,Baja,VIP,Mantenimiento,1,27
+426,Camila,Pelayo Mesa,29,Mujer,1996-08-21,41010,Sevilla,3.5,2025-09-05,Activo,Básico,Perder peso,4,5
+427,Poncio,Morata Blazquez,57,Hombre,1968-12-25,28020,Madrid,3.8,2025-05-06,Activo,Premium,Competición,1,19
+428,Verónica,Badía Cortés,39,Mujer,1986-09-12,41010,Sevilla,7.9,2025-02-27,Baja,Estándar,Rendimiento deportivo,4,30
+429,Cayetano,Ayala Bilbao,44,Hombre,1982-06-21,41013,Sevilla,5.8,2026-06-11,Baja,Estándar,Perder peso,4,23
+430,Elías,Salazar Rodrigo,36,Hombre,1989-08-13,48012,Bilbao,2.5,2023-08-26,Activo,Premium,Rehabilitación,5,23
+431,Jose Carlos,Salamanca Ribas,49,Hombre,1976-11-20,48010,Bilbao,7.8,2025-09-25,Baja,Básico,Ganar masa muscular,5,27
+432,Elías,Garriga Vila,47,Hombre,1978-08-29,48012,Bilbao,1.7,2025-12-02,Activo,VIP,Competición,5,16
+433,Aurora,Ochoa Ropero,38,Mujer,1988-02-08,41013,Sevilla,5.1,2025-05-07,Baja,Premium,Perder peso,4,17
+434,Bartolomé,Luque Torrecilla,23,Hombre,2003-06-08,08030,Barcelona,4.6,2025-11-06,Baja,Premium,Rendimiento deportivo,2,3
+435,Lucila,Mendez Arroyo,29,Mujer,1996-08-19,41018,Sevilla,5.7,2026-03-19,Baja,Premium,Rendimiento deportivo,4,2
+436,Constanza,Prats Ballesteros,16,Mujer,2009-10-29,48010,Bilbao,2.7,2025-10-25,Activo,Estándar,Mantenimiento,5,12
+437,Adelaida,Fuente Mata,44,Mujer,1981-10-10,28030,Madrid,0.4,2025-03-13,Activo,VIP,Rendimiento deportivo,1,23
+438,Curro,Cervantes Jaume,33,Hombre,1993-07-19,46015,Valencia,3.6,2026-06-12,Baja,Premium,Rehabilitación,3,17
+439,Espiridión,Mosquera Carretero,33,Hombre,1992-11-10,46020,Valencia,4.0,2026-02-12,Baja,Estándar,Perder peso,3,9
+440,Adelaida,Valencia Ros,37,Mujer,1989-04-02,48002,Bilbao,5.2,2026-06-12,Activo,Estándar,Bienestar general,5,11
+441,Chucho,Castelló Pinto,35,Hombre,1990-12-03,28030,Madrid,5.3,2025-10-18,Baja,Básico,Rehabilitación,1,5
+442,Luisina,Grau Vall,54,Mujer,1971-09-30,41020,Sevilla,3.2,2025-08-11,Activo,VIP,Competición,4,30
+443,Lino,Pablo Bello,32,Hombre,1994-05-28,08030,Barcelona,3.2,2026-05-24,Baja,Premium,Rehabilitación,2,29
+444,Heliodoro,Arnal Rubio,23,Hombre,2003-02-28,46015,Valencia,3.5,2025-11-03,Activo,Premium,Mantenimiento,3,15
+445,Agustina,Segura Bermejo,45,Mujer,1980-07-29,08015,Barcelona,8.2,2026-03-21,Baja,Básico,Bienestar general,2,24
+446,Tere,Millán Román,29,Mujer,1996-08-02,48002,Bilbao,4.0,2026-04-30,Baja,Básico,Bienestar general,5,21
+447,Maribel,Quiroga Rios,16,Mujer,2009-07-18,08015,Barcelona,4.3,2026-04-12,Baja,Premium,Rehabilitación,2,16
+448,Ema,Cardona Quirós,18,Mujer,2007-08-06,48012,Bilbao,2.5,2023-10-13,Activo,Premium,Mantenimiento,5,29
+449,Agustín,Morcillo Duarte,40,Hombre,1986-01-08,41001,Sevilla,2.7,2025-03-11,Baja,Básico,Ganar masa muscular,4,9
+450,Salvador,Seguí Paredes,53,Hombre,1973-06-24,08015,Barcelona,3.3,2026-01-31,Activo,Estándar,Ganar masa muscular,2,25
+451,Arsenio,Rueda Camacho,56,Hombre,1969-09-14,48012,Bilbao,5.7,2026-03-13,Activo,Estándar,Competición,5,8
+452,Daniela,Ruano Pérez,24,Mujer,2001-07-29,48010,Bilbao,7.8,2025-10-01,Baja,Básico,Rendimiento deportivo,5,14
+453,Luciana,Bermúdez Priego,38,Mujer,1988-04-09,46020,Valencia,5.9,2026-01-29,Baja,Premium,Competición,3,8
+454,Trinidad,Menéndez Nicolás,35,Hombre,1991-04-13,46010,Valencia,1.4,2024-07-19,Activo,Estándar,Bienestar general,3,3
+455,Dan,Mínguez Diéguez,54,Hombre,1972-01-14,08015,Barcelona,5.3,2023-12-26,Baja,VIP,Rehabilitación,2,9
+456,Antonio,Vicens Carbonell,47,Hombre,1979-02-05,08010,Barcelona,6.6,2025-12-31,Activo,Estándar,Perder peso,2,5
+457,Luisa,Viana Ferrera,18,Mujer,2007-11-08,46025,Valencia,2.4,2025-09-01,Activo,VIP,Mantenimiento,3,3
+458,Víctor,Olmedo Ortega,16,Hombre,2009-10-31,46025,Valencia,3.1,2023-11-17,Baja,Básico,Rehabilitación,3,13
+459,Pascuala,Coloma Guzman,20,Mujer,2006-01-29,28002,Madrid,6.6,2025-11-10,Activo,Premium,Competición,1,20
+460,Aurelio,Coll Jaén,19,Hombre,2007-05-20,48010,Bilbao,5.8,2025-10-03,Baja,Básico,Ganar masa muscular,5,29
+461,Conrado,Durán Coronado,42,Hombre,1983-08-08,48010,Bilbao,5.0,2024-06-06,Activo,Estándar,Competición,5,4
+462,Ricardo,Benet Elorza,34,Hombre,1991-10-30,41013,Sevilla,8.8,2024-07-24,Baja,Premium,Rehabilitación,4,26
+463,Rolando,Uribe Simó,31,Hombre,1995-02-06,48001,Bilbao,5.0,2024-11-29,Baja,Estándar,Ganar masa muscular,5,25
+464,René,Sanchez Moraleda,18,Hombre,2007-08-08,48002,Bilbao,4.3,2025-06-08,Activo,Básico,Competición,5,22
+465,Teresa,Molina Corbacho,39,Mujer,1986-08-25,41001,Sevilla,5.2,2025-05-31,Baja,Básico,Bienestar general,4,22
+466,Isidro,Bayo Somoza,53,Hombre,1973-06-11,08010,Barcelona,4.8,2025-01-28,Baja,Estándar,Competición,2,9
+467,Isaura,Mateo Llobet,55,Mujer,1970-12-30,48010,Bilbao,6.5,2026-05-21,Baja,Básico,Rendimiento deportivo,5,11
+468,Manolo,Barbero Ortiz,30,Hombre,1995-08-26,28001,Madrid,4.7,2026-06-12,Activo,Premium,Competición,1,24
+469,Lilia,Benavent Menéndez,57,Mujer,1968-11-11,48005,Bilbao,6.8,2025-02-10,Baja,Estándar,Rehabilitación,5,3
+470,Joaquina,Sans Arellano,36,Mujer,1989-08-17,46010,Valencia,3.5,2026-05-04,Baja,Básico,Rehabilitación,3,8
+471,Amparo,Peinado Madrid,34,Mujer,1991-08-31,08015,Barcelona,1.4,2026-06-12,Baja,Básico,Perder peso,2,18
+472,Angélica,Bosch Vendrell,37,Mujer,1988-10-19,48001,Bilbao,5.2,2023-12-07,Baja,Estándar,Mantenimiento,5,7
+473,Gregorio,Sevillano Armengol,41,Hombre,1985-05-01,46025,Valencia,8.9,2026-01-04,Baja,Básico,Competición,3,9
+474,Jafet,Fabra Montoya,48,Hombre,1977-10-16,08030,Barcelona,6.9,2026-03-28,Baja,Estándar,Perder peso,2,10
+475,María Del Carmen,Tamarit Vallejo,34,Mujer,1992-02-02,28002,Madrid,4.7,2025-04-16,Activo,Estándar,Perder peso,1,10
+476,Bárbara,Barrio Sanjuan,42,Mujer,1983-12-05,48005,Bilbao,5.5,2026-06-12,Baja,Estándar,Bienestar general,5,19
+477,Aroa,Nuñez Blasco,24,Mujer,2001-12-11,08015,Barcelona,5.5,2026-04-05,Baja,Básico,Ganar masa muscular,2,26
+478,Ligia,Duque Ariza,30,Mujer,1996-01-17,08015,Barcelona,1.3,2022-07-03,Baja,Premium,Rendimiento deportivo,2,15
+479,Duilio,Río Saavedra,28,Hombre,1998-04-21,41001,Sevilla,6.2,2025-08-01,Activo,Estándar,Competición,4,9
+480,Juan Francisco,Yáñez Cuenca,41,Hombre,1985-06-14,08030,Barcelona,3.6,2025-11-08,Activo,Estándar,Bienestar general,2,1
+481,Germán,Peralta Luna,16,Hombre,2010-06-28,48012,Bilbao,2.6,2025-01-19,Activo,Premium,Rehabilitación,5,16
+482,Gala,Rebollo Neira,29,Mujer,1997-05-12,08030,Barcelona,6.6,2026-04-28,Baja,Estándar,Perder peso,2,13
+483,Norberto,Badía Nadal,17,Hombre,2008-10-26,46010,Valencia,4.1,2025-11-14,Baja,VIP,Ganar masa muscular,3,19
+484,Ana Sofía,Murcia Busquets,18,Mujer,2008-01-15,48010,Bilbao,1.0,2025-06-06,Baja,Estándar,Ganar masa muscular,5,3
+485,León,Pomares Luz,32,Hombre,1993-10-28,46015,Valencia,5.2,2026-05-21,Activo,Premium,Rendimiento deportivo,3,16
+486,Dolores,Conesa Mínguez,37,Mujer,1989-05-30,41020,Sevilla,3.1,2026-05-14,Activo,Estándar,Bienestar general,4,27
+487,Apolinar,Cid Olmo,39,Hombre,1987-01-11,46015,Valencia,2.7,2026-05-03,Activo,Premium,Rehabilitación,3,21
+488,Fabián,Pou Castelló,23,Hombre,2002-10-27,28010,Madrid,4.5,2026-04-04,Baja,Estándar,Rendimiento deportivo,1,26
+489,Manuel,Blazquez Menendez,36,Hombre,1989-12-08,41001,Sevilla,4.1,2023-09-27,Baja,Estándar,Rehabilitación,4,21
+490,Manuelita,Peñas Moya,36,Mujer,1989-09-16,46001,Valencia,5.7,2025-09-02,Activo,Estándar,Bienestar general,3,8
+491,Ruth,Castell Zurita,42,Mujer,1983-08-12,41010,Sevilla,1.6,2026-06-12,Baja,Premium,Rehabilitación,4,6
+492,Arturo,Roda Verdugo,38,Hombre,1988-05-14,41001,Sevilla,4.2,2026-06-10,Activo,Estándar,Rehabilitación,4,5
+493,Fidela,Alfaro Pareja,48,Mujer,1977-09-21,28001,Madrid,7.7,2025-06-21,Activo,Premium,Bienestar general,1,24
+494,Esmeralda,Escribano Gargallo,42,Mujer,1983-11-19,46020,Valencia,4.6,2025-03-12,Baja,Estándar,Rehabilitación,3,5
+495,Evita,Torre Fernandez,38,Mujer,1988-04-27,48005,Bilbao,1.9,2026-06-12,Activo,Premium,Rendimiento deportivo,5,20
+496,Daniel,Cervantes Cortina,45,Hombre,1981-05-29,48012,Bilbao,5.1,2025-08-02,Baja,Premium,Competición,5,30
+497,Antonio,Marqués Cadenas,25,Hombre,2001-04-19,48012,Bilbao,1.6,2024-07-23,Baja,Premium,Rehabilitación,5,2
+498,Lilia,Zurita Arellano,29,Mujer,1996-08-16,48012,Bilbao,5.8,2025-10-28,Baja,Básico,Rehabilitación,5,27
+499,Nadia,Navarro Castro,51,Mujer,1974-10-31,28001,Madrid,2.3,2024-08-15,Baja,Estándar,Bienestar general,1,17
+500,María,Peñas Correa,37,Mujer,1989-01-23,41020,Sevilla,9.9,2026-04-29,Baja,Premium,Perder peso,4,14
+501,Ceferino,Escrivá Daza,41,Hombre,1984-09-07,46015,Valencia,9.8,2025-09-30,Baja,Premium,Perder peso,3,6
+502,Poncio,Río Arranz,50,Hombre,1976-06-18,28002,Madrid,6.3,2025-12-06,Baja,Premium,Competición,1,22
+503,Guiomar,Pastor Gámez,38,Mujer,1987-11-23,41020,Sevilla,7.5,2025-08-23,Baja,Básico,Perder peso,4,27
+504,Isidora,López Sanchez,32,Mujer,1993-11-05,28010,Madrid,6.6,2025-10-25,Activo,Básico,Rehabilitación,1,29
+505,Cruz,Haro Mendoza,30,Mujer,1996-03-13,41020,Sevilla,6.5,2025-10-20,Activo,Estándar,Competición,4,22
+506,Sandalio,Somoza Ferrera,38,Hombre,1987-07-23,41018,Sevilla,8.3,2025-10-30,Baja,Estándar,Mantenimiento,4,27
+507,Gerónimo,Saez Serrano,52,Hombre,1974-05-07,08010,Barcelona,6.2,2025-11-10,Activo,Premium,Perder peso,2,2
+508,Rebeca,Luján Piña,34,Mujer,1992-02-14,48010,Bilbao,8.3,2025-10-07,Baja,Estándar,Bienestar general,5,7
+509,José,Álamo Riquelme,34,Hombre,1992-06-08,41018,Sevilla,7.4,2025-10-22,Activo,Premium,Bienestar general,4,1
+510,Cecilio,Flores Chacón,41,Hombre,1985-06-26,48005,Bilbao,10.3,2025-07-31,Baja,Estándar,Mantenimiento,5,17
+511,Tristán,Ibáñez Azorin,33,Hombre,1992-11-22,41013,Sevilla,10.5,2025-07-31,Activo,Premium,Rehabilitación,4,3
+512,Miguela,Terrón Pera,29,Mujer,1996-09-17,48010,Bilbao,8.2,2025-12-14,Baja,Estándar,Rendimiento deportivo,5,29
+513,Manola,Calderon Villalobos,53,Mujer,1973-04-24,28010,Madrid,9.6,2026-01-09,Activo,Premium,Perder peso,1,15
+514,Susanita,Casanovas López,55,Mujer,1970-09-08,28030,Madrid,11.7,2025-09-11,Baja,Básico,Mantenimiento,1,28
+515,Anna,Cueto Llamas,41,Mujer,1984-12-30,48005,Bilbao,5.5,2025-10-29,Baja,Estándar,Rendimiento deportivo,5,4
+516,Javiera,Vilanova Colom,34,Mujer,1991-10-20,41020,Sevilla,7.9,2025-09-18,Activo,Básico,Mantenimiento,4,23
+517,Severo,Ruiz Bravo,41,Hombre,1985-01-13,28030,Madrid,5.5,2026-01-04,Baja,Estándar,Competición,1,29
+518,Zaida,Girona Sanmartín,34,Mujer,1992-01-21,46020,Valencia,7.2,2025-09-16,Activo,Estándar,Mantenimiento,3,1
+519,Verónica,Olmedo Amor,46,Mujer,1979-09-15,48001,Bilbao,6.0,2025-09-02,Activo,Básico,Ganar masa muscular,5,27
+520,Hipólito,Baeza Prieto,46,Hombre,1979-10-06,48012,Bilbao,2.9,2025-07-16,Baja,VIP,Perder peso,5,18
+521,José,Pereira Gutiérrez,49,Hombre,1977-02-15,08010,Barcelona,9.0,2025-09-29,Activo,Básico,Ganar masa muscular,2,12
+522,Gabriela,Bilbao Perera,45,Mujer,1981-03-25,48010,Bilbao,7.1,2025-08-28,Baja,Premium,Competición,5,15
+523,Consuelo,Anaya Montalbán,33,Mujer,1993-04-23,28010,Madrid,10.1,2025-10-05,Baja,VIP,Mantenimiento,1,28
+524,Íngrid,Cabeza Naranjo,53,Mujer,1973-03-27,08025,Barcelona,10.0,2025-10-17,Activo,Básico,Mantenimiento,2,1
+525,Rosa María,Coll Cervantes,54,Mujer,1972-07-14,48010,Bilbao,8.0,2025-12-05,Baja,Premium,Competición,5,1
+526,Alejo,Madrid Sureda,36,Hombre,1989-10-14,48005,Bilbao,10.5,2025-11-26,Activo,Básico,Competición,5,26
+527,Obdulia,Chamorro Somoza,31,Mujer,1994-10-05,08015,Barcelona,8.8,2025-08-09,Baja,Básico,Rehabilitación,2,20
+528,Jacinta,Adadia Bernad,36,Mujer,1989-10-19,46010,Valencia,6.5,2026-01-08,Activo,Estándar,Rehabilitación,3,21
+529,Agapito,Jaén Garriga,39,Hombre,1986-07-29,08025,Barcelona,7.7,2025-12-09,Baja,VIP,Competición,2,2
+530,Silvestre,Conde Álamo,55,Hombre,1971-02-28,08010,Barcelona,8.0,2025-08-09,Baja,Básico,Rendimiento deportivo,2,12
+531,Héctor,Cantero Maldonado,36,Hombre,1990-05-01,08025,Barcelona,7.3,2025-11-03,Baja,Estándar,Mantenimiento,2,3
+532,Diego,Mascaró Carro,34,Hombre,1991-09-14,41001,Sevilla,7.4,2025-11-16,Baja,Estándar,Rehabilitación,4,14
+533,Amanda,Gómez Rivas,40,Mujer,1986-02-17,28030,Madrid,4.8,2025-11-23,Baja,Premium,Competición,1,27
+534,Micaela,Sebastián Barros,47,Mujer,1978-09-04,41010,Sevilla,5.3,2025-09-14,Baja,Básico,Ganar masa muscular,4,15
+535,Bartolomé,Valero Alegre,32,Hombre,1994-03-22,08030,Barcelona,6.5,2025-11-23,Baja,Premium,Competición,2,16
+536,Maximiano,Villalba Herranz,40,Hombre,1986-05-30,48002,Bilbao,6.5,2025-08-17,Activo,Premium,Mantenimiento,5,26
+537,Plinio,Cobo Manuel,29,Hombre,1997-05-27,48010,Bilbao,6.4,2025-11-18,Baja,Premium,Ganar masa muscular,5,23
+538,Inés,Abellán Osorio,42,Mujer,1983-08-11,48010,Bilbao,6.3,2025-08-26,Activo,VIP,Ganar masa muscular,5,28
+539,Dalila,Riera Exposito,54,Mujer,1972-06-14,08030,Barcelona,6.7,2025-12-05,Activo,Premium,Bienestar general,2,25
+540,Nazaret,Boada Zabaleta,55,Hombre,1971-04-15,28002,Madrid,9.2,2025-12-04,Activo,Básico,Competición,1,10
+541,Geraldo,Bauzà Zorrilla,44,Hombre,1981-12-12,08015,Barcelona,8.1,2025-08-18,Baja,Estándar,Mantenimiento,2,23
+542,Macaria,Vera Vera,30,Mujer,1996-01-06,28010,Madrid,7.7,2025-10-22,Activo,Estándar,Competición,1,2
+543,Leonel,Almagro Portero,37,Hombre,1989-06-13,08025,Barcelona,7.1,2025-10-27,Baja,Estándar,Bienestar general,2,25
+544,Trinidad,Soriano Arranz,33,Mujer,1992-12-23,46020,Valencia,7.7,2025-09-03,Baja,Estándar,Rehabilitación,3,8
+545,Maximino,Pombo Perea,51,Hombre,1975-07-12,46015,Valencia,3.5,2025-12-25,Baja,Estándar,Competición,3,7
+546,Dolores,Alegre Palau,55,Mujer,1970-10-03,48012,Bilbao,5.1,2026-01-12,Baja,Estándar,Ganar masa muscular,5,18
+547,Rufino,Bauzà Ochoa,44,Hombre,1982-05-31,46020,Valencia,6.7,2025-12-08,Baja,VIP,Bienestar general,3,6
+548,Dionisio,Calleja Márquez,32,Hombre,1993-12-29,41001,Sevilla,9.3,2025-08-27,Baja,Básico,Bienestar general,4,17
+549,Bonifacio,Arregui Ortuño,41,Hombre,1985-03-25,08015,Barcelona,5.5,2025-08-18,Activo,VIP,Bienestar general,2,24
+550,Leandro,Nevado Díez,28,Hombre,1998-07-16,41001,Sevilla,5.9,2025-08-03,Activo,Estándar,Rehabilitación,4,9
+551,Severo,Sobrino Tejero,41,Hombre,1985-06-28,48005,Bilbao,8.6,2025-08-28,Activo,Estándar,Rendimiento deportivo,5,22
+552,Maximiano,Esparza Cepeda,31,Hombre,1994-11-05,28030,Madrid,9.8,2025-12-31,Baja,Premium,Mantenimiento,1,15
+553,Ana Belén,Seco Arco,45,Mujer,1980-11-18,41020,Sevilla,5.0,2025-08-22,Activo,Estándar,Perder peso,4,12
+554,Eugenio,Fortuny Arranz,49,Hombre,1976-09-15,08025,Barcelona,7.0,2025-10-31,Baja,Estándar,Perder peso,2,22
+555,Rosa María,Flores Arnaiz,41,Mujer,1984-12-17,28001,Madrid,10.4,2025-12-29,Activo,Estándar,Rendimiento deportivo,1,9
+556,Estela,Menéndez Villalba,45,Mujer,1981-06-04,46020,Valencia,7.8,2025-07-31,Baja,Estándar,Competición,3,18
+557,Heliodoro,Sáenz Isern,28,Hombre,1998-04-21,46015,Valencia,7.1,2025-12-03,Baja,VIP,Bienestar general,3,16
+558,Alejandro,Feijoo Macias,41,Hombre,1985-02-21,41020,Sevilla,8.7,2025-10-20,Baja,Premium,Rendimiento deportivo,4,17
+559,Felipa,Asenjo Mármol,39,Mujer,1986-11-09,48010,Bilbao,7.0,2025-10-14,Activo,Básico,Competición,5,5
+560,Elena,Casanova Pedro,41,Mujer,1985-02-16,08030,Barcelona,10.5,2026-01-09,Activo,Básico,Perder peso,2,17
+561,Isaías,Páez Sabater,53,Hombre,1973-01-04,28002,Madrid,7.3,2025-09-16,Baja,Estándar,Rehabilitación,1,4
+562,Victorino,Pomares Nicolau,33,Hombre,1993-02-09,48012,Bilbao,7.9,2025-08-29,Activo,Básico,Mantenimiento,5,9
+563,Cayetana,Valderrama Valencia,38,Mujer,1988-06-16,46025,Valencia,8.2,2025-08-31,Baja,Estándar,Bienestar general,3,1
+564,Flor,Vives Lasa,51,Mujer,1974-11-28,28002,Madrid,7.4,2025-07-19,Baja,Básico,Ganar masa muscular,1,19
+565,Rosario,Blanch Rodriguez,36,Mujer,1990-01-19,48001,Bilbao,10.4,2025-10-19,Baja,Estándar,Perder peso,5,19
+566,Ani,Ros Escribano,37,Mujer,1988-08-24,46025,Valencia,6.9,2025-11-14,Baja,Básico,Perder peso,3,30
+567,Magdalena,Marin Montesinos,48,Mujer,1977-08-27,46010,Valencia,9.9,2026-01-06,Baja,Estándar,Mantenimiento,3,19
+568,Aroa,Bernal Mosquera,47,Mujer,1979-01-08,41020,Sevilla,6.3,2025-07-18,Baja,Premium,Perder peso,4,13
+569,Natalio,Marqués Medina,44,Hombre,1981-11-16,46010,Valencia,5.1,2025-09-03,Baja,Estándar,Ganar masa muscular,3,11
+570,Jacinto,Rojas Diaz,53,Hombre,1972-10-29,08001,Barcelona,4.8,2025-10-15,Activo,VIP,Competición,2,5

@@ -1,6 +1,0 @@
-﻿id,nombre,ciudad,director,fecha_apertura,piscina,spa,parking,sala_crossfit,sala_yoga,sala_funcional,ocupacion_media_pct,ocupacion_hora_punta_pct,aforo_maximo,horario,num_entrenadores,cambio_reciente_director,rotacion_entrenadores_pct,nps_centro,valoracion_media,limpieza_valoracion,incidencias_abiertas,competidor_cercano,distancia_competidor_km,fecha_apertura_competidor,promocion_activa,evento_activo,campana_local
-1,FitLife Madrid Centro,Madrid,Albano Llopis Hierro,2017-03-04,False,True,False,True,True,True,54.9,77.4,500,06:00–23:00,9,False,5.8,25,3.8,4.1,0,Altafit,1.2,2024-06-16,True,False,False
-2,FitLife Barcelona Gràcia,Barcelona,Buenaventura de Bonet,2013-02-13,True,False,True,True,True,True,74.4,82.8,350,06:00–23:00,11,False,13.4,25,4.0,3.8,11,Altafit,1.5,2014-02-03,True,False,True
-3,FitLife Valencia Norte,Valencia,Ileana Antón-Andrés,2014-03-31,False,False,True,True,True,True,81.0,83.3,350,06:00–23:00,19,True,21.5,69,3.9,3.3,7,Anytime Fitness,2.1,2024-05-31,True,False,False
-4,FitLife Sevilla Este,Sevilla,César Guerrero Vazquez,2012-05-08,True,True,True,True,True,True,52.5,89.6,500,06:00–23:00,19,False,16.6,37,4.8,4.4,7,VivaGym,4.3,2013-08-09,False,False,False
-5,FitLife Bilbao,Bilbao,Alba Mar Flor Rivas,2013-01-01,False,True,True,True,True,True,75.1,79.9,450,06:00–23:00,14,False,21.1,29,3.8,3.6,8,Altafit,2.3,2026-02-02,False,False,True

@@ -7,7 +7,7 @@ requires-python = ">=3.12"
 # Dependencias de runtime (modelo ML dentro de Odoo)
 dependencies = [
     "scikit-learn",
-    "pandas",
+    "pandas<3.0",  # lifelines (dev) requiere pandas<3.0
     "numpy<2.5",
     "joblib",
     "scipy",
@@ -24,6 +24,7 @@ dev = [
     "matplotlib",
     "seaborn",
     "jinja2",
+    "lifelines",
 ]
 # Dependencias adicionales para los scripts de generación y población de datos
 scripts = [
