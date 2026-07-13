@@ -68,6 +68,19 @@ class ResPartner(models.Model):
         compute="_compute_gym_stats",
         store=True,
     )
+    survival_prediction_months = fields.Float(
+        string="Predicción de supervivencia (meses)",
+        compute="_compute_survival_prediction",
+        digits=(5, 1),
+    )
+
+    @api.depends("health_score_ids.expected_lifetime_months", "health_score_ids.date")
+    def _compute_survival_prediction(self):
+        for partner in self:
+            last = partner.health_score_ids.sorted("date", reverse=True)[:1]
+            partner.survival_prediction_months = (
+                last.expected_lifetime_months if last else 0.0
+            )
 
     @api.depends("access_log_ids", "engagement_ids", "health_score_ids")
     def _compute_gym_stats(self):

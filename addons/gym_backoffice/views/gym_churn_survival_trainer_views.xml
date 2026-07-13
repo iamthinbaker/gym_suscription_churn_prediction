@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record id="gym_churn_trainer_view_form" model="ir.ui.view">
-        <field name="name">gym.churn.trainer.form</field>
-        <field name="model">gym.churn.trainer</field>
+    <record id="gym_churn_survival_trainer_view_form" model="ir.ui.view">
+        <field name="name">gym.churn.survival.trainer.form</field>
+        <field name="model">gym.churn.survival.trainer</field>
         <field name="arch" type="xml">
-            <form string="Entrenar modelo de probabilidad de churn">
+            <form string="Entrenar modelo de supervivencia (tiempo de vida)">
                 <sheet>
                     <group>
                         <field name="trained_at"/>
                         <field name="n_customers"/>
-                        <field name="n_churned"/>
-                        <field name="churn_rate"/>
+                        <field name="n_events"/>
+                        <field name="event_rate"/>
                     </group>
                     <group>
                         <field name="model_filename" invisible="1"/>
                         <field name="model_file" filename="model_filename"/>
-                        <field name="churn_probability_model_id" invisible="1"/>
+                        <field name="churn_survival_model_id" invisible="1"/>
                     </group>
-                    <field name="feature_importance_ids" invisible="not churn_probability_model_id">
-                        <list string="Importancia de features" create="false" delete="false">
+                    <field name="feature_importance_ids" invisible="not churn_survival_model_id">
+                        <list string="Coeficientes del modelo" create="false" delete="false">
                             <field name="name"/>
-                            <field name="importance_pct" string="Importancia" widget="progressbar"/>
+                            <field name="importance" string="Coeficiente"/>
                         </list>
                     </field>
                 </sheet>
@@ -36,9 +36,9 @@
         </field>
     </record>
 
-    <record id="gym_churn_trainer_action" model="ir.actions.act_window">
-        <field name="name">Entrenar modelo de probabilidad de churn</field>
-        <field name="res_model">gym.churn.trainer</field>
+    <record id="gym_churn_survival_trainer_action" model="ir.actions.act_window">
+        <field name="name">Entrenar modelo de supervivencia</field>
+        <field name="res_model">gym.churn.survival.trainer</field>
         <field name="view_mode">form</field>
         <field name="target">new</field>
     </record>

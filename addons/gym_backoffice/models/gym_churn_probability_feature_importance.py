@@ -1,13 +1,16 @@
 from odoo import fields, models
 
 
-class GymChurnFeatureImportance(models.Model):
-    _name = "gym.churn.feature.importance"
-    _description = "Importancia de una feature en un modelo de churn entrenado"
+class GymChurnProbabilityFeatureImportance(models.Model):
+    _name = "gym.churn.probability.feature.importance"
+    _description = "Importancia de una feature en un modelo de probabilidad de churn entrenado"
     _order = "importance desc"
 
-    churn_model_id = fields.Many2one(
-        "gym.churn.model", string="Modelo de churn", required=True, ondelete="cascade"
+    churn_probability_model_id = fields.Many2one(
+        "gym.churn.probability.model",
+        string="Modelo de probabilidad de churn",
+        required=True,
+        ondelete="cascade",
     )
     name = fields.Char(string="Feature", required=True)
     importance = fields.Float(string="Importancia", digits=(6, 4))

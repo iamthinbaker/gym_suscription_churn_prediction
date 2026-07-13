@@ -21,7 +21,7 @@
         "views/gym_engagement_views.xml",
         "views/gym_customer_health_views.xml",
         "views/gym_churn_trainer_views.xml",
-        "views/gym_churn_model_views.xml",
+        "views/gym_churn_survival_trainer_views.xml",
         "views/gym_class_booking_views.xml",
         "views/gym_class_views.xml",
         "views/gym_promotion_views.xml",

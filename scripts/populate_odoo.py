@@ -20,7 +20,7 @@ import xmlrpc.client
 from datetime import datetime, timedelta
 from pathlib import Path
 
-DATA_DIR = Path("data")
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 # Por defecto "localhost": funciona cuando este script corre dentro del mismo
 # contenedor que Odoo (ver docker-compose.yml de la raíz). Si se ejecuta desde

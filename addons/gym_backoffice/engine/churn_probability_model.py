@@ -1,8 +1,8 @@
 """
-Modelo de predicción de churn para el gimnasio, implementado a partir de
-``experiments/churn_prediction.ipynb``.
+Modelo de predicción de probabilidad de churn para el gimnasio, implementado
+a partir de ``experiments/churn_prediction.ipynb``.
 
-``ChurnModel`` expone una interfaz al estilo scikit-learn (``fit``,
+``ChurnProbabilityModel`` expone una interfaz al estilo scikit-learn (``fit``,
 ``predict``, ``predict_proba``, ``save_model``, ``load_model``) para poder
 integrarse en el motor de Odoo sin arrastrar el notebook.
 
@@ -29,7 +29,7 @@ class NotFittedError(RuntimeError):
     """El modelo no está entrenado ni cargado todavía."""
 
 
-class ChurnModel:
+class ChurnProbabilityModel:
     """Modelo de churn (Random Forest) con interfaz al estilo scikit-learn.
 
     ``self.model`` es un único ``Pipeline`` que encadena el preprocesador
@@ -87,7 +87,7 @@ class ChurnModel:
                     "bin",
                     Pipeline(
                         [
-                            ("to_num", FunctionTransformer(ChurnModel._bool_to_int)),
+                            ("to_num", FunctionTransformer(ChurnProbabilityModel._bool_to_int)),
                             ("imp", SimpleImputer(strategy="most_frequent")),
                         ]
                     ),
@@ -97,7 +97,7 @@ class ChurnModel:
             remainder="drop",
         )
 
-    def fit(self, X: pd.DataFrame, y: pd.Series) -> "ChurnModel":
+    def fit(self, X: pd.DataFrame, y: pd.Series) -> "ChurnProbabilityModel":
         """Entrena el modelo. ``X`` debe venir ya con las features finales."""
         self.feature_columns_ = list(X.columns)
         # Orden en el que el ColumnTransformer concatena las columnas
@@ -132,7 +132,7 @@ class ChurnModel:
     def _check_fitted(self):
         if self.model is None:
             raise NotFittedError(
-                "ChurnModel no está entrenado. Llama a fit() o load_model() antes."
+                "ChurnProbabilityModel no está entrenado. Llama a fit() o load_model() antes."
             )
 
     def predict(self, X: pd.DataFrame) -> np.ndarray:
@@ -189,7 +189,7 @@ class ChurnModel:
         )
 
     @classmethod
-    def load_model(cls, path: str) -> "ChurnModel":
+    def load_model(cls, path: str) -> "ChurnProbabilityModel":
         """Carga un modelo previamente guardado con ``save_model``."""
         payload = joblib.load(path)
         instance = cls(random_state=payload["random_state"])

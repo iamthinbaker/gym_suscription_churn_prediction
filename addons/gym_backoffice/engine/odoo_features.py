@@ -2,10 +2,11 @@
 Construcción del dataset de churn a partir de recordsets de Odoo
 (``res.partner`` + sus relaciones ``gym.access`` / ``gym.engagement``).
 
-Se usa tanto al entrenar (``wizards.gym_churn_trainer``) como al puntuar
-(cron diario en ``models.gym_customer_health``) — mismo código en ambos
-casos para evitar divergencias entre las features de entrenamiento y las
-de inferencia ("train/serve skew").
+Se usa tanto al entrenar (``wizards.gym_churn_trainer``,
+``wizards.gym_churn_survival_trainer``) como al puntuar (cron diario en
+``models.gym_customer_health``) — mismo código en ambos casos para evitar
+divergencias entre las features de entrenamiento y las de inferencia
+("train/serve skew").
 """
 
 from __future__ import annotations
@@ -16,14 +17,15 @@ import pandas as pd
 
 
 class PartnerFeatureBuilder:
-    """Construye, por socio, las variables que consume ``ChurnModel``.
+    """Construye, por socio, las variables que consumen ``ChurnProbabilityModel``
+    y ``ChurnSurvivalModel``.
 
     No reutiliza ``engine.feature_engineering.FeatureEngineer``, que está
     pensada para el dataset sintético de 17 tablas del notebook — el
     esquema real de Odoo es mucho más reducido.
     """
 
-    def build(self, partners) -> tuple[pd.DataFrame, pd.Series]:
+    def _rows(self, partners) -> pd.DataFrame:
         today = date.today()
         rows = []
 
@@ -71,6 +73,27 @@ class PartnerFeatureBuilder:
                 "dias_desde_ultimo_engagement": days_since_last_engagement,
             })
 
-        df = pd.DataFrame(rows).set_index("partner_id")
+        return pd.DataFrame(rows).set_index("partner_id")
+
+    def build(self, partners) -> tuple[pd.DataFrame, pd.Series]:
+        """Features + target para ``ChurnProbabilityModel``: ``y`` es 1 si
+        el socio está dado de baja (clasificación)."""
+        df = self._rows(partners)
         y = (df.pop("member_status") == "churned").astype(int)
+        return df, y
+
+    def build_survival(self, partners) -> tuple[pd.DataFrame, pd.DataFrame]:
+        """Features + target para ``ChurnSurvivalModel``: ``y`` tiene las
+        columnas ``duration`` (antigüedad en meses) y ``event`` (1 = baja
+        observada, 0 = censurado / activo).
+
+        Excluye ``antiguedad_dias`` de ``X`` — es la propia ``duration``
+        expresada en días, incluirla como feature sería fuga de datos
+        (mismo motivo por el que el notebook excluye ``num_renovaciones``,
+        ver ``experiments/churn_survival_prediction.ipynb``)."""
+        df = self._rows(partners)
+        event = (df.pop("member_status") == "churned").astype(int)
+        antiguedad_dias = df.pop("antiguedad_dias")
+        duration = (antiguedad_dias / 30.0).clip(lower=0.5).fillna(0.5)
+        y = pd.DataFrame({"duration": duration, "event": event})
         return df, y

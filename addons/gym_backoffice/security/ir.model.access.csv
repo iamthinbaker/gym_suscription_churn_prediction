@@ -4,8 +4,11 @@ access_gym_access_user,gym.access user,model_gym_access,base.group_user,1,1,1,1
 access_gym_engagement_user,gym.engagement user,model_gym_engagement,base.group_user,1,1,1,1
 access_gym_customer_health_user,gym.customer.health user,model_gym_customer_health,base.group_user,1,1,1,1
 access_gym_churn_trainer_user,gym.churn.trainer user,model_gym_churn_trainer,base.group_user,1,1,1,1
-access_gym_churn_model_user,gym.churn.model user,model_gym_churn_model,base.group_user,1,1,1,1
-access_gym_churn_feature_importance_user,gym.churn.feature.importance user,model_gym_churn_feature_importance,base.group_user,1,1,1,1
+access_gym_churn_probability_model_user,gym.churn.probability.model user,model_gym_churn_probability_model,base.group_user,1,1,1,1
+access_gym_churn_probability_feature_importance_user,gym.churn.probability.feature.importance user,model_gym_churn_probability_feature_importance,base.group_user,1,1,1,1
+access_gym_churn_survival_trainer_user,gym.churn.survival.trainer user,model_gym_churn_survival_trainer,base.group_user,1,1,1,1
+access_gym_churn_survival_model_user,gym.churn.survival.model user,model_gym_churn_survival_model,base.group_user,1,1,1,1
+access_gym_churn_survival_feature_importance_user,gym.churn.survival.feature.importance user,model_gym_churn_survival_feature_importance,base.group_user,1,1,1,1
 access_gym_class_user,gym.class user,model_gym_class,base.group_user,1,1,1,1
 access_gym_class_booking_user,gym.class.booking user,model_gym_class_booking,base.group_user,1,1,1,1
 access_gym_promotion_user,gym.promotion user,model_gym_promotion,base.group_user,1,1,1,1

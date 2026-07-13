@@ -68,6 +68,7 @@
                                    decoration-warning="churn_risk == 'medium'"
                                    decoration-danger="churn_risk == 'high'"
                                    widget="badge"/>
+                            <field name="survival_prediction_months"/>
                         </group>
                     </group>
                 </page>

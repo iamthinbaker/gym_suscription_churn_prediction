@@ -74,16 +74,16 @@
               sequence="10"/>
 
     <menuitem id="gym_menu_churn_trainer"
-              name="Entrenar modelo de churn"
+              name="Entrenar modelo de probabilidad de churn"
               parent="gym_menu_analysis"
               action="gym_churn_trainer_action"
               sequence="20"/>
 
-    <menuitem id="gym_menu_churn_model_history"
-              name="Histórico de modelos"
+    <menuitem id="gym_menu_churn_survival_trainer"
+              name="Entrenar modelo de supervivencia"
               parent="gym_menu_analysis"
-              action="gym_churn_model_action"
-              sequence="30"/>
+              action="gym_churn_survival_trainer_action"
+              sequence="40"/>
 
     <!-- Configuración -->
     <menuitem id="gym_menu_centers"

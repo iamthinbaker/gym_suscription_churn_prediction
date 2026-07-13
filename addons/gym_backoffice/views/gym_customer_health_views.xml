@@ -22,6 +22,7 @@
                 <field name="avg_weekly_visits" digits="[5,1]"/>
                 <field name="engagement_score" digits="[5,1]"/>
                 <field name="churn_probability" widget="percentage" optional="show"/>
+                <field name="expected_lifetime_months" optional="show"/>
                 <field name="churn_risk"
                        decoration-success="churn_risk == 'low'"
                        decoration-warning="churn_risk == 'medium'"
@@ -65,6 +66,7 @@
                         <group string="Puntuación">
                             <field name="engagement_score" widget="percentpie"/>
                             <field name="churn_probability" widget="percentage"/>
+                            <field name="expected_lifetime_months"/>
                             <field name="churn_risk"
                                    decoration-success="churn_risk == 'low'"
                                    decoration-warning="churn_risk == 'medium'"
@@ -96,6 +98,7 @@
                 <field name="segment"/>
                 <field name="churn_risk"/>
                 <field name="churn_probability"/>
+                <field name="expected_lifetime_months"/>
                 <field name="engagement_score"/>
                 <field name="visits_last_30_days"/>
                 <field name="days_since_last_visit"/>
@@ -129,6 +132,10 @@
                                 <div>
                                     <span class="text-muted">P(churn) ML: </span>
                                     <strong><field name="churn_probability" widget="percentage"/></strong>
+                                </div>
+                                <div>
+                                    <span class="text-muted">Vida restante estimada: </span>
+                                    <strong><field name="expected_lifetime_months"/> meses</strong>
                                 </div>
                             </div>
                         </div>

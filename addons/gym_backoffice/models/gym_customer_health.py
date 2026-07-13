@@ -7,7 +7,8 @@ from datetime import date, timedelta
 from odoo import api, fields, models
 from odoo.exceptions import UserError
 
-from ..engine.churn_model import ChurnModel
+from ..engine.churn_probability_model import ChurnProbabilityModel
+from ..engine.churn_survival_model import ChurnSurvivalModel
 from ..engine.odoo_features import PartnerFeatureBuilder
 
 _logger = logging.getLogger(__name__)
@@ -44,9 +45,15 @@ class GymCustomerHealth(models.Model):
     )
     churn_probability = fields.Float(
         string="P(churn) — modelo ML", digits=(5, 3),
-        help="Probabilidad de baja calculada por ChurnModel. Distinta de "
+        help="Probabilidad de baja calculada por ChurnProbabilityModel. Distinta de "
              "'Riesgo de abandono', que también se puede calcular con la "
              "regla manual de action_compute_score().",
+    )
+    expected_lifetime_months = fields.Float(
+        string="Vida restante estimada (meses)", digits=(5, 1),
+        help="Mediana de meses que se espera que el socio siga siendo socio, "
+             "calculada por ChurnSurvivalModel. Vacío si todavía no hay "
+             "ningún modelo de supervivencia entrenado.",
     )
     segment = fields.Selection(
         [
@@ -154,26 +161,53 @@ class GymCustomerHealth(models.Model):
         """Botón de la vista (lista/kanban): ejecuta el scoring de churn
         sobre todos los socios activos, igual que el cron diario pero al
         instante. Requiere que ya exista un modelo entrenado."""
-        if not self.env["gym.churn.model"].get_latest():
+        if not self.env["gym.churn.probability.model"].get_latest():
             raise UserError(
-                "Todavía no hay ningún modelo de churn entrenado. "
-                "Ve a 'Entrenar modelo de churn' primero."
+                "Todavía no hay ningún modelo de probabilidad de churn "
+                "entrenado. Ve a 'Entrenar modelo de probabilidad de "
+                "churn' primero."
             )
         self._cron_score_churn()
         return self.env["ir.actions.act_window"]._for_xml_id(
             "gym_backoffice.gym_customer_health_action"
         )
 
+    def _predict_lifetime_months(self, partners):
+        """Devuelve ``{partner_id: meses_de_vida_mediana_estimados}`` con el
+        último ``ChurnSurvivalModel`` entrenado. La estimación de vida es
+        opcional: si todavía no se ha entrenado ningún modelo de
+        supervivencia, devuelve ``{}`` y no bloquea el scoring de
+        probabilidad de churn."""
+        latest = self.env["gym.churn.survival.model"].get_latest()
+        if not latest:
+            return {}
+
+        tmp_path = os.path.join(
+            tempfile.gettempdir(), f"churn_survival_model_cron_{latest.id}.joblib"
+        )
+        with open(tmp_path, "wb") as f:
+            f.write(base64.b64decode(latest.model_file))
+        try:
+            model = ChurnSurvivalModel.load_model(tmp_path)
+        finally:
+            os.remove(tmp_path)
+
+        X, _ = PartnerFeatureBuilder().build_survival(partners)
+        months = model.predict(X)
+        return {partner.id: float(m) for partner, m in zip(partners, months)}
+
     def _cron_score_churn(self):
         """Llamado por el cron diario (ver ``data/gym_churn_cron.xml``):
-        puntúa con el último ``ChurnModel`` entrenado a los socios que
-        todavía no se han dado de baja, y guarda el resultado como nuevos
-        registros de ``gym.customer.health``."""
-        latest = self.env["gym.churn.model"].get_latest()
+        puntúa con el último ``ChurnProbabilityModel`` entrenado a los
+        socios que todavía no se han dado de baja, y guarda el resultado
+        como nuevos registros de ``gym.customer.health``. Si además hay un
+        ``ChurnSurvivalModel`` entrenado, cada registro incluye también la
+        vida restante estimada (``expected_lifetime_months``)."""
+        latest = self.env["gym.churn.probability.model"].get_latest()
         if not latest:
             _logger.warning(
-                "gym.churn.trainer: no hay ningún modelo de churn entrenado "
-                "todavía; se omite el scoring diario."
+                "gym.churn.trainer: no hay ningún modelo de probabilidad de "
+                "churn entrenado todavía; se omite el scoring diario."
             )
             return
 
@@ -184,16 +218,19 @@ class GymCustomerHealth(models.Model):
         if not partners:
             return
 
-        tmp_path = os.path.join(tempfile.gettempdir(), f"churn_model_cron_{latest.id}.joblib")
+        tmp_path = os.path.join(
+            tempfile.gettempdir(), f"churn_probability_model_cron_{latest.id}.joblib"
+        )
         with open(tmp_path, "wb") as f:
             f.write(base64.b64decode(latest.model_file))
         try:
-            model = ChurnModel.load_model(tmp_path)
+            model = ChurnProbabilityModel.load_model(tmp_path)
         finally:
             os.remove(tmp_path)
 
         X, _ = PartnerFeatureBuilder().build(partners)
         proba = model.predict_proba(X)[:, 1]
+        lifetime_by_partner = self._predict_lifetime_months(partners)
 
         today = fields.Date.today()
         for partner, p in zip(partners, proba):
@@ -203,4 +240,5 @@ class GymCustomerHealth(models.Model):
                 "date": today,
                 "churn_probability": float(p),
                 "churn_risk": churn_risk,
+                "expected_lifetime_months": lifetime_by_partner.get(partner.id, 0.0),
             })

@@ -5,7 +5,7 @@ Feature engineering para el pipeline de churn, extraído de
 ``FeatureEngineer`` toma el DataFrame maestro ya mergeado (``contactos`` +
 el resto de módulos + ``centros_deportivos``, con ``suffixes=('', '_centro')``)
 y devuelve el DataFrame final de features, listo para entrar directamente en
-``ChurnModel`` (ver ``engine/churn_model.py``).
+``ChurnProbabilityModel`` (ver ``engine/churn_probability_model.py``).
 """
 
 from __future__ import annotations
